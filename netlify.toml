@@ -1,0 +1,26 @@
+# Netlify config for AB Photography.
+# Netlify reads this automatically — you don't have to do anything with it.
+
+[build]
+  publish = "."          # the site is already built; serve this folder as-is
+
+# Cache photos hard (they never change once uploaded) but always revalidate
+# the HTML, so edits show up immediately instead of being stuck in a cache.
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Sensible security headers for a static site.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
