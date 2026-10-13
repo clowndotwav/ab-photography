@@ -151,16 +151,22 @@
 
       if (p.src) {
         const img = new Image();
-        img.src = p.src;
         img.alt = p.alt || p.title;
-        img.loading = "lazy";
         img.decoding = "async";
-        img.addEventListener("load", () => {
+
+        const swapIn = () => {
+          // the grid may have re-rendered while this was loading
+          if (!card.isConnected) return;
           const media = $(".card-media", card);
+          if (!media || $("img", media)) return;
           const ph = $(".ph", media);
           if (ph) ph.remove();
           media.appendChild(img);
-        });
+        };
+
+        img.addEventListener("load", swapIn);          // listener BEFORE src
+        img.src = p.src;
+        if (img.complete && img.naturalWidth) swapIn(); // already cached
       }
 
       card.addEventListener("click", () => openLightbox(i));
@@ -214,11 +220,11 @@
 
     if (p.src) {
       const img = new Image();
-      img.src = p.src;
       img.alt = p.alt || p.title;
-      img.addEventListener("load", () => {
-        if (visible[lbIdx] === p) { fig.innerHTML = ""; fig.appendChild(img); }
-      });
+      const show = () => { if (visible[lbIdx] === p) { fig.innerHTML = ""; fig.appendChild(img); } };
+      img.addEventListener("load", show);
+      img.src = p.src;
+      if (img.complete && img.naturalWidth) show();
     }
 
     const ex = p.exif || {};
