@@ -1,0 +1,17 @@
+# OS clutter
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Lightroom / editing sidecars, in case any sneak into images/
+*.xmp
+*.lrcat
+*.lrcat-*
+
+# Originals — keep RAW and full-size exports out of the repo.
+# Only web-sized JPEGs (2000px long edge) belong in images/.
+*.CR2
+*.CR3
+*.NEF
+*.ARW
+*.dng

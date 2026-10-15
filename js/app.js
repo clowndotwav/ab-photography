@@ -9,8 +9,8 @@
   const $$ = (s, c) => Array.from((c || document).querySelectorAll(s));
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  let activeTab  = TABS[0].id;
-  let activeChip = "All";
+  let activeTab    = TABS[0].id;
+  let activeFilters = {};   // { filterKey: value } — "All" means no constraint
   let visible    = [];
   let lbIdx      = 0;
 
@@ -68,9 +68,10 @@
   }
 
   function selectTab(id) {
-    activeTab  = id;
-    activeChip = "All";
+    activeTab = id;
     const meta = TABS.find(t => t.id === id);
+    activeFilters = {};
+    filtersFor(meta).forEach(f => { activeFilters[f.key] = "All"; });
 
     $$(".tab").forEach(b => {
       const on = b.dataset.tab === id;
@@ -81,31 +82,93 @@
     setAccent(meta.accent);
     $("#tabBlurb").textContent = meta.blurb;
     movePill();
-    buildChips(meta.chips);
+    buildFilters(meta);
     renderGrid();
   }
 
-  /* ---------- FILTER CHIPS ---------- */
-  function buildChips(chips) {
+  /* ---------- FILTER DEFINITIONS ----------
+     A tab declares `filters: [{ key, label, order? }]`. Chip values are read
+     from the photos themselves, so adding a photo with a new circuit or
+     session makes its chip appear automatically — nothing else to edit.
+     Tabs with no `filters` fall back to a single row of `tag` chips. */
+  function filtersFor(meta) {
+    return meta.filters && meta.filters.length
+      ? meta.filters
+      : [{ key: "tag", label: "Subject" }];
+  }
+
+  function valuesFor(key, photos, order) {
+    const seen = [];
+    photos.forEach(p => { const v = p[key]; if (v && seen.indexOf(v) === -1) seen.push(v); });
+    if (order && order.length) {
+      seen.sort((a, b) => {
+        const ia = order.indexOf(a), ib = order.indexOf(b);
+        return (ia === -1 ? 999 : ia) - (ib === -1 ? 999 : ib);
+      });
+    } else {
+      seen.sort((a, b) => String(b).localeCompare(String(a), undefined, { numeric: true }));
+    }
+    return seen;
+  }
+
+  /* ---------- FILTER CHIP ROWS ---------- */
+  function buildFilters(meta) {
     const wrap = $("#chips");
     wrap.innerHTML = "";
-    chips.forEach(c => {
-      const b = document.createElement("button");
-      b.className = "chip" + (c === activeChip ? " is-on" : "");
-      b.type = "button";
-      b.textContent = c;
-      b.setAttribute("aria-pressed", c === activeChip ? "true" : "false");
-      b.addEventListener("click", () => {
-        activeChip = c;
-        $$(".chip", wrap).forEach(x => {
-          const on = x.textContent === c;
-          x.classList.toggle("is-on", on);
-          x.setAttribute("aria-pressed", on ? "true" : "false");
+    const photos = photosFor(meta.id);
+    const defs = filtersFor(meta);
+
+    defs.forEach(def => {
+      const values = valuesFor(def.key, photos, def.order);
+      if (values.length < 2) return;            // a lone value filters nothing
+
+      const row = document.createElement("div");
+      row.className = "chip-row";
+
+      const label = document.createElement("span");
+      label.className = "chip-label";
+      label.textContent = def.label || def.key;
+      row.appendChild(label);
+
+      ["All"].concat(values).forEach(v => {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.className = "chip" + (activeFilters[def.key] === v ? " is-on" : "");
+        b.textContent = v;
+        b.setAttribute("aria-pressed", activeFilters[def.key] === v ? "true" : "false");
+        b.addEventListener("click", () => {
+          activeFilters[def.key] = v;
+          $$(".chip", row).forEach(x => {
+            const on = x.textContent === v;
+            x.classList.toggle("is-on", on);
+            x.setAttribute("aria-pressed", on ? "true" : "false");
+          });
+          renderGrid();
         });
-        renderGrid();
+        row.appendChild(b);
       });
-      wrap.appendChild(b);
+
+      wrap.appendChild(row);
     });
+
+    // a reset that only appears once something is actually narrowed
+    const reset = document.createElement("button");
+    reset.type = "button";
+    reset.id = "filterReset";
+    reset.className = "chip chip-reset";
+    reset.textContent = "Clear filters";
+    reset.addEventListener("click", () => selectTab(activeTab));
+    wrap.appendChild(reset);
+    syncReset();
+  }
+
+  function activeCount() {
+    return Object.keys(activeFilters).filter(k => activeFilters[k] && activeFilters[k] !== "All").length;
+  }
+
+  function syncReset() {
+    const r = $("#filterReset");
+    if (r) r.classList.toggle("is-shown", activeCount() > 0);
   }
 
   /* ---------- GRID ---------- */
@@ -117,12 +180,24 @@
   }
 
   function renderGrid() {
-    const list = photosFor(activeTab).filter(p => activeChip === "All" || p.tag === activeChip);
+    const list = photosFor(activeTab).filter(p =>
+      Object.keys(activeFilters).every(k => {
+        const want = activeFilters[k];
+        return !want || want === "All" || p[k] === want;
+      })
+    );
     visible = list;
     gridEl.innerHTML = "";
+    syncReset();
+    const counter = $("#gridCount");
+    if (counter) counter.textContent = list.length + (list.length === 1 ? " frame" : " frames");
 
     if (!list.length) {
-      gridEl.innerHTML = '<p class="empty">No frames filed under &ldquo;' + esc(activeChip) + '&rdquo; yet.</p>';
+      const active = Object.keys(activeFilters)
+        .filter(k => activeFilters[k] && activeFilters[k] !== "All")
+        .map(k => activeFilters[k]);
+      gridEl.innerHTML = '<p class="empty">Nothing filed under ' +
+        (active.length ? '&ldquo;' + esc(active.join(" + ")) + '&rdquo;' : "this tab") + ' yet.</p>';
       return;
     }
 
@@ -134,7 +209,7 @@
 
       card.innerHTML =
         '<div class="card-media">' +
-          '<span class="card-badge">' + esc(p.tag) + "</span>" +
+          '<span class="card-badge">' + esc(p.tag || p.team || p.session || "") + "</span>" +
           '<span class="card-expand" aria-hidden="true">' +
             '<svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
             '<path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>' +
@@ -144,7 +219,7 @@
         '<div class="card-body">' +
           '<span class="card-title">' + esc(p.title) + "</span>" +
           '<span class="card-meta">' +
-            (p.loc  ? "<span>" + esc(p.loc) + "</span>" : "") +
+            ((p.loc || p.track) ? "<span>" + esc(p.loc || p.track) + "</span>" : "") +
             (p.year ? "<span><i>" + esc(p.year) + "</i></span>" : "") +
           "</span>" +
         "</div>";
@@ -209,7 +284,7 @@
     $("#lbIndex").textContent = lbIdx + 1;
     $("#lbTotal").textContent = visible.length;
     $("#lbTitle").textContent = p.title;
-    $("#lbLoc").textContent   = [p.loc, p.year].filter(Boolean).join(" · ");
+    $("#lbLoc").textContent   = [p.loc || p.track, p.year].filter(Boolean).join(" · ");
 
     const fig = $("#lbFigure");
     fig.innerHTML =
@@ -229,9 +304,12 @@
 
     const ex = p.exif || {};
     $("#lbExif").innerHTML = [
-      ex.cam  ? "<span>Body <b>"     + esc(ex.cam)  + "</b></span>" : "",
-      ex.lens ? "<span>Lens <b>"     + esc(ex.lens) + "</b></span>" : "",
-      ex.set  ? "<span>Exposure <b>" + esc(ex.set)  + "</b></span>" : ""
+      // context first — session is no longer a filter, but it's worth knowing
+      p.team    ? "<span>Team <b>"     + esc(p.team)    + "</b></span>" : "",
+      p.session ? "<span>Session <b>"  + esc(p.session) + "</b></span>" : "",
+      ex.cam    ? "<span>Body <b>"     + esc(ex.cam)    + "</b></span>" : "",
+      ex.lens   ? "<span>Lens <b>"     + esc(ex.lens)   + "</b></span>" : "",
+      ex.set    ? "<span>Exposure <b>" + esc(ex.set)    + "</b></span>" : ""
     ].join("");
 
     [visible[lbIdx + 1], visible[lbIdx - 1]].forEach(n => { if (n && n.src) new Image().src = n.src; });
@@ -341,7 +419,7 @@
       d.get("message")
     ].join("\n");
 
-    window.location.href = "mailto:hello@abphotography.com.au"
+    window.location.href = "mailto:djadambridge@gmail.com"
       + "?subject=" + encodeURIComponent("Shoot enquiry — " + d.get("type"))
       + "&body=" + encodeURIComponent(body);
 
