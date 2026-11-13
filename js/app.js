@@ -307,6 +307,8 @@
     $("#lbExif").innerHTML = [
       // context first — session is no longer a filter, but it's worth knowing
       p.team    ? "<span>Team <b>"     + esc(p.team)    + "</b></span>" : "",
+      p.driver  ? "<span>Driver <b>"   + esc(p.driver)  + "</b></span>" : "",
+      p.comp    ? "<span>Comp <b>"     + esc(p.comp)    + "</b></span>" : "",
       p.session ? "<span>Session <b>"  + esc(p.session) + "</b></span>" : "",
       ex.cam    ? "<span>Body <b>"     + esc(ex.cam)    + "</b></span>" : "",
       ex.lens   ? "<span>Lens <b>"     + esc(ex.lens)   + "</b></span>" : "",
