@@ -216,6 +216,7 @@
             '<path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>' +
           "</span>" +
           placeholder(p) +
+          (p.wm ? "" : '<span class="wm-overlay" aria-hidden="true"></span>') +
         "</div>" +
         '<div class="card-body">' +
           '<span class="card-title">' + esc(p.title) + "</span>" +
@@ -288,6 +289,10 @@
     $("#lbLoc").textContent   = [p.loc || p.track, p.year].filter(Boolean).join(" · ");
 
     const fig = $("#lbFigure");
+    // A photo whose file already carries a watermark (p.wm) gets nothing extra;
+    // anything else — notably photos added later through /admin — gets the mark
+    // drawn over it so nothing is ever shown unmarked.
+    fig.classList.toggle("has-wm-overlay", !p.wm);
     fig.innerHTML =
       '<div class="lb-ph">' +
         '<span class="ph-title">' + esc(p.title) + "</span>" +

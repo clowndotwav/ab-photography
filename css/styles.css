@@ -592,3 +592,36 @@ h1,h2,h3,h4{ font-family:var(--font-display); font-weight:700; line-height:1.08;
 @media (max-width:620px){
   .chip-label{ min-width:100%; margin-bottom:.1rem; }
 }
+
+/* ============================================================
+   13. WATERMARK OVERLAY
+   ------------------------------------------------------------
+   Photos processed into the repo have the AB mark burned into
+   the JPEG itself, and carry "wm": true in gallery.json.
+   Anything without that flag — above all photos added later
+   through the admin centre — gets the mark drawn over it here,
+   so nothing is ever displayed unmarked.
+
+   This is presentation only. It is not protection: the file
+   underneath is clean. The burned-in mark is the protection.
+   ============================================================ */
+.wm-overlay,
+.has-wm-overlay::after {
+  position: absolute;
+  left: 3%;
+  bottom: 3%;
+  width: 11%;
+  aspect-ratio: 1628 / 1302;
+  background: url("../images/watermark.png") left bottom / contain no-repeat;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.has-wm-overlay { position: relative; }
+.has-wm-overlay::after { content: ""; }
+
+/* On a very small tile the mark would be unreadable mush, so let it
+   take a little more room rather than shrink past legibility. */
+@media (max-width: 560px) {
+  .wm-overlay { width: 22%; }
+}

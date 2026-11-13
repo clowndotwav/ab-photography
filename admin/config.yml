@@ -141,6 +141,17 @@ collections:
                 required: false
                 hint: Describes the photo for screen readers.
 
+              - name: wm
+                label: Watermark already on this file
+                widget: boolean
+                required: false
+                default: false
+                hint: >-
+                  Leave OFF for anything exported clean — the site draws the AB
+                  mark over it automatically. Only turn it ON if you exported
+                  this photo from Lightroom with the watermark already burned
+                  in, otherwise it'll show twice.
+
               - name: exif
                 label: Camera details
                 widget: object
