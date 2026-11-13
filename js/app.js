@@ -9,6 +9,7 @@
   const $$ = (s, c) => Array.from((c || document).querySelectorAll(s));
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  let GALLERY      = [];    // filled from data/gallery.json at boot
   let activeTab    = TABS[0].id;
   let activeFilters = {};   // { filterKey: value } — "All" means no constraint
   let visible    = [];
@@ -382,7 +383,15 @@
       obs.unobserve(en.target);
     });
   }, { threshold: 0.12 });
-  $$(".reveal").forEach(el => revealObs.observe(el));
+
+  // Called again after the services cards are injected from about.json, so
+  // late-arriving .reveal elements still animate in.
+  function observeReveals() {
+    $$(".reveal").forEach(el => {
+      if (!el.classList.contains("is-in")) revealObs.observe(el);
+    });
+  }
+  observeReveals();
 
   /* ---------- TICKER ---------- */
   const words = ["Wildlife", "Formula 1", "Ice Hockey", "Supercars", "Motorbikes",
@@ -432,11 +441,77 @@
   $$(".field input, .field textarea").forEach(el =>
     el.addEventListener("input", () => el.closest(".field").classList.remove("has-error")));
 
+  /* ---------- CONTENT FROM data/about.json ----------
+     The bio, kit list and services are loaded rather than hardcoded, so the
+     admin centre at /admin can edit them without anyone touching HTML. */
+  function mdInline(t) {
+    // the only markup the bio needs: **bold**
+    return esc(t).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+  }
+
+  function renderAbout(data) {
+    const a = data && data.about;
+    if (a) {
+      if (a.eyebrow) $("#aboutEyebrow").textContent = a.eyebrow;
+      const h = $("#aboutHeading");
+      if (h && a.heading) h.innerHTML = a.heading.split("\n").map(esc).join("<br>");
+      const bio = $("#aboutBio");
+      if (bio && a.bio) {
+        bio.innerHTML = a.bio.split(/\n{2,}/)
+          .map(par => "<p>" + mdInline(par.trim()) + "</p>").join("");
+      }
+      const kit = $("#aboutKit");
+      if (kit && Array.isArray(a.kit)) {
+        kit.innerHTML = a.kit.map(r =>
+          '<div class="kit-row"><dt>' + esc(r.label) + "</dt><dd>" +
+          esc(r.value) + "</dd></div>").join("");
+      }
+    }
+
+    const sv = data && data.services;
+    if (sv) {
+      if (sv.eyebrow) $("#svcEyebrow").textContent = sv.eyebrow;
+      if (sv.heading) $("#svcHeading").textContent = sv.heading;
+      if (sv.intro)   $("#svcIntro").textContent   = sv.intro;
+      const list = $("#svcList");
+      if (list && Array.isArray(sv.items)) {
+        list.innerHTML = sv.items.map(it =>
+          '<article class="svc reveal"><span class="svc-num">' + esc(it.num) +
+          "</span><h3>" + esc(it.title) + "</h3><p>" + esc(it.body) +
+          "</p></article>").join("");
+      }
+    }
+  }
+
   /* ---------- BOOT ---------- */
-  $("#year").textContent = new Date().getFullYear();
-  buildTabs();
-  selectTab(TABS[0].id);
-  onScroll();
-  window.addEventListener("load", movePill);
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(movePill);
+  function start() {
+    $("#year").textContent = new Date().getFullYear();
+    buildTabs();
+    selectTab(TABS[0].id);
+    observeReveals();
+    onScroll();
+    window.addEventListener("load", movePill);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(movePill);
+  }
+
+  function loadJSON(url) {
+    return fetch(url, { cache: "no-cache" }).then(r => {
+      if (!r.ok) throw new Error(url + " -> HTTP " + r.status);
+      return r.json();
+    });
+  }
+
+  Promise.all([
+    loadJSON("data/gallery.json").catch(e => { console.error(e); return { photos: [] }; }),
+    loadJSON("data/about.json").catch(e => { console.error(e); return null; })
+  ]).then(([g, about]) => {
+    GALLERY = (g && g.photos) || [];
+    if (about) renderAbout(about);
+    start();
+    if (!GALLERY.length) {
+      console.warn("No photos loaded. If you opened index.html straight from disk, " +
+                   "the browser blocks fetch() on file:// URLs — run a local server " +
+                   "instead (see HOW-TO-UPDATE.md).");
+    }
+  });
 })();

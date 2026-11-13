@@ -1,0 +1,201 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+#
+# AB PHOTOGRAPHY — ADMIN CENTRE CONFIG
+# ------------------------------------------------------------------
+# This drives the editor at /admin. It commits straight to GitHub, so
+# every save is a normal commit and Netlify redeploys on its own.
+#
+# No base_url here on purpose: Netlify is Sveltia's default OAuth
+# client, and adding base_url would point it somewhere else.
+
+backend:
+  name: github
+  repo: clowndotwav/ab-photography
+  branch: main
+
+# Where uploaded photos land in the repo, and the URL they're served at.
+media_folder: /images/uploads
+public_folder: /images/uploads
+
+collections:
+  # ------------------------------------------------------------------
+  # THE GALLERY — every photo on the site
+  # ------------------------------------------------------------------
+  - name: gallery
+    label: Photos
+    files:
+      - name: photos
+        label: All photos
+        file: data/gallery.json
+        description: >-
+          Every frame on the site. "Tabs" decides which page section a photo
+          appears under; the filter chips build themselves from whatever you
+          type in the fields below, so a new track or competition just appears.
+        fields:
+          - name: photos
+            label: Photos
+            label_singular: Photo
+            widget: list
+            allow_add: true
+            allow_reorder: true
+            summary: '{{fields.title}}'
+            fields:
+              - name: src
+                label: Image
+                widget: image
+                hint: Drag a photo in, or pick one already uploaded.
+
+              - name: title
+                label: Title
+                widget: string
+                hint: Shown under the tile and in the full-screen viewer.
+
+              - name: cats
+                label: Tabs
+                widget: select
+                multiple: true
+                options:
+                  - { label: Wildlife, value: wildlife }
+                  - { label: Sports, value: sports }
+                  - { label: Formula 1, value: f1 }
+                  - { label: Motorsport, value: motorsport }
+                  - { label: Architecture, value: architecture }
+                hint: A photo can sit in more than one tab.
+
+              - name: tag
+                label: Subject / Class
+                widget: string
+                required: false
+                hint: >-
+                  Wildlife — Mammals, Birds, Reptiles. Motorsport — Supercars,
+                  Trans Am, Super Utes, Radicals, Motorbikes, Sidecars.
+                  Architecture — Towers, Cityscape.
+
+              - name: comp
+                label: Competition (Sports only)
+                widget: select
+                required: false
+                options:
+                  - Perth Inferno
+                  - Perth Womens Ice Hockey League
+                  - IHWA Winter Season
+                  - Monday Night Scratch Games
+
+              - name: team
+                label: Team (F1 only)
+                widget: select
+                required: false
+                options:
+                  - Ferrari
+                  - McLaren
+                  - Mercedes
+                  - Red Bull
+                  - Aston Martin
+                  - Alpine
+                  - Williams
+                  - Haas
+                  - Sauber
+                  - Racing Bulls
+                  - Safety Car
+                  - Medical Car
+
+              - name: driver
+                label: Driver (F1 only)
+                widget: string
+                required: false
+                hint: >-
+                  Surname only. Leave blank if you can't read the car number —
+                  the photo still shows under its team.
+
+              - name: track
+                label: Track (F1 only)
+                widget: string
+                required: false
+
+              - name: session
+                label: Session (F1 only)
+                widget: string
+                required: false
+                hint: FP1, FP2, FP3, Sprint, Qualifying, Race. Not a filter — shown in the viewer.
+
+              - name: loc
+                label: Where
+                widget: string
+                required: false
+
+              - name: year
+                label: Year
+                widget: string
+                required: false
+
+              - name: feat
+                label: Tall tile
+                widget: boolean
+                required: false
+                default: false
+                hint: Portrait shots only — it crops the sides off a landscape frame.
+
+              - name: alt
+                label: Alt text
+                widget: string
+                required: false
+                hint: Describes the photo for screen readers.
+
+              - name: exif
+                label: Camera details
+                widget: object
+                required: false
+                collapsed: true
+                fields:
+                  - { name: cam, label: Body, widget: string, required: false }
+                  - { name: lens, label: Lens, widget: string, required: false }
+                  - { name: set, label: Settings, widget: string, required: false }
+
+  # ------------------------------------------------------------------
+  # ABOUT + SERVICES — the words on the page
+  # ------------------------------------------------------------------
+  - name: content
+    label: Page text
+    files:
+      - name: about
+        label: About & Services
+        file: data/about.json
+        fields:
+          - name: about
+            label: About section
+            widget: object
+            fields:
+              - { name: eyebrow, label: Small label above the heading, widget: string }
+              - name: heading
+                label: Heading
+                widget: text
+                hint: A line break here becomes a line break on the page.
+              - name: bio
+                label: Bio
+                widget: text
+                hint: Blank line between paragraphs. Wrap words in **double asterisks** for bold.
+              - name: kit
+                label: Gear list
+                widget: list
+                label_singular: Row
+                summary: '{{fields.label}} — {{fields.value}}'
+                fields:
+                  - { name: label, label: Label, widget: string }
+                  - { name: value, label: Value, widget: string }
+
+          - name: services
+            label: Services section
+            widget: object
+            fields:
+              - { name: eyebrow, label: Small label above the heading, widget: string }
+              - { name: heading, label: Heading, widget: string }
+              - { name: intro, label: Intro line, widget: string }
+              - name: items
+                label: Service cards
+                widget: list
+                label_singular: Card
+                summary: '{{fields.title}}'
+                fields:
+                  - { name: num, label: Number / kicker, widget: string }
+                  - { name: title, label: Title, widget: string }
+                  - { name: body, label: Body, widget: text }

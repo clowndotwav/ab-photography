@@ -16,6 +16,19 @@
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
 
+# The gallery and page text are data now, edited from /admin. They must never
+# sit in a cache, or an edit would appear to do nothing.
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Keep the admin centre out of Google.
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
 # Sensible security headers for a static site.
 [[headers]]
   for = "/*"

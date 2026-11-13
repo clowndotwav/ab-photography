@@ -1,0 +1,36 @@
+{
+  "about": {
+    "eyebrow": "About AB",
+    "heading": "Chasing things\nthat don't hold still.",
+    "bio": "I'm Adam Bridge. I point long glass at things that move too fast — birds of prey in the Perth hills, ice hockey under arena lights, and anything with an engine and a racing line.\n\nThe three genres look different but they're the same problem: you get one frame, the light is never what you'd order, and the moment doesn't come back. Wildlife taught me patience. **Motorsport taught me timing.** Ice hockey taught me to shoot at ISO 6400 and stop apologising for it.\n\nBased in Western Australia, available Australia-wide for race weekends, seasons, and anything that needs someone comfortable in the cold, the rain or the gravel trap.",
+    "kit": [
+      { "label": "Body", "value": "Sony A7R IV" },
+      { "label": "Long glass", "value": "FE 200–600mm f/5.6–6.3 G OSS" },
+      { "label": "Mid range", "value": "FE 70–200mm f/4 G OSS" },
+      { "label": "Turnaround", "value": "On request" },
+      { "label": "Based", "value": "Perth, WA · travelling Australia-wide" }
+    ]
+  },
+  "services": {
+    "eyebrow": "What I shoot",
+    "heading": "Book the lens.",
+    "intro": "Event coverage, season packages, prints and licensing — pick the one that fits.",
+    "items": [
+      {
+        "num": "01 / EVENT",
+        "title": "Race & game day",
+        "body": "Full-day coverage of a race meet, round or fixture. Trackside and pit access where accreditation allows. Edited gallery delivered after the event."
+      },
+      {
+        "num": "02 / SEASON",
+        "title": "Season packages",
+        "body": "Clubs and teams — consistent coverage across a full season, with a shared gallery your players, sponsors and socials can pull from all year."
+      },
+      {
+        "num": "03 / PRINTS",
+        "title": "Prints & licensing",
+        "body": "Fine-art prints of any frame in the portfolio, plus editorial and commercial licensing for publications, teams and brands. Sizes and rates on request."
+      }
+    ]
+  }
+}
