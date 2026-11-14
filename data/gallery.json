@@ -3403,6 +3403,236 @@
         "lens": "FE 70-200mm F4 G OSS",
         "set": "78mm · f/4 · 1/125s · ISO 2500"
       }
+    },
+    {
+      "src": "images/motorsport/radical-07.jpg",
+      "title": "Yellow and Black #10",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Radicals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "309mm · f/11 · 1/125s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/radical-08.jpg",
+      "title": "Orange #222 at Speed",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Radicals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "236mm · f/11 · 1/160s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/radical-09.jpg",
+      "title": "Fasidu #32 Leading",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Radicals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "223mm · f/11 · 1/125s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/v8-09.jpg",
+      "title": "Truck Assist Camaro #2",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Supercars",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "400mm · f/11 · 1/125s · ISO 50"
+      }
+    },
+    {
+      "src": "images/motorsport/v8-10.jpg",
+      "title": "Sherrin Rentals, Side by Side",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Supercars",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "239mm · f/11 · 1/125s · ISO 50"
+      }
+    },
+    {
+      "src": "images/motorsport/transam-08.jpg",
+      "title": "Four'N Twenty #1",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Trans Am",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "200mm · f/11 · 1/160s · ISO 50"
+      }
+    },
+    {
+      "src": "images/motorsport/transam-09.jpg",
+      "title": "Logitech G, Clean Air",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Trans Am",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "303mm · f/11 · 1/100s · ISO 50"
+      }
+    },
+    {
+      "src": "images/motorsport/transam-10.jpg",
+      "title": "CAMM #8",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Trans Am",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "371mm · f/11 · 1/200s · ISO 125"
+      }
+    },
+    {
+      "src": "images/motorsport/transam-11.jpg",
+      "title": "The Trans Am Train",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Trans Am",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "225mm · f/11 · 1/200s · ISO 125"
+      }
+    },
+    {
+      "src": "images/motorsport/superute-09.jpg",
+      "title": "Premier Property #22",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Super Utes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "200mm · f/11 · 1/125s · ISO 100"
+      }
     }
   ]
 }
