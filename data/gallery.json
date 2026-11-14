@@ -1,2386 +1,2856 @@
 {
- "photos": [
-  {
-   "src": "images/motorsport/motorbike-01.jpg",
-   "title": "Honda #79, Full Lean",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Motorbikes",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "359mm · f/11 · 1/250s · ISO 125"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/motorbike-02.jpg",
-   "title": "Sidecar #56, Three Wheels Working",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Sidecars",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "329mm · f/11 · 1/350s · ISO 200"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/motorbike-03.jpg",
-   "title": "The Number One Plate",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Motorbikes",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "541mm · f/11 · 1/125s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/motorbike-04.jpg",
-   "title": "Fluoro and Carbon, #32",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Motorbikes",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "368mm · f/11 · 1/350s · ISO 200"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/motorbike-05.jpg",
-   "title": "Ducati Perth, #19",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Motorbikes",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "452mm · f/11 · 1/125s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/motorbike-06.jpg",
-   "title": "Blue and White, #53",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Motorbikes",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "512mm · f/11 · 1/125s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/motorbike-07.jpg",
-   "title": "Yellow #597, Clean Line",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Motorbikes",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "295mm · f/9.5 · 1/200s · ISO 200"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/motorbike-08.jpg",
-   "title": "Repsol Colours, #956",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Motorbikes",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "400mm · f/9.5 · 1/200s · ISO 200"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/motorbike-09.jpg",
-   "title": "Ninja #371 Over the Kerb",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Motorbikes",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "318mm · f/11 · 1/125s · ISO 125"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/motorbike-10.jpg",
-   "title": "Tucked In, #52",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Motorbikes",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "506mm · f/11 · 1/200s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/motorbike-11.jpg",
-   "title": "Shooting the Shooter",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Motorbikes",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "489mm · f/11 · 1/350s · ISO 200"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/architecture/architecture-01.jpg",
-   "title": "Crown of the Tower",
-   "cats": [
-    "architecture"
-   ],
-   "tag": "Towers",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Kuala Lumpur, Malaysia",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "161mm · f/4 · 1/2000s · ISO 6400"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/architecture/architecture-02.jpg",
-   "title": "Skybridge",
-   "cats": [
-    "architecture"
-   ],
-   "tag": "Towers",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Kuala Lumpur, Malaysia",
-   "year": "2026",
-   "feat": true,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "70mm · f/4 · 1/500s · ISO 10000"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/architecture/architecture-03.jpg",
-   "title": "Steel and Geometry",
-   "cats": [
-    "architecture"
-   ],
-   "tag": "Towers",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Kuala Lumpur, Malaysia",
-   "year": "2026",
-   "feat": true,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "89mm · f/4 · 1/500s · ISO 10000"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/architecture/architecture-04.jpg",
-   "title": "Twin Spires",
-   "cats": [
-    "architecture"
-   ],
-   "tag": "Towers",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Kuala Lumpur, Malaysia",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "70mm · f/4 · 1/500s · ISO 10000"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/architecture/architecture-05.jpg",
-   "title": "Under the Skybridge",
-   "cats": [
-    "architecture"
-   ],
-   "tag": "Towers",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Kuala Lumpur, Malaysia",
-   "year": "2026",
-   "feat": true,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "70mm · f/4 · 1/125s · ISO 5000"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/architecture/architecture-06.jpg",
-   "title": "KLCC Fountains",
-   "cats": [
-    "architecture"
-   ],
-   "tag": "Cityscape",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Kuala Lumpur, Malaysia",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "70mm · f/4 · 1/350s · ISO 10000"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/architecture/architecture-07.jpg",
-   "title": "Fountains, Towers Behind",
-   "cats": [
-    "architecture"
-   ],
-   "tag": "Cityscape",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Kuala Lumpur, Malaysia",
-   "year": "2026",
-   "feat": true,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "70mm · f/4 · 1/350s · ISO 10000"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/architecture/architecture-08.jpg",
-   "title": "Petronas, Full Height",
-   "cats": [
-    "architecture"
-   ],
-   "tag": "Towers",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Kuala Lumpur, Malaysia",
-   "year": "2026",
-   "feat": true,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "70mm · f/4 · 1/350s · ISO 10000"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/f1/f1-01.jpg",
-   "title": "Ferrari, Friday Running",
-   "cats": [
-    "f1"
-   ],
-   "tag": "",
-   "comp": "",
-   "team": "Ferrari",
-   "driver": "Hamilton",
-   "track": "Silverstone",
-   "session": "FP2",
-   "loc": "",
-   "year": "2025",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "481mm · f/6.7 · 1/1000s · ISO 50"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/f1/f1-02.jpg",
-   "title": "Ferrari on the White Line",
-   "cats": [
-    "f1"
-   ],
-   "tag": "",
-   "comp": "",
-   "team": "Ferrari",
-   "driver": "Hamilton",
-   "track": "Silverstone",
-   "session": "FP2",
-   "loc": "",
-   "year": "2025",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "236mm · f/5.6 · 1/1000s · ISO 50"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/f1/f1-03.jpg",
-   "title": "Stake Sauber, Saturday Morning",
-   "cats": [
-    "f1"
-   ],
-   "tag": "",
-   "comp": "",
-   "team": "Sauber",
-   "driver": "",
-   "track": "Silverstone",
-   "session": "FP3",
-   "loc": "",
-   "year": "2025",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "489mm · f/6.3 · 1/1500s · ISO 320"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/f1/f1-04.jpg",
-   "title": "McLaren, Qualifying",
-   "cats": [
-    "f1"
-   ],
-   "tag": "",
-   "comp": "",
-   "team": "McLaren",
-   "driver": "",
-   "track": "Silverstone",
-   "session": "Qualifying",
-   "loc": "",
-   "year": "2025",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "576mm · f/6.3 · 1/1500s · ISO 400"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/f1/f1-05.jpg",
-   "title": "Ferrari, Qualifying",
-   "cats": [
-    "f1"
-   ],
-   "tag": "",
-   "comp": "",
-   "team": "Ferrari",
-   "driver": "Hamilton",
-   "track": "Silverstone",
-   "session": "Qualifying",
-   "loc": "",
-   "year": "2025",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "448mm · f/5.6 · 1/1500s · ISO 640"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/f1/f1-06.jpg",
-   "title": "Ferrari, Race Day",
-   "cats": [
-    "f1"
-   ],
-   "tag": "",
-   "comp": "",
-   "team": "Ferrari",
-   "driver": "Hamilton",
-   "track": "Silverstone",
-   "session": "Race",
-   "loc": "",
-   "year": "2025",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "318mm · f/6.3 · 1/1000s · ISO 800"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/f1/f1-07.jpg",
-   "title": "Ferrari at Full Chat",
-   "cats": [
-    "f1"
-   ],
-   "tag": "",
-   "comp": "",
-   "team": "Ferrari",
-   "driver": "Hamilton",
-   "track": "Silverstone",
-   "session": "Race",
-   "loc": "",
-   "year": "2025",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "397mm · f/6.3 · 1/1000s · ISO 800"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/f1/f1-08.jpg",
-   "title": "Safety Car, Recovery Underway",
-   "cats": [
-    "f1"
-   ],
-   "tag": "",
-   "comp": "",
-   "team": "Safety Car",
-   "driver": "",
-   "track": "Silverstone",
-   "session": "Safety Car",
-   "loc": "",
-   "year": "2025",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "565mm · f/6.3 · 1/1500s · ISO 400"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/f1/f1-09.jpg",
-   "title": "Safety Car on Track",
-   "cats": [
-    "f1"
-   ],
-   "tag": "",
-   "comp": "",
-   "team": "Safety Car",
-   "driver": "",
-   "track": "Silverstone",
-   "session": "Safety Car",
-   "loc": "",
-   "year": "2025",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "459mm · f/6.3 · 1/1000s · ISO 320"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/f1/f1-10.jpg",
-   "title": "Safety Car, Malaysia",
-   "cats": [
-    "f1"
-   ],
-   "tag": "",
-   "comp": "",
-   "team": "Safety Car",
-   "driver": "",
-   "track": "Sepang",
-   "session": "Safety Car",
-   "loc": "",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "200mm · f/10 · 1/320s · ISO 500"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/f1/f1-11.jpg",
-   "title": "Stake Sauber, Rooster Tail",
-   "cats": [
-    "f1"
-   ],
-   "tag": "",
-   "comp": "",
-   "team": "Sauber",
-   "driver": "",
-   "track": "Silverstone",
-   "session": "Race",
-   "loc": "",
-   "year": "2025",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "456mm · f/6.3 · 1/1000s · ISO 800"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/f1/f1-12.jpg",
-   "title": "Haas in the Wet",
-   "cats": [
-    "f1"
-   ],
-   "tag": "",
-   "comp": "",
-   "team": "Haas",
-   "driver": "Ocon",
-   "track": "Silverstone",
-   "session": "Race",
-   "loc": "",
-   "year": "2025",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "391mm · f/6.3 · 1/1000s · ISO 400"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/f1/f1-13.jpg",
-   "title": "McLaren, Friday Running",
-   "cats": [
-    "f1"
-   ],
-   "tag": "",
-   "comp": "",
-   "team": "McLaren",
-   "driver": "",
-   "track": "Silverstone",
-   "session": "FP2",
-   "loc": "",
-   "year": "2025",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "394mm · f/5.6 · 1/1000s · ISO 50"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/f1/f1-14.jpg",
-   "title": "Ferrari in the Spray",
-   "cats": [
-    "f1"
-   ],
-   "tag": "",
-   "comp": "",
-   "team": "Ferrari",
-   "driver": "Hamilton",
-   "track": "Silverstone",
-   "session": "Race",
-   "loc": "",
-   "year": "2025",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "481mm · f/6.3 · 1/1000s · ISO 800"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/f1/f1-15.jpg",
-   "title": "Haas, Clean Air",
-   "cats": [
-    "f1"
-   ],
-   "tag": "",
-   "comp": "",
-   "team": "Haas",
-   "driver": "Bearman",
-   "track": "Silverstone",
-   "session": "Race",
-   "loc": "",
-   "year": "2025",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "353mm · f/6.3 · 1/1000s · ISO 640"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/f1/f1-16.jpg",
-   "title": "Ferrari, Friday Afternoon",
-   "cats": [
-    "f1"
-   ],
-   "tag": "",
-   "comp": "",
-   "team": "Ferrari",
-   "driver": "Hamilton",
-   "track": "Silverstone",
-   "session": "FP2",
-   "loc": "",
-   "year": "2025",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "211mm · f/5.6 · 1/1000s · ISO 50"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/sports/hockey-01.jpg",
-   "title": "Eyes on the Puck",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "IHWA Winter Season",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Perth Ice Arena",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "200mm · f/6.3 · 1/640s · ISO 10000"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/sports/hockey-02.jpg",
-   "title": "Winding Up",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "IHWA Winter Season",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Perth Ice Arena",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "200mm · f/6.3 · 1/640s · ISO 10000"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/sports/hockey-03.jpg",
-   "title": "Driving the Blue Line",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "IHWA Winter Season",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Perth Ice Arena",
-   "year": "2026",
-   "feat": true,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "218mm · f/6.3 · 1/640s · ISO 10000"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/sports/hockey-04.jpg",
-   "title": "Battle for the Puck",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "IHWA Winter Season",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Perth Ice Arena",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "200mm · f/6.3 · 1/640s · ISO 10000"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/sports/hockey-05.jpg",
-   "title": "Contact in the Corner",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "IHWA Winter Season",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Perth Ice Arena",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "200mm · f/6.3 · 1/640s · ISO 10000"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/sports/hockey-06.jpg",
-   "title": "Breaking Out",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "IHWA Winter Season",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Perth Ice Arena",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "200mm · f/6.3 · 1/640s · ISO 10000"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/sports/hockey-07.jpg",
-   "title": "Between Shifts",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "IHWA Winter Season",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Perth Ice Arena",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "200mm · f/6.3 · 1/640s · ISO 10000"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/sports/hockey-08.jpg",
-   "title": "Flyers Blue",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "IHWA Winter Season",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Perth Ice Arena",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "169mm · f/6.3 · 1/640s · ISO 12800"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/supercars-01.jpg",
-   "title": "Castrol Mustang, Panned",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Supercars",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "270mm · f/11 · 1/125s · ISO 50"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/supercars-02.jpg",
-   "title": "TotalEnergies Camaro",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Supercars",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "236mm · f/11 · 1/125s · ISO 50"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/supercars-03.jpg",
-   "title": "Supra Through the Chicane",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Supercars",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "344mm · f/11 · 1/125s · ISO 50"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/supercars-04.jpg",
-   "title": "Trans Am, Off and Digging",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Trans Am",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IV",
-    "lens": "FE 200-600mm f/5.6-6.3 G",
-    "set": "600mm · f/11 · 1/200s · ISO 125"
-   },
-   "wm": true
-  },
-  {
-   "title": "Red Prototype, Hard on the Brakes",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Radicals",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/radical-01.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "404mm · f/11 · 1/160s · ISO 125"
-   },
-   "wm": true
-  },
-  {
-   "title": "Open Cockpit Through the Sweeper",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Radicals",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/radical-02.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "309mm · f/11 · 1/125s · ISO 125"
-   },
-   "wm": true
-  },
-  {
-   "title": "Liftoff Racing #18",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Radicals",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/radical-03.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "329mm · f/11 · 1/200s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "Volante Rojo #47",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Radicals",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/radical-04.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "211mm · f/11 · 1/160s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "Radicals Three Abreast",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Radicals",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/radical-05.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "459mm · f/11 · 1/250s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "Blue #33 Under the Gantry",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Radicals",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/radical-06.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "600mm · f/11 · 1/125s · ISO 50"
-   },
-   "wm": true
-  },
-  {
-   "title": "WeatherTech Leads the Pack",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Super Utes",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/superute-01.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "470mm · f/11 · 1/200s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "Aprilla Grids #805",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Super Utes",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/superute-02.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "264mm · f/11 · 1/200s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "Gear Hat Co #79",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Super Utes",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/superute-03.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "332mm · f/11 · 1/125s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "Nulon Motion #15",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Super Utes",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/superute-04.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "356mm · f/11 · 1/125s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "Shore Barge #333",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Super Utes",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/superute-05.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "266mm · f/11 · 1/100s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "Uniden #49",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Super Utes",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/superute-06.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "298mm · f/11 · 1/100s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "WeatherTech #1",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Super Utes",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/superute-07.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "338mm · f/11 · 1/100s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "Custom Lithium #18",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Super Utes",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/superute-08.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "335mm · f/11 · 1/100s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "Into the Gravel",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Trans Am",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/transam-01.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "200mm · f/11 · 1/400s · ISO 125"
-   },
-   "wm": true
-  },
-  {
-   "title": "Three-Wide Into Turn One",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Trans Am",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/transam-02.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "565mm · f/11 · 1/200s · ISO 125"
-   },
-   "wm": true
-  },
-  {
-   "title": "Auto Openers Mustang",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Trans Am",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/transam-03.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "415mm · f/11 · 1/200s · ISO 125"
-   },
-   "wm": true
-  },
-  {
-   "title": "TFH #63",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Trans Am",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/transam-04.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "321mm · f/11 · 1/200s · ISO 125"
-   },
-   "wm": true
-  },
-  {
-   "title": "Fighting for the Line",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Trans Am",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/transam-05.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "600mm · f/11 · 1/200s · ISO 125"
-   },
-   "wm": true
-  },
-  {
-   "title": "Red Rooster Camaro",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Trans Am",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/transam-06.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "559mm · f/11 · 1/200s · ISO 125"
-   },
-   "wm": true
-  },
-  {
-   "title": "Auto Openers on the Exit",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Trans Am",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/transam-07.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "541mm · f/11 · 1/320s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "Red Bull Ampol Racing",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Supercars",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/v8-01.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "255mm · f/11 · 1/200s · ISO 125"
-   },
-   "wm": true
-  },
-  {
-   "title": "Green and White, Mid-Corner",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Supercars",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/v8-02.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "257mm · f/11 · 1/125s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "Shell V-Power #17",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Supercars",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/v8-03.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "404mm · f/11 · 1/160s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "Objective Racing",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Supercars",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/v8-04.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "359mm · f/11 · 1/160s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "Monster Energy Autobarn",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Supercars",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/v8-05.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "280mm · f/11 · 1/125s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "Optus Camaro",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Supercars",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/v8-06.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "209mm · f/11 · 1/125s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "CoolDrive Blue",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Supercars",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/v8-07.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "259mm · f/11 · 1/125s · ISO 50"
-   },
-   "wm": true
-  },
-  {
-   "title": "PremiAir Racing",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Supercars",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "src": "images/motorsport/v8-08.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "332mm · f/11 · 1/125s · ISO 50"
-   },
-   "wm": true
-  },
-  {
-   "title": "Huddle Before the Drop",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Inferno",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "src": "images/sports/inferno-01.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "132mm · f/4.5 · 1/1000s · ISO 4000"
-   },
-   "wm": true
-  },
-  {
-   "title": "Pinned on the Boards",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Inferno",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "src": "images/sports/inferno-02.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "200mm · f/4.5 · 1/1000s · ISO 4000"
-   },
-   "wm": true
-  },
-  {
-   "title": "Winding Up at the Blue Line",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Inferno",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "src": "images/sports/inferno-03.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "146mm · f/4.5 · 1/1000s · ISO 4000"
-   },
-   "wm": true
-  },
-  {
-   "title": "Stride for Stride",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Inferno",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "src": "images/sports/inferno-04.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "109mm · f/4.5 · 1/1000s · ISO 4000"
-   },
-   "wm": true
-  },
-  {
-   "title": "Scramble in the Slot",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Inferno",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "src": "images/sports/inferno-05.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "185mm · f/4.5 · 1/1000s · ISO 4000"
-   },
-   "wm": true
-  },
-  {
-   "title": "Breaking Out With the Puck",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Inferno",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "src": "images/sports/inferno-06.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "94mm · f/4.5 · 1/1000s · ISO 4000"
-   },
-   "wm": true
-  },
-  {
-   "title": "Celebration at the Bench",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Inferno",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "src": "images/sports/inferno-07.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "175mm · f/4.5 · 1/1000s · ISO 4000"
-   },
-   "wm": true
-  },
-  {
-   "title": "Inferno Orange",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Inferno",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "src": "images/sports/inferno-08.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "70mm · f/4.5 · 1/1000s · ISO 4000"
-   },
-   "wm": true
-  },
-  {
-   "title": "The Faceoff",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Inferno",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "src": "images/sports/inferno-09.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "183mm · f/4.5 · 1/1000s · ISO 4000"
-   },
-   "wm": true
-  },
-  {
-   "title": "Carrying It Through Centre",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Inferno",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "src": "images/sports/inferno-10.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "125mm · f/4.5 · 1/1000s · ISO 4000"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/sports/pwihl-01.jpg",
-   "title": "Fighting for the Loose Puck",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Womens Ice Hockey League",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "wm": true,
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "121mm · f/4 · 1/1000s · ISO 2500"
-   }
-  },
-  {
-   "src": "images/sports/pwihl-02.jpg",
-   "title": "One on One With the Keeper",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Womens Ice Hockey League",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "wm": true,
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "153mm · f/4 · 1/1000s · ISO 2500"
-   }
-  },
-  {
-   "src": "images/sports/pwihl-03.jpg",
-   "title": "The Save",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Womens Ice Hockey League",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "wm": true,
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "153mm · f/4 · 1/1000s · ISO 2500"
-   }
-  },
-  {
-   "src": "images/sports/pwihl-04.jpg",
-   "title": "Wolves, Between Shifts",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Womens Ice Hockey League",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "wm": true,
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "169mm · f/4 · 1/1000s · ISO 2500"
-   }
-  },
-  {
-   "src": "images/sports/pwihl-05.jpg",
-   "title": "Shoulder to Shoulder",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Womens Ice Hockey League",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "wm": true,
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "168mm · f/4 · 1/1000s · ISO 2500"
-   }
-  },
-  {
-   "title": "Lioness",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Mammals",
-   "loc": "Woburn Safari Park",
-   "year": "2025",
-   "src": "images/wildlife/wildlife-01.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "182mm · f/4 · 1/1600s · ISO 500"
-   },
-   "wm": true
-  },
-  {
-   "title": "Otter, Whiskers Lit",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Mammals",
-   "loc": "Woburn Safari Park",
-   "year": "2025",
-   "src": "images/wildlife/wildlife-02.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "112mm · f/4 · 1/640s · ISO 500"
-   },
-   "wm": true
-  },
-  {
-   "title": "Macaque :)",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Mammals",
-   "loc": "Woburn Safari Park",
-   "year": "2025",
-   "src": "images/wildlife/wildlife-03.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "70mm · f/4 · 1/250s · ISO 400"
-   },
-   "wm": true
-  },
-  {
-   "title": "Grey Squirrel",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Mammals",
-   "loc": "Woburn Safari Park",
-   "year": "2025",
-   "src": "images/wildlife/wildlife-04.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "174mm · f/4 · 1/320s · ISO 400"
-   },
-   "wm": true
-  },
-  {
-   "title": "Giant Tortoise",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Reptiles",
-   "loc": "Woburn Safari Park",
-   "year": "2025",
-   "src": "images/wildlife/wildlife-05.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "200mm · f/4 · 1/400s · ISO 320"
-   },
-   "wm": true
-  },
-  {
-   "title": "Penguin, Mid-Call",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Birds",
-   "loc": "Woburn Safari Park",
-   "year": "2025",
-   "src": "images/wildlife/wildlife-06.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "200mm · f/4 · 1/400s · ISO 200"
-   },
-   "wm": true
-  },
-  {
-   "title": "Ostrich in the Dark",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Birds",
-   "loc": "Woburn Safari Park",
-   "year": "2025",
-   "src": "images/wildlife/wildlife-07.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "200mm · f/4 · 1/400s · ISO 100"
-   },
-   "wm": true
-  },
-  {
-   "title": "Zebra in Profile",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Mammals",
-   "loc": "Woburn Safari Park",
-   "year": "2025",
-   "src": "images/wildlife/wildlife-08.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "200mm · f/4 · 1/1250s · ISO 250"
-   },
-   "wm": true
-  },
-  {
-   "title": "Giraffe, Tongue Out",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Mammals",
-   "loc": "Woburn Safari Park",
-   "year": "2025",
-   "src": "images/wildlife/wildlife-09.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "200mm · f/4 · 1/400s · ISO 400"
-   },
-   "wm": true
-  },
-  {
-   "title": "Otter, Paws Up",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Mammals",
-   "loc": "Woburn Safari Park",
-   "year": "2025",
-   "src": "images/wildlife/wildlife-10.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "93mm · f/4 · 1/400s · ISO 500"
-   },
-   "wm": true
-  },
-  {
-   "title": "Sea Lion, Surfacing",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Mammals",
-   "loc": "Woburn Safari Park",
-   "year": "2025",
-   "src": "images/wildlife/wildlife-11.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "200mm · f/5 · 1/400s · ISO 500"
-   },
-   "wm": true
-  },
-  {
-   "title": "Sea Lion Against the Rock",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Mammals",
-   "loc": "Woburn Safari Park",
-   "year": "2025",
-   "src": "images/wildlife/wildlife-12.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "200mm · f/4 · 1/640s · ISO 500"
-   },
-   "wm": true
-  },
-  {
-   "title": "Lioness With the Spoils",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Mammals",
-   "loc": "Woburn Safari Park",
-   "year": "2025",
-   "src": "images/wildlife/wildlife-13.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "200mm · f/4 · 1/800s · ISO 500"
-   },
-   "wm": true
-  },
-  {
-   "title": "Eland, Heads Down",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Mammals",
-   "loc": "Woburn Safari Park",
-   "year": "2025",
-   "src": "images/wildlife/wildlife-14.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "200mm · f/4 · 1/1000s · ISO 250"
-   },
-   "wm": true
-  },
-  {
-   "title": "Zebra Over the Logs",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Mammals",
-   "loc": "Woburn Safari Park",
-   "year": "2025",
-   "src": "images/wildlife/wildlife-15.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "200mm · f/4 · 1/2000s · ISO 250"
-   },
-   "wm": true
-  },
-  {
-   "title": "Macaque, Thinking",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Mammals",
-   "loc": "Woburn Safari Park",
-   "year": "2025",
-   "src": "images/wildlife/wildlife-16.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm f/4 G",
-    "set": "70mm · f/4 · 1/250s · ISO 400"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/wildlife/shenton-01.jpg",
-   "title": "Black Swan, Close",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Birds",
-   "loc": "Shenton Park, WA",
-   "wm": true,
-   "year": "2025",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "496mm · f/9 · 1/1000s · ISO 1000"
-   }
-  },
-  {
-   "src": "images/wildlife/shenton-02.jpg",
-   "title": "Black Swan on Still Water",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Birds",
-   "loc": "Shenton Park, WA",
-   "wm": true,
-   "year": "2025",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "470mm · f/9 · 1/1000s · ISO 2000"
-   }
-  },
-  {
-   "src": "images/wildlife/shenton-03.jpg",
-   "title": "Preening at the Edge",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Birds",
-   "loc": "Shenton Park, WA",
-   "wm": true,
-   "year": "2025",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "470mm · f/9 · 1/1000s · ISO 4000"
-   }
-  },
-  {
-   "src": "images/wildlife/shenton-04.jpg",
-   "title": "Coot, Running on Water",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Birds",
-   "loc": "Shenton Park, WA",
-   "wm": true,
-   "year": "2025",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "312mm · f/6.3 · 1/8000s · ISO 6400"
-   }
-  },
-  {
-   "src": "images/wildlife/shenton-05.jpg",
-   "title": "Dark Water, Single Coot",
-   "cats": [
-    "wildlife"
-   ],
-   "tag": "Birds",
-   "loc": "Shenton Park, WA",
-   "wm": true,
-   "year": "2025",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FFE 200-600mm f/5.6-6.3 G",
-    "set": "600mm · f/6.3 · 1/1000s · ISO 320"
-   }
-  },
-  {
-   "title": "Lined Up on the Blue Line",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Inferno",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "src": "images/sports/inferno-11.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm F4 G OSS",
-    "set": "70mm · f/4.5 · 1/1000s · ISO 4000"
-   },
-   "wm": true
-  },
-  {
-   "title": "Set for the Drop",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Inferno",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "src": "images/sports/inferno-12.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm F4 G OSS",
-    "set": "200mm · f/4.5 · 1/1000s · ISO 4000"
-   },
-   "wm": true
-  },
-  {
-   "title": "Driving Into Traffic",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Inferno",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "src": "images/sports/inferno-13.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm F4 G OSS",
-    "set": "200mm · f/4.5 · 1/1000s · ISO 4000"
-   },
-   "wm": true
-  },
-  {
-   "title": "One on One at the Blue Line",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Inferno",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "src": "images/sports/inferno-14.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm F4 G OSS",
-    "set": "108mm · f/4.5 · 1/1000s · ISO 4000"
-   },
-   "wm": true
-  },
-  {
-   "title": "Down but Not Out",
-   "cats": [
-    "sports"
-   ],
-   "tag": "Ice Hockey",
-   "comp": "Perth Inferno",
-   "loc": "Cockburn Ice Arena",
-   "year": "2026",
-   "src": "images/sports/inferno-15.jpg",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 70-200mm F4 G OSS",
-    "set": "94mm · f/4.5 · 1/1000s · ISO 4000"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/motorbike-12.jpg",
-   "title": "BMW #84, Hard Over",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Motorbikes",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 200-600mm F5.6-6.3 G OSS",
-    "set": "252mm · f/11 · 1/200s · ISO 160"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/motorbike-13.jpg",
-   "title": "Suzuki #116, Knee Down",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Motorbikes",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 200-600mm F5.6-6.3 G OSS",
-    "set": "353mm · f/9.5 · 1/200s · ISO 200"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/motorbike-14.jpg",
-   "title": "Aprilia #343, Red and Blue",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Motorbikes",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 200-600mm F5.6-6.3 G OSS",
-    "set": "456mm · f/11 · 1/250s · ISO 160"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/motorbike-15.jpg",
-   "title": "Black and Red, #312",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Motorbikes",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 200-600mm F5.6-6.3 G OSS",
-    "set": "518mm · f/11 · 1/250s · ISO 160"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/motorbike-16.jpg",
-   "title": "Kawasaki #80 in Green",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Motorbikes",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 200-600mm F5.6-6.3 G OSS",
-    "set": "368mm · f/11 · 1/250s · ISO 160"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/motorbike-17.jpg",
-   "title": "Blue and Orange, #45",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Motorbikes",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 200-600mm F5.6-6.3 G OSS",
-    "set": "600mm · f/11 · 1/200s · ISO 160"
-   },
-   "wm": true
-  },
-  {
-   "src": "images/motorsport/motorbike-18.jpg",
-   "title": "Green and Orange, #125",
-   "cats": [
-    "motorsport"
-   ],
-   "tag": "Motorbikes",
-   "comp": "",
-   "team": "",
-   "driver": "",
-   "track": "",
-   "session": "",
-   "loc": "Wanneroo Raceway, WA",
-   "year": "2026",
-   "feat": false,
-   "alt": "",
-   "exif": {
-    "cam": "Sony A7R IVA",
-    "lens": "FE 200-600mm F5.6-6.3 G OSS",
-    "set": "293mm · f/11 · 1/350s · ISO 200"
-   },
-   "wm": true
-  }
- ]
+  "photos": [
+    {
+      "src": "images/motorsport/motorbike-01.jpg",
+      "title": "Honda #79, Full Lean",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Motorbikes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "359mm · f/11 · 1/250s · ISO 125"
+      }
+    },
+    {
+      "src": "images/motorsport/motorbike-02.jpg",
+      "title": "Sidecar #56, Three Wheels Working",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Sidecars",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "329mm · f/11 · 1/350s · ISO 200"
+      }
+    },
+    {
+      "src": "images/motorsport/motorbike-03.jpg",
+      "title": "The Number One Plate",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Motorbikes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "541mm · f/11 · 1/125s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/motorbike-04.jpg",
+      "title": "Fluoro and Carbon, #32",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Motorbikes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "368mm · f/11 · 1/350s · ISO 200"
+      }
+    },
+    {
+      "src": "images/motorsport/motorbike-05.jpg",
+      "title": "Ducati Perth, #19",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Motorbikes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "452mm · f/11 · 1/125s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/motorbike-06.jpg",
+      "title": "Blue and White, #53",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Motorbikes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "512mm · f/11 · 1/125s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/motorbike-07.jpg",
+      "title": "Yellow #597, Clean Line",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Motorbikes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "295mm · f/9.5 · 1/200s · ISO 200"
+      }
+    },
+    {
+      "src": "images/motorsport/motorbike-08.jpg",
+      "title": "Repsol Colours, #956",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Motorbikes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "400mm · f/9.5 · 1/200s · ISO 200"
+      }
+    },
+    {
+      "src": "images/motorsport/motorbike-09.jpg",
+      "title": "Ninja #371 Over the Kerb",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Motorbikes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "318mm · f/11 · 1/125s · ISO 125"
+      }
+    },
+    {
+      "src": "images/motorsport/motorbike-10.jpg",
+      "title": "Tucked In, #52",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Motorbikes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "506mm · f/11 · 1/200s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/motorbike-11.jpg",
+      "title": "Shooting the Shooter",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Motorbikes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "489mm · f/11 · 1/350s · ISO 200"
+      }
+    },
+    {
+      "src": "images/architecture/architecture-01.jpg",
+      "title": "Crown of the Tower",
+      "cats": [
+        "architecture"
+      ],
+      "tag": "Towers",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Kuala Lumpur, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "161mm · f/4 · 1/2000s · ISO 6400"
+      }
+    },
+    {
+      "src": "images/architecture/architecture-02.jpg",
+      "title": "Skybridge",
+      "cats": [
+        "architecture"
+      ],
+      "tag": "Towers",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Kuala Lumpur, Malaysia",
+      "year": "2026",
+      "feat": true,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "70mm · f/4 · 1/500s · ISO 10000"
+      }
+    },
+    {
+      "src": "images/architecture/architecture-03.jpg",
+      "title": "Steel and Geometry",
+      "cats": [
+        "architecture"
+      ],
+      "tag": "Towers",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Kuala Lumpur, Malaysia",
+      "year": "2026",
+      "feat": true,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "89mm · f/4 · 1/500s · ISO 10000"
+      }
+    },
+    {
+      "src": "images/architecture/architecture-04.jpg",
+      "title": "Twin Spires",
+      "cats": [
+        "architecture"
+      ],
+      "tag": "Towers",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Kuala Lumpur, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "70mm · f/4 · 1/500s · ISO 10000"
+      }
+    },
+    {
+      "src": "images/architecture/architecture-05.jpg",
+      "title": "Under the Skybridge",
+      "cats": [
+        "architecture"
+      ],
+      "tag": "Towers",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Kuala Lumpur, Malaysia",
+      "year": "2026",
+      "feat": true,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "70mm · f/4 · 1/125s · ISO 5000"
+      }
+    },
+    {
+      "src": "images/architecture/architecture-06.jpg",
+      "title": "KLCC Fountains",
+      "cats": [
+        "architecture"
+      ],
+      "tag": "Cityscape",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Kuala Lumpur, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "70mm · f/4 · 1/350s · ISO 10000"
+      }
+    },
+    {
+      "src": "images/architecture/architecture-07.jpg",
+      "title": "Fountains, Towers Behind",
+      "cats": [
+        "architecture"
+      ],
+      "tag": "Cityscape",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Kuala Lumpur, Malaysia",
+      "year": "2026",
+      "feat": true,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "70mm · f/4 · 1/350s · ISO 10000"
+      }
+    },
+    {
+      "src": "images/architecture/architecture-08.jpg",
+      "title": "Petronas, Full Height",
+      "cats": [
+        "architecture"
+      ],
+      "tag": "Towers",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Kuala Lumpur, Malaysia",
+      "year": "2026",
+      "feat": true,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "70mm · f/4 · 1/350s · ISO 10000"
+      }
+    },
+    {
+      "src": "images/f1/f1-01.jpg",
+      "title": "Ferrari, Friday Running",
+      "cats": [
+        "f1"
+      ],
+      "tag": "",
+      "comp": "",
+      "team": "Ferrari",
+      "driver": "Hamilton",
+      "track": "Silverstone",
+      "session": "FP2",
+      "loc": "",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "481mm · f/6.7 · 1/1000s · ISO 50"
+      }
+    },
+    {
+      "src": "images/f1/f1-02.jpg",
+      "title": "Ferrari on the White Line",
+      "cats": [
+        "f1"
+      ],
+      "tag": "",
+      "comp": "",
+      "team": "Ferrari",
+      "driver": "Hamilton",
+      "track": "Silverstone",
+      "session": "FP2",
+      "loc": "",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "236mm · f/5.6 · 1/1000s · ISO 50"
+      }
+    },
+    {
+      "src": "images/f1/f1-03.jpg",
+      "title": "Stake Sauber, Saturday Morning",
+      "cats": [
+        "f1"
+      ],
+      "tag": "",
+      "comp": "",
+      "team": "Sauber",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "FP3",
+      "loc": "",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "489mm · f/6.3 · 1/1500s · ISO 320"
+      }
+    },
+    {
+      "src": "images/f1/f1-04.jpg",
+      "title": "McLaren, Qualifying",
+      "cats": [
+        "f1"
+      ],
+      "tag": "",
+      "comp": "",
+      "team": "McLaren",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "Qualifying",
+      "loc": "",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "576mm · f/6.3 · 1/1500s · ISO 400"
+      }
+    },
+    {
+      "src": "images/f1/f1-05.jpg",
+      "title": "Ferrari, Qualifying",
+      "cats": [
+        "f1"
+      ],
+      "tag": "",
+      "comp": "",
+      "team": "Ferrari",
+      "driver": "Hamilton",
+      "track": "Silverstone",
+      "session": "Qualifying",
+      "loc": "",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "448mm · f/5.6 · 1/1500s · ISO 640"
+      }
+    },
+    {
+      "src": "images/f1/f1-06.jpg",
+      "title": "Ferrari, Race Day",
+      "cats": [
+        "f1"
+      ],
+      "tag": "",
+      "comp": "",
+      "team": "Ferrari",
+      "driver": "Hamilton",
+      "track": "Silverstone",
+      "session": "Race",
+      "loc": "",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "318mm · f/6.3 · 1/1000s · ISO 800"
+      }
+    },
+    {
+      "src": "images/f1/f1-07.jpg",
+      "title": "Ferrari at Full Chat",
+      "cats": [
+        "f1"
+      ],
+      "tag": "",
+      "comp": "",
+      "team": "Ferrari",
+      "driver": "Hamilton",
+      "track": "Silverstone",
+      "session": "Race",
+      "loc": "",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "397mm · f/6.3 · 1/1000s · ISO 800"
+      }
+    },
+    {
+      "src": "images/f1/f1-08.jpg",
+      "title": "Safety Car, Recovery Underway",
+      "cats": [
+        "f1"
+      ],
+      "tag": "",
+      "comp": "",
+      "team": "Safety Car",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "Safety Car",
+      "loc": "",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "565mm · f/6.3 · 1/1500s · ISO 400"
+      }
+    },
+    {
+      "src": "images/f1/f1-09.jpg",
+      "title": "Safety Car on Track",
+      "cats": [
+        "f1"
+      ],
+      "tag": "",
+      "comp": "",
+      "team": "Safety Car",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "Safety Car",
+      "loc": "",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "459mm · f/6.3 · 1/1000s · ISO 320"
+      }
+    },
+    {
+      "src": "images/f1/f1-10.jpg",
+      "title": "Safety Car, Malaysia",
+      "cats": [
+        "f1"
+      ],
+      "tag": "",
+      "comp": "",
+      "team": "Safety Car",
+      "driver": "",
+      "track": "Sepang",
+      "session": "Safety Car",
+      "loc": "",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "200mm · f/10 · 1/320s · ISO 500"
+      }
+    },
+    {
+      "src": "images/f1/f1-11.jpg",
+      "title": "Stake Sauber, Rooster Tail",
+      "cats": [
+        "f1"
+      ],
+      "tag": "",
+      "comp": "",
+      "team": "Sauber",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "Race",
+      "loc": "",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "456mm · f/6.3 · 1/1000s · ISO 800"
+      }
+    },
+    {
+      "src": "images/f1/f1-12.jpg",
+      "title": "Haas in the Wet",
+      "cats": [
+        "f1"
+      ],
+      "tag": "",
+      "comp": "",
+      "team": "Haas",
+      "driver": "Ocon",
+      "track": "Silverstone",
+      "session": "Race",
+      "loc": "",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "391mm · f/6.3 · 1/1000s · ISO 400"
+      }
+    },
+    {
+      "src": "images/f1/f1-13.jpg",
+      "title": "McLaren, Friday Running",
+      "cats": [
+        "f1"
+      ],
+      "tag": "",
+      "comp": "",
+      "team": "McLaren",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "FP2",
+      "loc": "",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "394mm · f/5.6 · 1/1000s · ISO 50"
+      }
+    },
+    {
+      "src": "images/f1/f1-14.jpg",
+      "title": "Ferrari in the Spray",
+      "cats": [
+        "f1"
+      ],
+      "tag": "",
+      "comp": "",
+      "team": "Ferrari",
+      "driver": "Hamilton",
+      "track": "Silverstone",
+      "session": "Race",
+      "loc": "",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "481mm · f/6.3 · 1/1000s · ISO 800"
+      }
+    },
+    {
+      "src": "images/f1/f1-15.jpg",
+      "title": "Haas, Clean Air",
+      "cats": [
+        "f1"
+      ],
+      "tag": "",
+      "comp": "",
+      "team": "Haas",
+      "driver": "Bearman",
+      "track": "Silverstone",
+      "session": "Race",
+      "loc": "",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "353mm · f/6.3 · 1/1000s · ISO 640"
+      }
+    },
+    {
+      "src": "images/f1/f1-16.jpg",
+      "title": "Ferrari, Friday Afternoon",
+      "cats": [
+        "f1"
+      ],
+      "tag": "",
+      "comp": "",
+      "team": "Ferrari",
+      "driver": "Hamilton",
+      "track": "Silverstone",
+      "session": "FP2",
+      "loc": "",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "211mm · f/5.6 · 1/1000s · ISO 50"
+      }
+    },
+    {
+      "src": "images/sports/hockey-01.jpg",
+      "title": "Eyes on the Puck",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Perth Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "200mm · f/6.3 · 1/640s · ISO 10000"
+      }
+    },
+    {
+      "src": "images/sports/hockey-02.jpg",
+      "title": "Winding Up",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Perth Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "200mm · f/6.3 · 1/640s · ISO 10000"
+      }
+    },
+    {
+      "src": "images/sports/hockey-03.jpg",
+      "title": "Driving the Blue Line",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Perth Ice Arena",
+      "year": "2026",
+      "feat": true,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "218mm · f/6.3 · 1/640s · ISO 10000"
+      }
+    },
+    {
+      "src": "images/sports/hockey-04.jpg",
+      "title": "Battle for the Puck",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Perth Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "200mm · f/6.3 · 1/640s · ISO 10000"
+      }
+    },
+    {
+      "src": "images/sports/hockey-05.jpg",
+      "title": "Contact in the Corner",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Perth Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "200mm · f/6.3 · 1/640s · ISO 10000"
+      }
+    },
+    {
+      "src": "images/sports/hockey-06.jpg",
+      "title": "Breaking Out",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Perth Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "200mm · f/6.3 · 1/640s · ISO 10000"
+      }
+    },
+    {
+      "src": "images/sports/hockey-07.jpg",
+      "title": "Between Shifts",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Perth Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "200mm · f/6.3 · 1/640s · ISO 10000"
+      }
+    },
+    {
+      "src": "images/sports/hockey-08.jpg",
+      "title": "Flyers Blue",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Perth Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "169mm · f/6.3 · 1/640s · ISO 12800"
+      }
+    },
+    {
+      "src": "images/motorsport/supercars-01.jpg",
+      "title": "Castrol Mustang, Panned",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Supercars",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "270mm · f/11 · 1/125s · ISO 50"
+      }
+    },
+    {
+      "src": "images/motorsport/supercars-02.jpg",
+      "title": "TotalEnergies Camaro",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Supercars",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "236mm · f/11 · 1/125s · ISO 50"
+      }
+    },
+    {
+      "src": "images/motorsport/supercars-03.jpg",
+      "title": "Supra Through the Chicane",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Supercars",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "344mm · f/11 · 1/125s · ISO 50"
+      }
+    },
+    {
+      "src": "images/motorsport/supercars-04.jpg",
+      "title": "Trans Am, Off and Digging",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Trans Am",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IV",
+        "lens": "FE 200-600mm f/5.6-6.3 G",
+        "set": "600mm · f/11 · 1/200s · ISO 125"
+      }
+    },
+    {
+      "src": "images/motorsport/radical-01.jpg",
+      "title": "Red Prototype, Hard on the Brakes",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Radicals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "404mm · f/11 · 1/160s · ISO 125"
+      }
+    },
+    {
+      "src": "images/motorsport/radical-02.jpg",
+      "title": "Open Cockpit Through the Sweeper",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Radicals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "309mm · f/11 · 1/125s · ISO 125"
+      }
+    },
+    {
+      "src": "images/motorsport/radical-03.jpg",
+      "title": "Liftoff Racing #18",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Radicals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "329mm · f/11 · 1/200s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/radical-04.jpg",
+      "title": "Volante Rojo #47",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Radicals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "211mm · f/11 · 1/160s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/radical-05.jpg",
+      "title": "Radicals Three Abreast",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Radicals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "459mm · f/11 · 1/250s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/radical-06.jpg",
+      "title": "Blue #33 Under the Gantry",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Radicals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "600mm · f/11 · 1/125s · ISO 50"
+      }
+    },
+    {
+      "src": "images/motorsport/superute-01.jpg",
+      "title": "WeatherTech Leads the Pack",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Super Utes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "470mm · f/11 · 1/200s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/superute-02.jpg",
+      "title": "Aprilla Grids #805",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Super Utes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "264mm · f/11 · 1/200s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/superute-03.jpg",
+      "title": "Gear Hat Co #79",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Super Utes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "332mm · f/11 · 1/125s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/superute-04.jpg",
+      "title": "Nulon Motion #15",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Super Utes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "356mm · f/11 · 1/125s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/superute-05.jpg",
+      "title": "Shore Barge #333",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Super Utes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "266mm · f/11 · 1/100s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/superute-06.jpg",
+      "title": "Uniden #49",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Super Utes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "298mm · f/11 · 1/100s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/superute-07.jpg",
+      "title": "WeatherTech #1",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Super Utes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "338mm · f/11 · 1/100s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/superute-08.jpg",
+      "title": "Custom Lithium #18",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Super Utes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "335mm · f/11 · 1/100s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/transam-01.jpg",
+      "title": "Into the Gravel",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Trans Am",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "200mm · f/11 · 1/400s · ISO 125"
+      }
+    },
+    {
+      "src": "images/motorsport/transam-02.jpg",
+      "title": "Three-Wide Into Turn One",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Trans Am",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "565mm · f/11 · 1/200s · ISO 125"
+      }
+    },
+    {
+      "src": "images/motorsport/transam-03.jpg",
+      "title": "Auto Openers Mustang",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Trans Am",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "415mm · f/11 · 1/200s · ISO 125"
+      }
+    },
+    {
+      "src": "images/motorsport/transam-04.jpg",
+      "title": "TFH #63",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Trans Am",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "321mm · f/11 · 1/200s · ISO 125"
+      }
+    },
+    {
+      "src": "images/motorsport/transam-05.jpg",
+      "title": "Fighting for the Line",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Trans Am",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "600mm · f/11 · 1/200s · ISO 125"
+      }
+    },
+    {
+      "src": "images/motorsport/transam-06.jpg",
+      "title": "Red Rooster Camaro",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Trans Am",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "559mm · f/11 · 1/200s · ISO 125"
+      }
+    },
+    {
+      "src": "images/motorsport/transam-07.jpg",
+      "title": "Auto Openers on the Exit",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Trans Am",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "541mm · f/11 · 1/320s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/v8-01.jpg",
+      "title": "Red Bull Ampol Racing",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Supercars",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "255mm · f/11 · 1/200s · ISO 125"
+      }
+    },
+    {
+      "src": "images/motorsport/v8-02.jpg",
+      "title": "Green and White, Mid-Corner",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Supercars",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "257mm · f/11 · 1/125s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/v8-03.jpg",
+      "title": "Shell V-Power #17",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Supercars",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "404mm · f/11 · 1/160s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/v8-04.jpg",
+      "title": "Objective Racing",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Supercars",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "359mm · f/11 · 1/160s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/v8-05.jpg",
+      "title": "Monster Energy Autobarn",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Supercars",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "280mm · f/11 · 1/125s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/v8-06.jpg",
+      "title": "Optus Camaro",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Supercars",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "209mm · f/11 · 1/125s · ISO 100"
+      }
+    },
+    {
+      "src": "images/motorsport/v8-07.jpg",
+      "title": "CoolDrive Blue",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Supercars",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "259mm · f/11 · 1/125s · ISO 50"
+      }
+    },
+    {
+      "src": "images/motorsport/v8-08.jpg",
+      "title": "PremiAir Racing",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Supercars",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "332mm · f/11 · 1/125s · ISO 50"
+      }
+    },
+    {
+      "src": "images/sports/inferno-01.jpg",
+      "title": "Huddle Before the Drop",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Inferno",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "132mm · f/4.5 · 1/1000s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/sports/inferno-02.jpg",
+      "title": "Pinned on the Boards",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Inferno",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "200mm · f/4.5 · 1/1000s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/sports/inferno-03.jpg",
+      "title": "Winding Up at the Blue Line",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Inferno",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "146mm · f/4.5 · 1/1000s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/sports/inferno-04.jpg",
+      "title": "Stride for Stride",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Inferno",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "109mm · f/4.5 · 1/1000s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/sports/inferno-05.jpg",
+      "title": "Scramble in the Slot",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Inferno",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "185mm · f/4.5 · 1/1000s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/sports/inferno-06.jpg",
+      "title": "Breaking Out With the Puck",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Inferno",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "94mm · f/4.5 · 1/1000s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/sports/inferno-07.jpg",
+      "title": "Celebration at the Bench",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Inferno",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "175mm · f/4.5 · 1/1000s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/sports/inferno-08.jpg",
+      "title": "Inferno Orange",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Inferno",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "70mm · f/4.5 · 1/1000s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/sports/inferno-09.jpg",
+      "title": "The Faceoff",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Inferno",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "183mm · f/4.5 · 1/1000s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/sports/inferno-10.jpg",
+      "title": "Carrying It Through Centre",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Inferno",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "125mm · f/4.5 · 1/1000s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/sports/pwihl-01.jpg",
+      "title": "Fighting for the Loose Puck",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Womens Ice Hockey League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "121mm · f/4 · 1/1000s · ISO 2500"
+      }
+    },
+    {
+      "src": "images/sports/pwihl-02.jpg",
+      "title": "One on One With the Keeper",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Womens Ice Hockey League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "153mm · f/4 · 1/1000s · ISO 2500"
+      }
+    },
+    {
+      "src": "images/sports/pwihl-03.jpg",
+      "title": "The Save",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Womens Ice Hockey League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "153mm · f/4 · 1/1000s · ISO 2500"
+      }
+    },
+    {
+      "src": "images/sports/pwihl-04.jpg",
+      "title": "Wolves, Between Shifts",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Womens Ice Hockey League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "169mm · f/4 · 1/1000s · ISO 2500"
+      }
+    },
+    {
+      "src": "images/sports/pwihl-05.jpg",
+      "title": "Shoulder to Shoulder",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Womens Ice Hockey League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "168mm · f/4 · 1/1000s · ISO 2500"
+      }
+    },
+    {
+      "src": "images/wildlife/wildlife-01.jpg",
+      "title": "Lioness",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Mammals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Woburn Safari Park",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "182mm · f/4 · 1/1600s · ISO 500"
+      }
+    },
+    {
+      "src": "images/wildlife/wildlife-02.jpg",
+      "title": "Otter, Whiskers Lit",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Mammals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Woburn Safari Park",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "112mm · f/4 · 1/640s · ISO 500"
+      }
+    },
+    {
+      "src": "images/wildlife/wildlife-03.jpg",
+      "title": "Macaque :)",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Mammals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Woburn Safari Park",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "70mm · f/4 · 1/250s · ISO 400"
+      }
+    },
+    {
+      "src": "images/wildlife/wildlife-04.jpg",
+      "title": "Grey Squirrel",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Mammals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Woburn Safari Park",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "174mm · f/4 · 1/320s · ISO 400"
+      }
+    },
+    {
+      "src": "images/wildlife/wildlife-05.jpg",
+      "title": "Giant Tortoise",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Reptiles",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Woburn Safari Park",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "200mm · f/4 · 1/400s · ISO 320"
+      }
+    },
+    {
+      "src": "images/wildlife/wildlife-06.jpg",
+      "title": "Penguin, Mid-Call",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Birds",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Woburn Safari Park",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "200mm · f/4 · 1/400s · ISO 200"
+      }
+    },
+    {
+      "src": "images/wildlife/wildlife-07.jpg",
+      "title": "Ostrich in the Dark",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Birds",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Woburn Safari Park",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "200mm · f/4 · 1/400s · ISO 100"
+      }
+    },
+    {
+      "src": "images/wildlife/wildlife-08.jpg",
+      "title": "Zebra in Profile",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Mammals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Woburn Safari Park",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "200mm · f/4 · 1/1250s · ISO 250"
+      }
+    },
+    {
+      "src": "images/wildlife/wildlife-09.jpg",
+      "title": "Giraffe, Tongue Out",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Mammals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Woburn Safari Park",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "200mm · f/4 · 1/400s · ISO 400"
+      }
+    },
+    {
+      "src": "images/wildlife/wildlife-10.jpg",
+      "title": "Otter, Paws Up",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Mammals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Woburn Safari Park",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "93mm · f/4 · 1/400s · ISO 500"
+      }
+    },
+    {
+      "src": "images/wildlife/wildlife-11.jpg",
+      "title": "Sea Lion, Surfacing",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Mammals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Woburn Safari Park",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "200mm · f/5 · 1/400s · ISO 500"
+      }
+    },
+    {
+      "src": "images/wildlife/wildlife-12.jpg",
+      "title": "Sea Lion Against the Rock",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Mammals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Woburn Safari Park",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "200mm · f/4 · 1/640s · ISO 500"
+      }
+    },
+    {
+      "src": "images/wildlife/wildlife-13.jpg",
+      "title": "Lioness With the Spoils",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Mammals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Woburn Safari Park",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "200mm · f/4 · 1/800s · ISO 500"
+      }
+    },
+    {
+      "src": "images/wildlife/wildlife-14.jpg",
+      "title": "Eland, Heads Down",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Mammals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Woburn Safari Park",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "200mm · f/4 · 1/1000s · ISO 250"
+      }
+    },
+    {
+      "src": "images/wildlife/wildlife-15.jpg",
+      "title": "Zebra Over the Logs",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Mammals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Woburn Safari Park",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "200mm · f/4 · 1/2000s · ISO 250"
+      }
+    },
+    {
+      "src": "images/wildlife/wildlife-16.jpg",
+      "title": "Macaque, Thinking",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Mammals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Woburn Safari Park",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm f/4 G",
+        "set": "70mm · f/4 · 1/250s · ISO 400"
+      }
+    },
+    {
+      "src": "images/wildlife/shenton-01.jpg",
+      "title": "Black Swan, Close",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Birds",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Shenton Park, WA",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "496mm · f/9 · 1/1000s · ISO 1000"
+      }
+    },
+    {
+      "src": "images/wildlife/shenton-02.jpg",
+      "title": "Black Swan on Still Water",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Birds",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Shenton Park, WA",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "470mm · f/9 · 1/1000s · ISO 2000"
+      }
+    },
+    {
+      "src": "images/wildlife/shenton-03.jpg",
+      "title": "Preening at the Edge",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Birds",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Shenton Park, WA",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "470mm · f/9 · 1/1000s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/wildlife/shenton-04.jpg",
+      "title": "Coot, Running on Water",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Birds",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Shenton Park, WA",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "312mm · f/6.3 · 1/8000s · ISO 6400"
+      }
+    },
+    {
+      "src": "images/wildlife/shenton-05.jpg",
+      "title": "Dark Water, Single Coot",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Birds",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Shenton Park, WA",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FFE 200-600mm f/5.6-6.3 G",
+        "set": "600mm · f/6.3 · 1/1000s · ISO 320"
+      }
+    },
+    {
+      "src": "images/sports/inferno-11.jpg",
+      "title": "Lined Up on the Blue Line",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Inferno",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "70mm · f/4.5 · 1/1000s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/sports/inferno-12.jpg",
+      "title": "Set for the Drop",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Inferno",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/4.5 · 1/1000s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/sports/inferno-13.jpg",
+      "title": "Driving Into Traffic",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Inferno",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/4.5 · 1/1000s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/sports/inferno-14.jpg",
+      "title": "One on One at the Blue Line",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Inferno",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "108mm · f/4.5 · 1/1000s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/sports/inferno-15.jpg",
+      "title": "Down but Not Out",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Inferno",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "94mm · f/4.5 · 1/1000s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/motorsport/motorbike-12.jpg",
+      "title": "BMW #84, Hard Over",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Motorbikes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "252mm · f/11 · 1/200s · ISO 160"
+      }
+    },
+    {
+      "src": "images/motorsport/motorbike-13.jpg",
+      "title": "Suzuki #116, Knee Down",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Motorbikes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "353mm · f/9.5 · 1/200s · ISO 200"
+      }
+    },
+    {
+      "src": "images/motorsport/motorbike-14.jpg",
+      "title": "Aprilia #343, Red and Blue",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Motorbikes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "456mm · f/11 · 1/250s · ISO 160"
+      }
+    },
+    {
+      "src": "images/motorsport/motorbike-15.jpg",
+      "title": "Black and Red, #312",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Motorbikes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "518mm · f/11 · 1/250s · ISO 160"
+      }
+    },
+    {
+      "src": "images/motorsport/motorbike-16.jpg",
+      "title": "Kawasaki #80 in Green",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Motorbikes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "368mm · f/11 · 1/250s · ISO 160"
+      }
+    },
+    {
+      "src": "images/motorsport/motorbike-17.jpg",
+      "title": "Blue and Orange, #45",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Motorbikes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "600mm · f/11 · 1/200s · ISO 160"
+      }
+    },
+    {
+      "src": "images/motorsport/motorbike-18.jpg",
+      "title": "Green and Orange, #125",
+      "cats": [
+        "motorsport"
+      ],
+      "tag": "Motorbikes",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Wanneroo Raceway, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "293mm · f/11 · 1/350s · ISO 200"
+      }
+    }
+  ]
 }
