@@ -3035,6 +3035,374 @@
         "lens": "FE 70-200mm F4 G OSS",
         "set": "200mm · f/4 · 1/400s · ISO 320"
       }
+    },
+    {
+      "src": "images/wildlife/caversham-01.jpg",
+      "title": "Wallaby in Dappled Light",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Mammals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Caversham Wildlife Park, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "200mm · f/5.6 · 1/250s · ISO 125"
+      }
+    },
+    {
+      "src": "images/wildlife/caversham-02.jpg",
+      "title": "Wallaby With a Carrot",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Mammals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Caversham Wildlife Park, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "200mm · f/5.6 · 1/250s · ISO 640"
+      }
+    },
+    {
+      "src": "images/wildlife/caversham-03.jpg",
+      "title": "Wallaby Feeding in the Grass",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Mammals",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Caversham Wildlife Park, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "230mm · f/5.6 · 1/250s · ISO 500"
+      }
+    },
+    {
+      "src": "images/wildlife/caversham-04.jpg",
+      "title": "White Ibis on Green",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Birds",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Caversham Wildlife Park, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "236mm · f/5.6 · 1/500s · ISO 100"
+      }
+    },
+    {
+      "src": "images/wildlife/caversham-05.jpg",
+      "title": "Royal Spoonbill, Lit",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Birds",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Caversham Wildlife Park, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "248mm · f/5.6 · 1/250s · ISO 125"
+      }
+    },
+    {
+      "src": "images/wildlife/caversham-06.jpg",
+      "title": "Glossy Ibis on the Post",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Birds",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Caversham Wildlife Park, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "250mm · f/5.6 · 1/320s · ISO 250"
+      }
+    },
+    {
+      "src": "images/wildlife/caversham-07.jpg",
+      "title": "Spoonbill on Red Earth",
+      "cats": [
+        "wildlife"
+      ],
+      "tag": "Birds",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Caversham Wildlife Park, WA",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "200mm · f/5.6 · 1/640s · ISO 100"
+      }
+    },
+    {
+      "src": "images/sports/pwihl-06.jpg",
+      "title": "Driving Down the Wing",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Womens Ice Hockey League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "162mm · f/4 · 1/500s · ISO 1600"
+      }
+    },
+    {
+      "src": "images/sports/pwihl-07.jpg",
+      "title": "Challenge at the Blue Line",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Womens Ice Hockey League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "71mm · f/4 · 1/500s · ISO 1250"
+      }
+    },
+    {
+      "src": "images/sports/pwihl-08.jpg",
+      "title": "Clean Carry Up the Ice",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Womens Ice Hockey League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "178mm · f/4 · 1/500s · ISO 1600"
+      }
+    },
+    {
+      "src": "images/sports/pwihl-09.jpg",
+      "title": "Purple Against Blue",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Womens Ice Hockey League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "158mm · f/4 · 1/500s · ISO 1600"
+      }
+    },
+    {
+      "src": "images/sports/pwihl-10.jpg",
+      "title": "Boards Battle",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Womens Ice Hockey League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "121mm · f/4 · 1/1000s · ISO 2500"
+      }
+    },
+    {
+      "src": "images/sports/pwihl-11.jpg",
+      "title": "Traffic in the Crease",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Womens Ice Hockey League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "153mm · f/4 · 1/1000s · ISO 2500"
+      }
+    },
+    {
+      "src": "images/sports/pwihl-12.jpg",
+      "title": "Down in the Crease",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Womens Ice Hockey League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "153mm · f/4 · 1/1000s · ISO 2500"
+      }
+    },
+    {
+      "src": "images/sports/pwihl-13.jpg",
+      "title": "Wolves, Together",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Womens Ice Hockey League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "169mm · f/4 · 1/1000s · ISO 2500"
+      }
+    },
+    {
+      "src": "images/sports/pwihl-14.jpg",
+      "title": "Waiting at the Home Bench",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "comp": "Perth Womens Ice Hockey League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "78mm · f/4 · 1/125s · ISO 2500"
+      }
     }
   ]
 }
