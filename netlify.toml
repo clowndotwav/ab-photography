@@ -4,12 +4,16 @@
 [build]
   publish = "."          # the site is already built; serve this folder as-is
 
-# Cache photos hard (they never change once uploaded) but always revalidate
-# the HTML, so edits show up immediately instead of being stuck in a cache.
+# Photos are cached for a day and then revalidated. They were briefly marked
+# "immutable" with a one-year max-age, which was wrong for this site: the
+# filenames are stable (wildlife-01.jpg and so on) but their CONTENTS get
+# replaced — a re-edit, a re-crop, a watermark change. "immutable" tells a
+# browser not even to ask, so a replaced photo stays stale for a year and a
+# half-loaded one never recovers. Revalidation costs one cheap 304.
 [[headers]]
   for = "/images/*"
   [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
 
 [[headers]]
   for = "/*.html"
