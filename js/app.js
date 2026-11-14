@@ -9,6 +9,15 @@
   const $$ = (s, c) => Array.from((c || document).querySelectorAll(s));
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  // Photos were served for a while with "Cache-Control: immutable, max-age=1yr".
+  // The filenames are stable but their CONTENTS were replaced (the watermark was
+  // moved into the corner and switched to black on ice), so any browser that
+  // loaded the site during that window is pinned to the OLD picture for a year
+  // and will never re-ask. Changing the URL is the only way to reach those
+  // browsers. Bump this token whenever the image files are reprocessed.
+  const PHOTO_VER = "wm2";
+  const photoURL = (src) => src + (src.indexOf("?") < 0 ? "?v=" : "&v=") + PHOTO_VER;
+
   let GALLERY      = [];    // filled from data/gallery.json at boot
   let activeTab    = TABS[0].id;
   let activeFilters = {};   // { filterKey: value } — "All" means no constraint
@@ -209,7 +218,8 @@
       card.setAttribute("aria-label", "Open " + p.title + " full screen");
 
       card.innerHTML =
-        '<div class="card-media">' +
+        '<div class="card-media' + (p.ar ? " has-ratio" : "") + '"' +
+             (p.ar ? ' style="--ar:' + esc(p.ar) + '"' : "") + ">" +
           '<span class="card-badge">' + esc(p.tag || p.team || p.session || "") + "</span>" +
           '<span class="card-expand" aria-hidden="true">' +
             '<svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
@@ -230,6 +240,13 @@
         const img = new Image();
         img.alt = p.alt || p.title;
         img.decoding = "async";
+        const fitMedia = () => {
+          if (p.ar || !img.naturalWidth) return;
+          const box = card.querySelector(".card-media");
+          if (!box || card.classList.contains("is-feat")) return;
+          box.style.setProperty("--ar", img.naturalWidth + " / " + img.naturalHeight);
+          box.classList.add("has-ratio");
+        };
 
         const swapIn = () => {
           // the grid may have re-rendered while this was loading
@@ -242,7 +259,7 @@
         };
 
         img.addEventListener("load", swapIn);          // listener BEFORE src
-        img.src = p.src;
+        img.src = photoURL(p.src);
         if (img.complete && img.naturalWidth) swapIn(); // already cached
       }
 
@@ -304,7 +321,7 @@
       img.alt = p.alt || p.title;
       const show = () => { if (visible[lbIdx] === p) { fig.innerHTML = ""; fig.appendChild(img); } };
       img.addEventListener("load", show);
-      img.src = p.src;
+      img.src = photoURL(p.src);
       if (img.complete && img.naturalWidth) show();
     }
 
@@ -320,7 +337,7 @@
       ex.set    ? "<span>Exposure <b>" + esc(ex.set)    + "</b></span>" : ""
     ].join("");
 
-    [visible[lbIdx + 1], visible[lbIdx - 1]].forEach(n => { if (n && n.src) new Image().src = n.src; });
+    [visible[lbIdx + 1], visible[lbIdx - 1]].forEach(n => { if (n && n.src) new Image().src = photoURL(n.src); });
   }
 
   $("#lbClose").addEventListener("click", closeLightbox);
