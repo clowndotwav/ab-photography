@@ -182,6 +182,10 @@ const TABS = [
      b      gradient end
      accent the readable UI colour — borders, counts, links.
             Keep it light enough to sit on a near-black page.
+     embers true adds a slow drift of ember specks in the team's two
+            colours. It suits Inferno because of the name; it would
+            look arbitrary on a team it means nothing for, so it is
+            opt-in rather than automatic.
 
    A value that isn't listed here just keeps the tab's own
    accent, so adding a team is one line and removing one is safe.
@@ -189,7 +193,8 @@ const TABS = [
    ============================================================ */
 
 const FILTER_THEMES = {
-  "Perth Inferno": { a: "274 42% 46%", b: "16 95% 55%", accent: "276 70% 68%" }
+  "Perth Inferno": { a: "274 42% 46%", b: "16 95% 55%", accent: "276 70% 68%",
+                     embers: true }
 
   /* To add a team later, copy the line above and change the name to
      match the chip text exactly. F1 teams work the same way, e.g.

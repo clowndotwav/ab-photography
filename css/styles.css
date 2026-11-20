@@ -652,10 +652,10 @@ h1,h2,h3,h4{ font-family:var(--font-display); font-weight:700; line-height:1.08;
   content:""; position:absolute; inset:-1.5rem -1.75rem -.25rem;
   border-radius:22px; pointer-events:none;
   background:linear-gradient(100deg,
-      hsl(var(--team-a) / .42) 0%,
-      hsl(var(--team-a) / .30) 22%,
-      hsl(var(--team-b) / .34) 52%,
-      hsl(var(--team-b) / .14) 78%,
+      hsl(var(--team-a) / .58) 0%,
+      hsl(var(--team-a) / .42) 22%,
+      hsl(var(--team-b) / .48) 52%,
+      hsl(var(--team-b) / .20) 78%,
       hsl(var(--team-b) / 0)   100%);
   background-size:230% 100%;
   /* soft on every edge: no hard line above, and gone well before
@@ -712,10 +712,10 @@ h1,h2,h3,h4{ font-family:var(--font-display); font-weight:700; line-height:1.08;
    be stronger or weaker, these three numbers are the dial. */
 body.has-team::after{
   background:
-    radial-gradient(44rem 44rem at  8%  2%, hsl(var(--team-a) / .34), transparent 64%),
-    radial-gradient(34rem 34rem at 94% 44%, hsl(var(--team-b) / .16), transparent 60%),
-    radial-gradient(60rem 38rem at 50% 104%, hsl(var(--team-b) / .40), transparent 68%);
-  opacity:.95;
+    radial-gradient(46rem 46rem at  6%  0%, hsl(var(--team-a) / .48), transparent 64%),
+    radial-gradient(36rem 36rem at 96% 40%, hsl(var(--team-b) / .24), transparent 60%),
+    radial-gradient(64rem 40rem at 50% 106%, hsl(var(--team-b) / .56), transparent 68%);
+  opacity:1;
 }
 
 /* and the footer itself picks up the second colour, so the very
@@ -748,3 +748,43 @@ body.has-team::after{
   opacity:0; transition:opacity .6s var(--ease);
 }
 .has-team .footer::after{ opacity:1; }
+
+
+/* ---------- 16. EMBERS ----------
+   Opt-in per team (embers: true in FILTER_THEMES) — it earns its place
+   on Inferno because of the name and would be arbitrary anywhere else.
+   Specks drift up the viewport in the team's two colours. The layer is
+   fixed and sits at the same depth as the ambient glow, so the cards
+   and the photographs cover it rather than it floating over them.
+   Each speck gets its own size, lane, drift, speed and delay from JS,
+   so nothing visibly loops in step. */
+.embers{
+  position:fixed; inset:0; z-index:0; pointer-events:none;
+  overflow:hidden; contain:strict;
+  opacity:0; transition:opacity .9s var(--ease);
+}
+.has-team .embers{ opacity:1; }
+
+.ember{
+  position:absolute; bottom:-8vh; left:var(--x);
+  width:var(--s); height:var(--s); border-radius:50%;
+  background:radial-gradient(circle,
+      hsl(var(--c) / .98) 0%, hsl(var(--c) / .5) 42%, transparent 72%);
+  /* the halo is what makes a dot read as a light rather than dust */
+  box-shadow:0 0 calc(var(--s) * 3) hsl(var(--c) / .55);
+  opacity:0;
+  will-change:transform, opacity;
+  animation:ember-rise var(--d) linear var(--delay) infinite;
+}
+@keyframes ember-rise{
+  0%   { transform:translate3d(0, 0, 0) scale(.55);           opacity:0; }
+  10%  {                                                      opacity:var(--o); }
+  70%  {                                                      opacity:var(--o); }
+  100% { transform:translate3d(var(--drift), -116vh, 0) scale(1.15); opacity:0; }
+}
+
+/* Embers are decoration and they move: anyone who has asked for less
+   motion gets the colour without the drift. */
+@media (prefers-reduced-motion: reduce){
+  .embers{ display:none; }
+}
