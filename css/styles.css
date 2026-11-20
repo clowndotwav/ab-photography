@@ -303,7 +303,13 @@ h1,h2,h3,h4{ font-family:var(--font-display); font-weight:700; line-height:1.08;
 .card.is-in{ opacity:1; transform:none; }
 .card:hover{ border-color:var(--accent-line); box-shadow:0 18px 50px hsl(230 30% 2% / .7); }
 
-.card-media{ position:relative; aspect-ratio:3/2; overflow:hidden; background:var(--bg-2); }
+/* No forced aspect ratio: each tile takes its photo's own shape. The grid is
+   a CSS-columns masonry, so mixed heights are what it expects anyway — and
+   nothing gets cropped, which matters now the AB mark sits in the corner of
+   the frame. aspect-ratio is still set per photo from JS so the tile reserves
+   the right height before the image decodes (no layout jump). */
+.card-media{ position:relative; overflow:hidden; background:var(--bg-2); aspect-ratio:3/2; }
+.card-media.has-ratio{ aspect-ratio:var(--ar); }
 .card.is-feat .card-media{ aspect-ratio:3/4; }
 .card-media img{ width:100%; height:100%; object-fit:cover; transition:transform .75s var(--ease-out); }
 .card:hover .card-media img{ transform:scale(1.06); }
@@ -624,4 +630,70 @@ h1,h2,h3,h4{ font-family:var(--font-display); font-weight:700; line-height:1.08;
    take a little more room rather than shrink past legibility. */
 @media (max-width: 560px) {
   .wm-overlay { width: 22%; }
+}
+
+/* ---------- 14. TEAM COLOURS ON THE FILTER ROW ----------
+   Picking a chip that has a team in FILTER_THEMES tints the
+   chrome only — a gradient wash behind the filter rows and a
+   gradient fill on the active chips. The grid keeps its dark
+   neutral background on purpose: a coloured field behind the
+   photos shifts how every one of them reads.
+   Both colours drift slowly across the gradient so the two
+   never sit in fixed blocks ("flow"), and the drift stops for
+   anyone who asks for reduced motion. */
+:root{
+  --team-a: var(--accent-h) var(--accent-s) var(--accent-l);
+  --team-b: var(--accent-h) var(--accent-s) var(--accent-l);
+}
+
+.chips{ position:relative; }
+
+.chips::before{
+  content:""; position:absolute; inset:-1.5rem -1.75rem -.25rem;
+  border-radius:22px; pointer-events:none;
+  background:linear-gradient(100deg,
+      hsl(var(--team-a) / .42) 0%,
+      hsl(var(--team-a) / .30) 22%,
+      hsl(var(--team-b) / .34) 52%,
+      hsl(var(--team-b) / .14) 78%,
+      hsl(var(--team-b) / 0)   100%);
+  background-size:230% 100%;
+  /* soft on every edge: no hard line above, and gone well before
+     the first row of photos */
+  -webkit-mask-image:
+      linear-gradient(to bottom, transparent 0%, #000 18%, #000 44%, transparent 95%),
+      linear-gradient(to right,  #000 55%, transparent 97%);
+  -webkit-mask-composite:source-in;
+          mask-image:
+      linear-gradient(to bottom, transparent 0%, #000 18%, #000 44%, transparent 95%),
+      linear-gradient(to right,  #000 55%, transparent 97%);
+          mask-composite:intersect;
+  opacity:0; transition:opacity .55s var(--ease);
+}
+.has-team .chips::before{ opacity:1; }
+
+/* keep the chips above the wash */
+.chip-row, .chip-reset, .chips > *{ position:relative; z-index:1; }
+
+/* "All" is the resting state of a row, not a choice — leaving it
+   plain keeps the loud gradient for chips that actually narrow
+   the grid. */
+.has-team .chip.is-on:not(.chip-all){
+  color:#fff; border-color:transparent;
+  background:linear-gradient(100deg,
+      hsl(var(--team-a)) 0%, hsl(var(--team-b)) 100%);
+  background-size:220% 100%;
+  box-shadow:0 2px 16px hsl(var(--team-a) / .40);
+}
+
+@media (prefers-reduced-motion: no-preference){
+  .has-team .chips::before,
+  /* "All" is the resting state of a row, not a choice — leaving it
+   plain keeps the loud gradient for chips that actually narrow
+   the grid. */
+.has-team .chip.is-on:not(.chip-all){ animation:team-flow 16s linear infinite; }
+  @keyframes team-flow{
+    from{ background-position:0% 50%; }
+    to  { background-position:230% 50%; }
+  }
 }

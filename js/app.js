@@ -40,6 +40,32 @@
     r.setProperty("--accent-l", l);
   }
 
+  /* ---------- TEAM COLOURS ----------
+     If any active chip names a team in FILTER_THEMES, the chrome
+     takes that team's colours. The grid is deliberately left alone.
+     Falls back to the tab's own accent the moment the chip is
+     cleared, the tab changes, or the value has no theme. */
+  function applyFilterTheme(meta) {
+    const themes = (typeof FILTER_THEMES !== "undefined") ? FILTER_THEMES : {};
+    const hit = Object.keys(activeFilters)
+      .map(k => activeFilters[k])
+      .find(v => v && v !== "All" && themes[v]);
+    const r = document.documentElement.style;
+
+    if (!hit) {
+      r.removeProperty("--team-a");
+      r.removeProperty("--team-b");
+      document.body.classList.remove("has-team");
+      if (meta) setAccent(meta.accent);
+      return;
+    }
+    const t = themes[hit];
+    r.setProperty("--team-a", t.a);
+    r.setProperty("--team-b", t.b);
+    setAccent(t.accent || t.a);
+    document.body.classList.add("has-team");
+  }
+
   /* ---------- TABS ---------- */
   const tabsEl = $("#tabs");
   const pillEl = $("#tabPill");
@@ -143,7 +169,8 @@
       ["All"].concat(values).forEach(v => {
         const b = document.createElement("button");
         b.type = "button";
-        b.className = "chip" + (activeFilters[def.key] === v ? " is-on" : "");
+        b.className = "chip" + (v === "All" ? " chip-all" : "")
+                    + (activeFilters[def.key] === v ? " is-on" : "");
         b.textContent = v;
         b.setAttribute("aria-pressed", activeFilters[def.key] === v ? "true" : "false");
         b.addEventListener("click", () => {
@@ -153,6 +180,7 @@
             x.classList.toggle("is-on", on);
             x.setAttribute("aria-pressed", on ? "true" : "false");
           });
+          applyFilterTheme(meta);
           renderGrid();
         });
         row.appendChild(b);
@@ -170,6 +198,7 @@
     reset.addEventListener("click", () => selectTab(activeTab));
     wrap.appendChild(reset);
     syncReset();
+    applyFilterTheme(meta);
   }
 
   function activeCount() {

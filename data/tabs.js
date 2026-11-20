@@ -159,3 +159,31 @@ const TABS = [
     ]
   }
 ];
+
+/* ============================================================
+   TEAM COLOURS
+   ------------------------------------------------------------
+   Pick a filter chip whose value is listed here and the page
+   chrome takes that team's colours: a slow gradient wash behind
+   the filter rows and a gradient fill on the active chips.
+   The photos themselves are never tinted.
+
+     a      gradient start  (hsl components, no commas)
+     b      gradient end
+     accent the readable UI colour — borders, counts, links.
+            Keep it light enough to sit on a near-black page.
+
+   A value that isn't listed here just keeps the tab's own
+   accent, so adding a team is one line and removing one is safe.
+   Sampled from Adam's own Inferno artwork: #744499 and #FD5F24.
+   ============================================================ */
+
+const FILTER_THEMES = {
+  "Perth Inferno": { a: "274 42% 46%", b: "16 95% 55%", accent: "276 70% 68%" }
+
+  /* To add a team later, copy the line above and change the name to
+     match the chip text exactly. F1 teams work the same way, e.g.
+       "Ferrari": { a: "0 90% 42%", b: "45 95% 55%", accent: "0 85% 64%" },
+       "McLaren": { a: "30 100% 50%", b: "199 95% 45%", accent: "30 95% 60%" },
+     A value that isn't listed keeps the tab's own accent. */
+};
