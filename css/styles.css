@@ -697,3 +697,54 @@ h1,h2,h3,h4{ font-family:var(--font-display); font-weight:700; line-height:1.08;
     to  { background-position:230% 50%; }
   }
 }
+
+/* ---------- 15. TEAM COLOURS ACROSS THE WHOLE PAGE ----------
+   The site already carries a soft ambient glow (body::after) that
+   follows the accent. With a team selected it takes both of that
+   team's colours instead of one: the first sits high and left,
+   the second low, so purple reads at the top of the viewport and
+   orange at the bottom and the two meet somewhere behind the
+   middle of the grid. It is position:fixed, so the colour stays
+   with you the whole way down the page.
+   The alphas are kept low on purpose. This layer sits BEHIND the
+   photos, and the more colour it throws the more it shifts how
+   every frame reads — white ice especially. If it ever needs to
+   be stronger or weaker, these three numbers are the dial. */
+body.has-team::after{
+  background:
+    radial-gradient(44rem 44rem at  8%  2%, hsl(var(--team-a) / .34), transparent 64%),
+    radial-gradient(34rem 34rem at 94% 44%, hsl(var(--team-b) / .16), transparent 60%),
+    radial-gradient(60rem 38rem at 50% 104%, hsl(var(--team-b) / .40), transparent 68%);
+  opacity:.95;
+}
+
+/* and the footer itself picks up the second colour, so the very
+   bottom of the document is team-coloured too, not just the
+   viewport-fixed glow behind it */
+.footer{ position:relative; }
+.footer::before{
+  content:""; position:absolute; left:0; right:0; top:0; height:1px;
+  background:linear-gradient(90deg,
+      hsl(var(--team-a) / 0) 0%,
+      hsl(var(--team-a) / .55) 18%,
+      hsl(var(--team-b) / .75) 62%,
+      hsl(var(--team-b) / 0) 100%);
+  opacity:0; transition:opacity .6s var(--ease);
+}
+.has-team .footer::before{ opacity:1; }
+.has-team .footer{ border-top-color:transparent; }
+
+/* Below the gallery there are no photographs to protect, so the
+   colour is allowed to come up properly: the page lands on orange
+   instead of fading back to black. */
+.footer{ overflow:hidden; }
+.footer::after{
+  content:""; position:absolute; inset:0; z-index:-1; pointer-events:none;
+  background:linear-gradient(168deg,
+      hsl(var(--team-a) / .16)  0%,
+      hsl(var(--team-a) / .10) 26%,
+      hsl(var(--team-b) / .16) 62%,
+      hsl(var(--team-b) / .30) 100%);
+  opacity:0; transition:opacity .6s var(--ease);
+}
+.has-team .footer::after{ opacity:1; }
