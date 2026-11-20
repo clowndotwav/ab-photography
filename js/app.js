@@ -50,28 +50,52 @@
      who has asked for reduced motion gets none at all. */
   /* A narrow screen gets fewer: eighty flakes is two animations each,
      and phones are where that bites. */
-  const emberCount = () => (window.innerWidth < 720 ? 34 : 80);
+  const emberCount = (shaped) => (window.innerWidth < 720 ? (shaped ? 18 : 34)
+                                                   : (shaped ? 44 : 80));
 
-  function setEmbers(theme) {
+  function setEmbers(theme, key) {
     let layer = $(".embers");
     if (!theme || !theme.embers || reduceMotion) {
       if (layer) layer.remove();
       return;
     }
-    if (layer) return;                       // already running, leave it be
+    // Rebuild when the TEAM changes — the flakes carry that team's
+    // colours and shape, so leaving the old layer up would keep Wolves
+    // yellow drifting over a Moose page. Same team, leave it running.
+    if (layer && layer.dataset.theme === key) return;
+    if (layer) layer.remove();
     layer = document.createElement("div");
     layer.className = "embers";
+    layer.dataset.theme = key;
     layer.setAttribute("aria-hidden", "true");
 
     const rnd = (lo, hi) => lo + Math.random() * (hi - lo);
+
+    /* Paw prints and a dog bone, as masks. Inline so there is no extra
+       request and the shape can still be tinted per flake. */
+    const svg = (body, vb) => "url(\"data:image/svg+xml;utf8," +
+      encodeURIComponent("<svg xmlns='http://www.w3.org/2000/svg' viewBox='" + vb +
+        "' fill='black'>" + body + "</svg>") + "\")";
+    const PAW = svg("<ellipse cx='12' cy='16.5' rx='6.2' ry='5.2'/>" +
+                    "<ellipse cx='4.6' cy='9.6' rx='2.7' ry='3.2'/>" +
+                    "<ellipse cx='9.6' cy='5.6' rx='2.7' ry='3.3'/>" +
+                    "<ellipse cx='15' cy='5.6' rx='2.7' ry='3.3'/>" +
+                    "<ellipse cx='19.8' cy='9.9' rx='2.7' ry='3.2'/>", "0 0 24 24");
+    const BONE = svg("<rect x='7' y='5.6' width='18' height='4.8' rx='2.4'/>" +
+                     "<circle cx='6.4' cy='5.2' r='3.9'/><circle cx='6.4' cy='10.8' r='3.9'/>" +
+                     "<circle cx='25.6' cy='5.2' r='3.9'/><circle cx='25.6' cy='10.8' r='3.9'/>",
+                     "0 0 32 16");
+    const shaped = theme.shape === "paws";
+
     const frag = document.createDocumentFragment();
-    for (let i = 0; i < emberCount(); i++) {
+    for (let i = 0; i < emberCount(shaped); i++) {
       const e = document.createElement("span");
       e.className = "ember";
-      const w = rnd(1.6, 4);
+      // shapes need room to be legible; slivers do not
+      const w = shaped ? rnd(8, 16) : rnd(1.6, 4);
       e.style.setProperty("--x",     rnd(-2, 100).toFixed(2) + "vw");
       e.style.setProperty("--w",     w.toFixed(1) + "px");
-      e.style.setProperty("--h",     (w * rnd(1.2, 3.2)).toFixed(1) + "px");
+      e.style.setProperty("--h",     (shaped ? w : w * rnd(1.2, 3.2)).toFixed(1) + "px");
       e.style.setProperty("--o",     rnd(0.45, 1).toFixed(2));
       e.style.setProperty("--drift", rnd(-11, 11).toFixed(1) + "vw");
       e.style.setProperty("--d",     rnd(12, 32).toFixed(1) + "s");
@@ -80,7 +104,14 @@
       const flake = document.createElement("i");
       // two thirds in the warmer colour: it reads as fire, not confetti
       flake.style.setProperty("--c", Math.random() < 0.66 ? theme.b : theme.a);
-      flake.style.setProperty("--spin", rnd(2.4, 8).toFixed(1) + "s");
+      // shapes read better turning slowly — a spinning paw is a blur
+      flake.style.setProperty("--spin", (shaped ? rnd(9, 20) : rnd(2.4, 8)).toFixed(1) + "s");
+      if (shaped) {
+        e.classList.add("is-shaped");
+        const paw = Math.random() < 0.62;
+        flake.style.setProperty("--shape", paw ? PAW : BONE);
+        if (!paw) e.style.setProperty("--h", (w * 0.5).toFixed(1) + "px");  // bones are wide
+      }
       // half tumble the other way, so they do not all turn together
       if (Math.random() < 0.5) flake.style.animationDirection = "reverse";
       flake.style.animationDelay = (-rnd(0, 8)).toFixed(1) + "s";
@@ -103,7 +134,7 @@
       r.removeProperty("--team-a");
       r.removeProperty("--team-b");
       document.body.classList.remove("has-team");
-      setEmbers(null);
+      setEmbers(null, null);
       if (meta) setAccent(meta.accent);
       return;
     }
@@ -112,7 +143,7 @@
     r.setProperty("--team-b", t.b);
     setAccent(t.accent || t.a);
     document.body.classList.add("has-team");
-    setEmbers(t);
+    setEmbers(t, hit);
   }
 
   /* ---------- TABS ---------- */

@@ -53,6 +53,19 @@ const TABS = [
         ]
       },
       {
+        "key": "team",
+        "label": "Team",
+        "order": [
+          "Wolves",
+          "Scouts",
+          "Hellcats",
+          "Moose",
+          "Pandas",
+          "Bears",
+          "Rampage"
+        ]
+      },
+      {
         "key": "year",
         "label": "Year"
       }
@@ -182,10 +195,10 @@ const TABS = [
      b      gradient end
      accent the readable UI colour — borders, counts, links.
             Keep it light enough to sit on a near-black page.
-     embers true adds a slow drift of ember specks in the team's two
-            colours. It suits Inferno because of the name; it would
-            look arbitrary on a team it means nothing for, so it is
-            opt-in rather than automatic.
+     embers true adds a slow drift of flakes in the team's two colours.
+     shape  what those flakes are cut from — "ember" for tumbling
+            slivers, "paws" for paw prints and bones. Keep novelty
+            shapes for teams the motif actually belongs to.
 
    A value that isn't listed here just keeps the tab's own
    accent, so adding a team is one line and removing one is safe.
@@ -193,8 +206,27 @@ const TABS = [
    ============================================================ */
 
 const FILTER_THEMES = {
+  // AWIHL
   "Perth Inferno": { a: "274 42% 46%", b: "16 95% 55%", accent: "276 70% 68%",
-                     embers: true }
+                     embers: true, shape: "ember" },
+
+  // PWIHL — colours as Jas described them. Teams appear as chips only
+  // once photos are tagged with them, so this list can run ahead of
+  // the gallery without putting a dead chip on the page.
+  "Wolves":   { a: "220 48% 30%", b: "48 95% 55%",  accent: "48 88% 62%",
+                embers: true, shape: "ember" },
+  "Scouts":   { a: "186 68% 38%", b: "199 88% 62%", accent: "192 82% 66%",
+                embers: true, shape: "paws" },
+  "Hellcats": { a: "222 62% 26%", b: "22 100% 54%", accent: "24 95% 62%",
+                embers: true, shape: "ember" },
+  "Moose":    { a: "330 82% 46%", b: "320 95% 64%", accent: "328 90% 70%",
+                embers: true, shape: "ember" },
+  "Pandas":   { a: "0 88% 44%",   b: "26 95% 52%",  accent: "0 88% 64%",
+                embers: true, shape: "ember" },
+  "Bears":    { a: "268 55% 40%", b: "286 72% 58%", accent: "278 72% 68%",
+                embers: true, shape: "ember" },
+  "Rampage":  { a: "152 68% 32%", b: "172 85% 46%", accent: "162 76% 56%",
+                embers: true, shape: "ember" }
 
   /* To add a team later, copy the line above and change the name to
      match the chip text exactly. F1 teams work the same way, e.g.

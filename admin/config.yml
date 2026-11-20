@@ -97,10 +97,23 @@ collections:
                   - Monday Night Scratch Games
 
               - name: team
-                label: Team (F1 only)
+                label: Team
                 widget: select
                 required: false
+                hint: >-
+                  PWIHL clubs on the Ice Hockey tab, constructors on the
+                  Formula 1 tab. Setting a PWIHL club also colours the page
+                  in that club's colours when someone filters by it, so it is
+                  worth getting right. Most frames have two teams on the ice —
+                  pick whichever the photo is really about, or leave it blank.
                 options:
+                  - Wolves
+                  - Scouts
+                  - Hellcats
+                  - Moose
+                  - Pandas
+                  - Bears
+                  - Rampage
                   - Ferrari
                   - McLaren
                   - Mercedes
