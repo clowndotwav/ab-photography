@@ -38,7 +38,7 @@ const TABS = [
   },
   {
     "id": "sports",
-    "label": "Sports",
+    "label": "Ice Hockey",
     "blurb": "Ice hockey, under the arena lights.",
     "accent": "199 95% 58%",
     "filters": [

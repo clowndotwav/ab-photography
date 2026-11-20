@@ -147,19 +147,49 @@
     return seen;
   }
 
+  /* The filter rows cascade: a row offers values drawn from the photos
+     left by the rows ABOVE it, never by the rows below. Pick F2 and the
+     Team row stops offering Ferrari, because Team sits under Series.
+
+     Deliberately one-directional. Narrowing in both directions sounds
+     tidier but traps you: picking Ferrari would leave Series with only
+     "F1" to offer, the row would hide itself for having nothing to
+     choose between, and there would be no way back to F2 without
+     clearing everything. Rows are listed in tabs.js widest first. */
+  function photosAbove(meta, defs, upto) {
+    const keys = defs.slice(0, upto).map(d => d.key);
+    return photosFor(meta.id).filter(p =>
+      keys.every(k => {
+        const want = activeFilters[k];
+        return !want || want === "All" || p[k] === want;
+      })
+    );
+  }
+
   /* ---------- FILTER CHIP ROWS ---------- */
-  function buildFilters(meta) {
+  function buildFilters(meta, focusKey, focusValue) {
     const wrap = $("#chips");
     wrap.innerHTML = "";
-    const photos = photosFor(meta.id);
     const defs = filtersFor(meta);
 
-    defs.forEach(def => {
-      const values = valuesFor(def.key, photos, def.order);
+    /* Clear any selection the rows above have just made impossible, or
+       picking F2 would leave Team on Ferrari and the grid empty. Top
+       down in one pass, since each row only depends on the ones above. */
+    defs.forEach((def, i) => {
+      const v = activeFilters[def.key];
+      if (v && v !== "All" &&
+          valuesFor(def.key, photosAbove(meta, defs, i), def.order).indexOf(v) === -1) {
+        activeFilters[def.key] = "All";
+      }
+    });
+
+    defs.forEach((def, i) => {
+      const values = valuesFor(def.key, photosAbove(meta, defs, i), def.order);
       if (values.length < 2) return;            // a lone value filters nothing
 
       const row = document.createElement("div");
       row.className = "chip-row";
+      row.dataset.key = def.key;
 
       const label = document.createElement("span");
       label.className = "chip-label";
@@ -175,12 +205,8 @@
         b.setAttribute("aria-pressed", activeFilters[def.key] === v ? "true" : "false");
         b.addEventListener("click", () => {
           activeFilters[def.key] = v;
-          $$(".chip", row).forEach(x => {
-            const on = x.textContent === v;
-            x.classList.toggle("is-on", on);
-            x.setAttribute("aria-pressed", on ? "true" : "false");
-          });
-          applyFilterTheme(meta);
+          // the other rows have to react, so rebuild rather than retint
+          buildFilters(meta, def.key, v);
           renderGrid();
         });
         row.appendChild(b);
@@ -199,6 +225,15 @@
     wrap.appendChild(reset);
     syncReset();
     applyFilterTheme(meta);
+
+    // the rebuild replaced the chip that was just clicked — put focus back
+    if (focusKey) {
+      const again = $$(".chip", wrap).filter(c => {
+        const r = c.closest(".chip-row");
+        return r && r.dataset.key === focusKey && c.textContent === focusValue;
+      })[0];
+      if (again) again.focus();
+    }
   }
 
   function activeCount() {

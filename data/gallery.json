@@ -462,7 +462,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "",
+      "tag": "F1",
       "series": "F1",
       "comp": "",
       "team": "Ferrari",
@@ -486,7 +486,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "",
+      "tag": "F1",
       "series": "F1",
       "comp": "",
       "team": "Ferrari",
@@ -510,7 +510,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "",
+      "tag": "F1",
       "series": "F1",
       "comp": "",
       "team": "Sauber",
@@ -534,7 +534,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "",
+      "tag": "F1",
       "series": "F1",
       "comp": "",
       "team": "McLaren",
@@ -558,7 +558,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "",
+      "tag": "F1",
       "series": "F1",
       "comp": "",
       "team": "Ferrari",
@@ -582,7 +582,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "",
+      "tag": "F1",
       "series": "F1",
       "comp": "",
       "team": "Ferrari",
@@ -606,7 +606,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "",
+      "tag": "F1",
       "series": "F1",
       "comp": "",
       "team": "Ferrari",
@@ -630,7 +630,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "",
+      "tag": "Safety Car",
       "series": "Safety Car",
       "comp": "",
       "team": "",
@@ -654,7 +654,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "",
+      "tag": "Safety Car",
       "series": "Safety Car",
       "comp": "",
       "team": "",
@@ -678,7 +678,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "",
+      "tag": "Safety Car",
       "series": "Safety Car",
       "comp": "",
       "team": "",
@@ -702,7 +702,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "",
+      "tag": "F1",
       "series": "F1",
       "comp": "",
       "team": "Sauber",
@@ -726,7 +726,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "",
+      "tag": "F1",
       "series": "F1",
       "comp": "",
       "team": "Haas",
@@ -750,7 +750,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "",
+      "tag": "F1",
       "series": "F1",
       "comp": "",
       "team": "McLaren",
@@ -774,7 +774,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "",
+      "tag": "F1",
       "series": "F1",
       "comp": "",
       "team": "Ferrari",
@@ -798,7 +798,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "",
+      "tag": "F1",
       "series": "F1",
       "comp": "",
       "team": "Haas",
@@ -822,7 +822,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "",
+      "tag": "F1",
       "series": "F1",
       "comp": "",
       "team": "Ferrari",
@@ -4110,7 +4110,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "Safety Car",
       "series": "Safety Car",
       "comp": "",
       "team": "",
@@ -4134,7 +4134,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "Safety Car",
       "series": "Safety Car",
       "comp": "",
       "team": "",
@@ -4158,7 +4158,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "Safety Car",
       "series": "Safety Car",
       "comp": "",
       "team": "",
@@ -4182,7 +4182,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "Safety Car",
       "series": "Safety Car",
       "comp": "",
       "team": "",
@@ -4206,7 +4206,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "Safety Car",
       "series": "Safety Car",
       "comp": "",
       "team": "",
@@ -4230,7 +4230,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "Safety Car",
       "series": "Safety Car",
       "comp": "",
       "team": "",
@@ -4254,7 +4254,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "F2",
       "series": "F2",
       "comp": "",
       "team": "",
@@ -4278,7 +4278,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "F2",
       "series": "F2",
       "comp": "",
       "team": "",
@@ -4302,7 +4302,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "F2",
       "series": "F2",
       "comp": "",
       "team": "",
@@ -4326,7 +4326,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "F2",
       "series": "F2",
       "comp": "",
       "team": "",
@@ -4350,7 +4350,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "F2",
       "series": "F2",
       "comp": "",
       "team": "",
@@ -4374,7 +4374,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "F2",
       "series": "F2",
       "comp": "",
       "team": "",
@@ -4398,7 +4398,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "F2",
       "series": "F2",
       "comp": "",
       "team": "",
@@ -4422,7 +4422,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "F3",
       "series": "F3",
       "comp": "",
       "team": "",
@@ -4446,7 +4446,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "F3",
       "series": "F3",
       "comp": "",
       "team": "",
@@ -4470,7 +4470,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "F3",
       "series": "F3",
       "comp": "",
       "team": "",
@@ -4494,7 +4494,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "F3",
       "series": "F3",
       "comp": "",
       "team": "",
@@ -4518,7 +4518,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "F3",
       "series": "F3",
       "comp": "",
       "team": "",
@@ -4542,7 +4542,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "F3",
       "series": "F3",
       "comp": "",
       "team": "",
@@ -4566,7 +4566,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "F3",
       "series": "F3",
       "comp": "",
       "team": "",
@@ -4590,7 +4590,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "Historic F1",
       "series": "Historic F1",
       "comp": "",
       "team": "",
@@ -4614,7 +4614,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "Historic F1",
       "series": "Historic F1",
       "comp": "",
       "team": "",
@@ -4638,7 +4638,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "Historic F1",
       "series": "Historic F1",
       "comp": "",
       "team": "",
@@ -4662,7 +4662,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "Historic F1",
       "series": "Historic F1",
       "comp": "",
       "team": "",
@@ -4686,7 +4686,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "Historic F1",
       "series": "Historic F1",
       "comp": "",
       "team": "",
@@ -4710,7 +4710,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "Historic F1",
       "series": "Historic F1",
       "comp": "",
       "team": "",
@@ -4734,7 +4734,7 @@
       "cats": [
         "f1"
       ],
-      "tag": "Formula 1",
+      "tag": "Historic F1",
       "series": "Historic F1",
       "comp": "",
       "team": "",
