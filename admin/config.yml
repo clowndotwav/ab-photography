@@ -71,6 +71,21 @@ collections:
                   Trans Am, Super Utes, Radicals, Motorbikes, Sidecars.
                   Architecture — Towers, Cityscape.
 
+              - name: series
+                label: Series (F1 tab only)
+                widget: select
+                required: false
+                options:
+                  - F1
+                  - F2
+                  - F3
+                  - Historic F1
+                  - Safety Car
+                hint: >-
+                  Which championship the photo is from. This drives the Series
+                  row of chips on the Formula 1 tab. Leave blank for photos on
+                  any other tab.
+
               - name: comp
                 label: Competition (Sports only)
                 widget: select
@@ -96,7 +111,6 @@ collections:
                   - Haas
                   - Sauber
                   - Racing Bulls
-                  - Safety Car
                   - Medical Car
 
               - name: driver

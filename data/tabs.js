@@ -65,6 +65,17 @@ const TABS = [
     "accent": "0 85% 58%",
     "filters": [
       {
+        "key": "series",
+        "label": "Series",
+        "order": [
+          "F1",
+          "F2",
+          "F3",
+          "Historic F1",
+          "Safety Car"
+        ]
+      },
+      {
         "key": "team",
         "label": "Team",
         "order": [
@@ -78,7 +89,6 @@ const TABS = [
           "Haas",
           "Sauber",
           "Racing Bulls",
-          "Safety Car",
           "Medical Car"
         ]
       },

@@ -7,6 +7,7 @@
         "motorsport"
       ],
       "tag": "Motorbikes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -30,6 +31,7 @@
         "motorsport"
       ],
       "tag": "Sidecars",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -53,6 +55,7 @@
         "motorsport"
       ],
       "tag": "Motorbikes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -76,6 +79,7 @@
         "motorsport"
       ],
       "tag": "Motorbikes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -99,6 +103,7 @@
         "motorsport"
       ],
       "tag": "Motorbikes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -122,6 +127,7 @@
         "motorsport"
       ],
       "tag": "Motorbikes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -145,6 +151,7 @@
         "motorsport"
       ],
       "tag": "Motorbikes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -168,6 +175,7 @@
         "motorsport"
       ],
       "tag": "Motorbikes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -191,6 +199,7 @@
         "motorsport"
       ],
       "tag": "Motorbikes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -214,6 +223,7 @@
         "motorsport"
       ],
       "tag": "Motorbikes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -237,6 +247,7 @@
         "motorsport"
       ],
       "tag": "Motorbikes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -260,6 +271,7 @@
         "architecture"
       ],
       "tag": "Towers",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -283,6 +295,7 @@
         "architecture"
       ],
       "tag": "Towers",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -306,6 +319,7 @@
         "architecture"
       ],
       "tag": "Towers",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -329,6 +343,7 @@
         "architecture"
       ],
       "tag": "Towers",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -352,6 +367,7 @@
         "architecture"
       ],
       "tag": "Towers",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -375,6 +391,7 @@
         "architecture"
       ],
       "tag": "Cityscape",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -398,6 +415,7 @@
         "architecture"
       ],
       "tag": "Cityscape",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -421,6 +439,7 @@
         "architecture"
       ],
       "tag": "Towers",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -444,6 +463,7 @@
         "f1"
       ],
       "tag": "",
+      "series": "F1",
       "comp": "",
       "team": "Ferrari",
       "driver": "Hamilton",
@@ -467,6 +487,7 @@
         "f1"
       ],
       "tag": "",
+      "series": "F1",
       "comp": "",
       "team": "Ferrari",
       "driver": "Hamilton",
@@ -490,6 +511,7 @@
         "f1"
       ],
       "tag": "",
+      "series": "F1",
       "comp": "",
       "team": "Sauber",
       "driver": "",
@@ -513,6 +535,7 @@
         "f1"
       ],
       "tag": "",
+      "series": "F1",
       "comp": "",
       "team": "McLaren",
       "driver": "",
@@ -536,6 +559,7 @@
         "f1"
       ],
       "tag": "",
+      "series": "F1",
       "comp": "",
       "team": "Ferrari",
       "driver": "Hamilton",
@@ -559,6 +583,7 @@
         "f1"
       ],
       "tag": "",
+      "series": "F1",
       "comp": "",
       "team": "Ferrari",
       "driver": "Hamilton",
@@ -582,6 +607,7 @@
         "f1"
       ],
       "tag": "",
+      "series": "F1",
       "comp": "",
       "team": "Ferrari",
       "driver": "Hamilton",
@@ -605,8 +631,9 @@
         "f1"
       ],
       "tag": "",
+      "series": "Safety Car",
       "comp": "",
-      "team": "Safety Car",
+      "team": "",
       "driver": "",
       "track": "Silverstone",
       "session": "Safety Car",
@@ -628,8 +655,9 @@
         "f1"
       ],
       "tag": "",
+      "series": "Safety Car",
       "comp": "",
-      "team": "Safety Car",
+      "team": "",
       "driver": "",
       "track": "Silverstone",
       "session": "Safety Car",
@@ -651,8 +679,9 @@
         "f1"
       ],
       "tag": "",
+      "series": "Safety Car",
       "comp": "",
-      "team": "Safety Car",
+      "team": "",
       "driver": "",
       "track": "Sepang",
       "session": "Safety Car",
@@ -674,6 +703,7 @@
         "f1"
       ],
       "tag": "",
+      "series": "F1",
       "comp": "",
       "team": "Sauber",
       "driver": "",
@@ -697,6 +727,7 @@
         "f1"
       ],
       "tag": "",
+      "series": "F1",
       "comp": "",
       "team": "Haas",
       "driver": "Ocon",
@@ -720,6 +751,7 @@
         "f1"
       ],
       "tag": "",
+      "series": "F1",
       "comp": "",
       "team": "McLaren",
       "driver": "",
@@ -743,6 +775,7 @@
         "f1"
       ],
       "tag": "",
+      "series": "F1",
       "comp": "",
       "team": "Ferrari",
       "driver": "Hamilton",
@@ -766,6 +799,7 @@
         "f1"
       ],
       "tag": "",
+      "series": "F1",
       "comp": "",
       "team": "Haas",
       "driver": "Bearman",
@@ -789,6 +823,7 @@
         "f1"
       ],
       "tag": "",
+      "series": "F1",
       "comp": "",
       "team": "Ferrari",
       "driver": "Hamilton",
@@ -812,6 +847,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "IHWA Winter Season",
       "team": "",
       "driver": "",
@@ -835,6 +871,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "IHWA Winter Season",
       "team": "",
       "driver": "",
@@ -858,6 +895,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "IHWA Winter Season",
       "team": "",
       "driver": "",
@@ -881,6 +919,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "IHWA Winter Season",
       "team": "",
       "driver": "",
@@ -904,6 +943,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "IHWA Winter Season",
       "team": "",
       "driver": "",
@@ -927,6 +967,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "IHWA Winter Season",
       "team": "",
       "driver": "",
@@ -950,6 +991,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "IHWA Winter Season",
       "team": "",
       "driver": "",
@@ -973,6 +1015,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "IHWA Winter Season",
       "team": "",
       "driver": "",
@@ -996,6 +1039,7 @@
         "motorsport"
       ],
       "tag": "Supercars",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1019,6 +1063,7 @@
         "motorsport"
       ],
       "tag": "Supercars",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1042,6 +1087,7 @@
         "motorsport"
       ],
       "tag": "Supercars",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1065,6 +1111,7 @@
         "motorsport"
       ],
       "tag": "Trans Am",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1088,6 +1135,7 @@
         "motorsport"
       ],
       "tag": "Radicals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1111,6 +1159,7 @@
         "motorsport"
       ],
       "tag": "Radicals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1134,6 +1183,7 @@
         "motorsport"
       ],
       "tag": "Radicals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1157,6 +1207,7 @@
         "motorsport"
       ],
       "tag": "Radicals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1180,6 +1231,7 @@
         "motorsport"
       ],
       "tag": "Radicals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1203,6 +1255,7 @@
         "motorsport"
       ],
       "tag": "Radicals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1226,6 +1279,7 @@
         "motorsport"
       ],
       "tag": "Super Utes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1249,6 +1303,7 @@
         "motorsport"
       ],
       "tag": "Super Utes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1272,6 +1327,7 @@
         "motorsport"
       ],
       "tag": "Super Utes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1295,6 +1351,7 @@
         "motorsport"
       ],
       "tag": "Super Utes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1318,6 +1375,7 @@
         "motorsport"
       ],
       "tag": "Super Utes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1341,6 +1399,7 @@
         "motorsport"
       ],
       "tag": "Super Utes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1364,6 +1423,7 @@
         "motorsport"
       ],
       "tag": "Super Utes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1387,6 +1447,7 @@
         "motorsport"
       ],
       "tag": "Super Utes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1410,6 +1471,7 @@
         "motorsport"
       ],
       "tag": "Trans Am",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1433,6 +1495,7 @@
         "motorsport"
       ],
       "tag": "Trans Am",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1456,6 +1519,7 @@
         "motorsport"
       ],
       "tag": "Trans Am",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1479,6 +1543,7 @@
         "motorsport"
       ],
       "tag": "Trans Am",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1502,6 +1567,7 @@
         "motorsport"
       ],
       "tag": "Trans Am",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1525,6 +1591,7 @@
         "motorsport"
       ],
       "tag": "Trans Am",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1548,6 +1615,7 @@
         "motorsport"
       ],
       "tag": "Trans Am",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1571,6 +1639,7 @@
         "motorsport"
       ],
       "tag": "Supercars",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1594,6 +1663,7 @@
         "motorsport"
       ],
       "tag": "Supercars",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1617,6 +1687,7 @@
         "motorsport"
       ],
       "tag": "Supercars",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1640,6 +1711,7 @@
         "motorsport"
       ],
       "tag": "Supercars",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1663,6 +1735,7 @@
         "motorsport"
       ],
       "tag": "Supercars",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1686,6 +1759,7 @@
         "motorsport"
       ],
       "tag": "Supercars",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1709,6 +1783,7 @@
         "motorsport"
       ],
       "tag": "Supercars",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1732,6 +1807,7 @@
         "motorsport"
       ],
       "tag": "Supercars",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -1755,6 +1831,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -1778,6 +1855,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -1801,6 +1879,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -1824,6 +1903,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -1847,6 +1927,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -1870,6 +1951,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -1893,6 +1975,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -1916,6 +1999,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -1939,6 +2023,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -1962,6 +2047,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -1985,6 +2071,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Womens Ice Hockey League",
       "team": "",
       "driver": "",
@@ -2008,6 +2095,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Womens Ice Hockey League",
       "team": "",
       "driver": "",
@@ -2031,6 +2119,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Womens Ice Hockey League",
       "team": "",
       "driver": "",
@@ -2054,6 +2143,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Womens Ice Hockey League",
       "team": "",
       "driver": "",
@@ -2077,6 +2167,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Womens Ice Hockey League",
       "team": "",
       "driver": "",
@@ -2100,6 +2191,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2123,6 +2215,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2146,6 +2239,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2169,6 +2263,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2192,6 +2287,7 @@
         "wildlife"
       ],
       "tag": "Reptiles",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2215,6 +2311,7 @@
         "wildlife"
       ],
       "tag": "Birds",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2238,6 +2335,7 @@
         "wildlife"
       ],
       "tag": "Birds",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2261,6 +2359,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2284,6 +2383,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2307,6 +2407,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2330,6 +2431,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2353,6 +2455,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2376,6 +2479,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2399,6 +2503,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2422,6 +2527,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2445,6 +2551,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2468,6 +2575,7 @@
         "wildlife"
       ],
       "tag": "Birds",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2491,6 +2599,7 @@
         "wildlife"
       ],
       "tag": "Birds",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2514,6 +2623,7 @@
         "wildlife"
       ],
       "tag": "Birds",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2537,6 +2647,7 @@
         "wildlife"
       ],
       "tag": "Birds",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2560,6 +2671,7 @@
         "wildlife"
       ],
       "tag": "Birds",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2583,6 +2695,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -2606,6 +2719,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -2629,6 +2743,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -2652,6 +2767,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -2675,6 +2791,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -2698,6 +2815,7 @@
         "motorsport"
       ],
       "tag": "Motorbikes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2721,6 +2839,7 @@
         "motorsport"
       ],
       "tag": "Motorbikes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2744,6 +2863,7 @@
         "motorsport"
       ],
       "tag": "Motorbikes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2767,6 +2887,7 @@
         "motorsport"
       ],
       "tag": "Motorbikes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2790,6 +2911,7 @@
         "motorsport"
       ],
       "tag": "Motorbikes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2813,6 +2935,7 @@
         "motorsport"
       ],
       "tag": "Motorbikes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2836,6 +2959,7 @@
         "motorsport"
       ],
       "tag": "Motorbikes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2859,6 +2983,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -2882,6 +3007,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -2905,6 +3031,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2928,6 +3055,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2951,6 +3079,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2974,6 +3103,7 @@
         "wildlife"
       ],
       "tag": "Birds",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -2997,6 +3127,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3020,6 +3151,7 @@
         "wildlife"
       ],
       "tag": "Reptiles",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3043,6 +3175,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3066,6 +3199,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3089,6 +3223,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3112,6 +3247,7 @@
         "wildlife"
       ],
       "tag": "Birds",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3135,6 +3271,7 @@
         "wildlife"
       ],
       "tag": "Birds",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3158,6 +3295,7 @@
         "wildlife"
       ],
       "tag": "Birds",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3181,6 +3319,7 @@
         "wildlife"
       ],
       "tag": "Birds",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3204,6 +3343,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Womens Ice Hockey League",
       "team": "",
       "driver": "",
@@ -3227,6 +3367,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Womens Ice Hockey League",
       "team": "",
       "driver": "",
@@ -3250,6 +3391,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Womens Ice Hockey League",
       "team": "",
       "driver": "",
@@ -3273,6 +3415,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Womens Ice Hockey League",
       "team": "",
       "driver": "",
@@ -3296,6 +3439,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Womens Ice Hockey League",
       "team": "",
       "driver": "",
@@ -3319,6 +3463,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Womens Ice Hockey League",
       "team": "",
       "driver": "",
@@ -3342,6 +3487,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Womens Ice Hockey League",
       "team": "",
       "driver": "",
@@ -3365,6 +3511,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Womens Ice Hockey League",
       "team": "",
       "driver": "",
@@ -3388,6 +3535,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Womens Ice Hockey League",
       "team": "",
       "driver": "",
@@ -3411,6 +3559,7 @@
         "motorsport"
       ],
       "tag": "Radicals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3434,6 +3583,7 @@
         "motorsport"
       ],
       "tag": "Radicals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3457,6 +3607,7 @@
         "motorsport"
       ],
       "tag": "Radicals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3480,6 +3631,7 @@
         "motorsport"
       ],
       "tag": "Supercars",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3503,6 +3655,7 @@
         "motorsport"
       ],
       "tag": "Supercars",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3526,6 +3679,7 @@
         "motorsport"
       ],
       "tag": "Trans Am",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3549,6 +3703,7 @@
         "motorsport"
       ],
       "tag": "Trans Am",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3572,6 +3727,7 @@
         "motorsport"
       ],
       "tag": "Trans Am",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3595,6 +3751,7 @@
         "motorsport"
       ],
       "tag": "Trans Am",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3618,6 +3775,7 @@
         "motorsport"
       ],
       "tag": "Super Utes",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3641,6 +3799,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3664,6 +3823,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3687,6 +3847,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3710,6 +3871,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3733,6 +3895,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3756,6 +3919,7 @@
         "wildlife"
       ],
       "tag": "Mammals",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3779,6 +3943,7 @@
         "wildlife"
       ],
       "tag": "Birds",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3802,6 +3967,7 @@
         "wildlife"
       ],
       "tag": "Birds",
+      "series": "",
       "comp": "",
       "team": "",
       "driver": "",
@@ -3825,6 +3991,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -3848,6 +4015,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -3871,6 +4039,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -3894,6 +4063,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -3917,6 +4087,7 @@
         "sports"
       ],
       "tag": "Ice Hockey",
+      "series": "",
       "comp": "Perth Inferno",
       "team": "",
       "driver": "",
@@ -3931,6 +4102,654 @@
         "cam": "Sony A7R IVA",
         "lens": "FE 70-200mm F4 G OSS",
         "set": "200mm · f/4.5 · 1/1000s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/f1/safetycar-01.jpg",
+      "title": "Safety Car, Pit Exit",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "Safety Car",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "524mm · f/6.3 · 1/1500s · ISO 320"
+      }
+    },
+    {
+      "src": "images/f1/safetycar-02.jpg",
+      "title": "Safety Car Head On",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "Safety Car",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "506mm · f/6.3 · 1/1500s · ISO 640"
+      }
+    },
+    {
+      "src": "images/f1/safetycar-03.jpg",
+      "title": "Safety Car Through the Spray",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "Safety Car",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "430mm · f/5.6 · 1/4000s · ISO 2500"
+      }
+    },
+    {
+      "src": "images/f1/safetycar-04.jpg",
+      "title": "Safety Car on the Straight",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "Safety Car",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "459mm · f/6.3 · 1/1000s · ISO 320"
+      }
+    },
+    {
+      "src": "images/f1/safetycar-05.jpg",
+      "title": "Safety Car, Wet Lap",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "Safety Car",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "365mm · f/6.3 · 1/1000s · ISO 320"
+      }
+    },
+    {
+      "src": "images/f1/safetycar-06.jpg",
+      "title": "Crane Standing By",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "Safety Car",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "565mm · f/6.3 · 1/1500s · ISO 400"
+      }
+    },
+    {
+      "src": "images/f1/f2-01.jpg",
+      "title": "Spray Off the Rears",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "F2",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "518mm · f/6.3 · 1/1000s · ISO 1000"
+      }
+    },
+    {
+      "src": "images/f1/f2-02.jpg",
+      "title": "Pink in the Wet",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "F2",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "496mm · f/6.3 · 1/1000s · ISO 250"
+      }
+    },
+    {
+      "src": "images/f1/f2-03.jpg",
+      "title": "Orange Through Standing Water",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "F2",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "518mm · f/6.3 · 1/1000s · ISO 320"
+      }
+    },
+    {
+      "src": "images/f1/f2-04.jpg",
+      "title": "Two Cars, One Wall of Mist",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "F2",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "394mm · f/5.6 · 1/1000s · ISO 250"
+      }
+    },
+    {
+      "src": "images/f1/f2-05.jpg",
+      "title": "Chasing Through the Spray",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "F2",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "400mm · f/5.6 · 1/1000s · ISO 400"
+      }
+    },
+    {
+      "src": "images/f1/f2-06.jpg",
+      "title": "Clean Line, Wet Track",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "F2",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "500mm · f/6.3 · 1/1000s · ISO 200"
+      }
+    },
+    {
+      "src": "images/f1/f2-07.jpg",
+      "title": "Red and White, Hard On",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "F2",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "452mm · f/6.3 · 1/1000s · ISO 500"
+      }
+    },
+    {
+      "src": "images/f1/f3-01.jpg",
+      "title": "Green and White, Dry Line",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "F3",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "347mm · f/5.6 · 1/8000s · ISO 640"
+      }
+    },
+    {
+      "src": "images/f1/f3-02.jpg",
+      "title": "Black and Orange",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "F3",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "478mm · f/6.7 · 1/1000s · ISO 250"
+      }
+    },
+    {
+      "src": "images/f1/f3-03.jpg",
+      "title": "Blue Against the Boards",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "F3",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "547mm · f/6.3 · 1/1000s · ISO 200"
+      }
+    },
+    {
+      "src": "images/f1/f3-04.jpg",
+      "title": "Through the Rooster Tail",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "F3",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "463mm · f/6.3 · 1/1000s · ISO 500"
+      }
+    },
+    {
+      "src": "images/f1/f3-05.jpg",
+      "title": "Orange on the Kerb",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "F3",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "600mm · f/6.3 · 1/1000s · ISO 250"
+      }
+    },
+    {
+      "src": "images/f1/f3-06.jpg",
+      "title": "Out of the Mist",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "F3",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "459mm · f/6.3 · 1/1000s · ISO 200"
+      }
+    },
+    {
+      "src": "images/f1/f3-07.jpg",
+      "title": "Silver Pair",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "F3",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "485mm · f/6.7 · 1/1000s · ISO 800"
+      }
+    },
+    {
+      "src": "images/f1/historic-01.jpg",
+      "title": "Period Colours at Silverstone",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "Historic F1",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "385mm · f/5.6 · 1/1500s · ISO 1250"
+      }
+    },
+    {
+      "src": "images/f1/historic-02.jpg",
+      "title": "Classic Lines",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "Historic F1",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "404mm · f/5.6 · 1/1500s · ISO 800"
+      }
+    },
+    {
+      "src": "images/f1/historic-03.jpg",
+      "title": "Historic Through the Esses",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "Historic F1",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "467mm · f/6.3 · 1/1500s · ISO 1000"
+      }
+    },
+    {
+      "src": "images/f1/historic-04.jpg",
+      "title": "Yellow and Black, Period Livery",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "Historic F1",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "474mm · f/6.3 · 1/1500s · ISO 500"
+      }
+    },
+    {
+      "src": "images/f1/historic-05.jpg",
+      "title": "Period Yellow",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "Historic F1",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "257mm · f/5.6 · 1/1500s · ISO 320"
+      }
+    },
+    {
+      "src": "images/f1/historic-06.jpg",
+      "title": "White and Red Classic",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "Historic F1",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "280mm · f/5.6 · 1/1500s · ISO 500"
+      }
+    },
+    {
+      "src": "images/f1/historic-07.jpg",
+      "title": "Historic in the Wet",
+      "cats": [
+        "f1"
+      ],
+      "tag": "Formula 1",
+      "series": "Historic F1",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "500mm · f/6.3 · 1/1000s · ISO 250"
       }
     }
   ]

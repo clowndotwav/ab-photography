@@ -357,6 +357,8 @@
     const ex = p.exif || {};
     $("#lbExif").innerHTML = [
       // context first — session is no longer a filter, but it's worth knowing
+      p.series && p.series !== "F1"
+                ? "<span>Series <b>"   + esc(p.series)  + "</b></span>" : "",
       p.team    ? "<span>Team <b>"     + esc(p.team)    + "</b></span>" : "",
       p.driver  ? "<span>Driver <b>"   + esc(p.driver)  + "</b></span>" : "",
       p.comp    ? "<span>Comp <b>"     + esc(p.comp)    + "</b></span>" : "",
