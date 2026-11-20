@@ -95,6 +95,7 @@ collections:
                   - Perth Womens Ice Hockey League
                   - IHWA Winter Season
                   - Monday Night Scratch Games
+                  - Perth Summer League
 
               - name: team
                 label: Team
@@ -124,6 +125,7 @@ collections:
                   - Haas
                   - Sauber
                   - Racing Bulls
+                  - Cadillac
                   - Medical Car
 
               - name: driver

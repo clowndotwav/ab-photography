@@ -4751,6 +4751,918 @@
         "lens": "FE 200-600mm F5.6-6.3 G OSS",
         "set": "500mm · f/6.3 · 1/1000s · ISO 250"
       }
+    },
+    {
+      "src": "images/f1/malaysia-01.jpg",
+      "title": "Ferrari, Close",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Ferrari",
+      "driver": "",
+      "track": "Sepang",
+      "session": "FP3",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/10 · 1/320s · ISO 100"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-02.jpg",
+      "title": "Mercedes in the Heat",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Mercedes",
+      "driver": "",
+      "track": "Sepang",
+      "session": "FP3",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/11 · 1/320s · ISO 125"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-03.jpg",
+      "title": "Cadillac, First Season",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Cadillac",
+      "driver": "",
+      "track": "Sepang",
+      "session": "FP3",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/11 · 1/400s · ISO 100"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-04.jpg",
+      "title": "Red Bull Through the Kink",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Red Bull",
+      "driver": "",
+      "track": "Sepang",
+      "session": "FP3",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/11 · 1/250s · ISO 125"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-05.jpg",
+      "title": "Haas on the Green",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Haas",
+      "driver": "",
+      "track": "Sepang",
+      "session": "FP3",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/11 · 1/320s · ISO 160"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-06.jpg",
+      "title": "Racing Bulls at the Barriers",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Racing Bulls",
+      "driver": "",
+      "track": "Sepang",
+      "session": "FP3",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/11 · 1/400s · ISO 100"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-07.jpg",
+      "title": "Aston Martin, Aramco Green",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Aston Martin",
+      "driver": "",
+      "track": "Sepang",
+      "session": "FP3",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/11 · 1/320s · ISO 125"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-08.jpg",
+      "title": "Williams Blue",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Williams",
+      "driver": "",
+      "track": "Sepang",
+      "session": "FP3",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/11 · 1/500s · ISO 125"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-09.jpg",
+      "title": "Alpine Past the Marshals",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Alpine",
+      "driver": "",
+      "track": "Sepang",
+      "session": "FP3",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/11 · 1/400s · ISO 100"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-10.jpg",
+      "title": "Sepang, Race Morning",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Sepang",
+      "session": "Race",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/11 · 1/320s · ISO 320"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-11.jpg",
+      "title": "Wheel to Wheel at Sepang",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Sepang",
+      "session": "Race",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/10 · 1/320s · ISO 200"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-12.jpg",
+      "title": "Through the Sepang Sweeper",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Sepang",
+      "session": "Race",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/10 · 1/400s · ISO 500"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-13.jpg",
+      "title": "McLaren, Race Stint",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "McLaren",
+      "driver": "",
+      "track": "Sepang",
+      "session": "Race",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/10 · 1/250s · ISO 125"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-14.jpg",
+      "title": "Ferrari on Race Day",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Ferrari",
+      "driver": "",
+      "track": "Sepang",
+      "session": "Race",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/10 · 1/250s · ISO 125"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-15.jpg",
+      "title": "Red Bull, Race Day",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Red Bull",
+      "driver": "",
+      "track": "Sepang",
+      "session": "Race",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/10 · 1/320s · ISO 320"
+      }
+    },
+    {
+      "src": "images/sports/flyers-01.jpg",
+      "title": "Goalie in the Crease",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "70mm · f/6.3 · 1/640s · ISO 12800"
+      }
+    },
+    {
+      "src": "images/sports/flyers-02.jpg",
+      "title": "Set for the Faceoff",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "200mm · f/6.3 · 1/640s · ISO 10000"
+      }
+    },
+    {
+      "src": "images/sports/flyers-03.jpg",
+      "title": "The Captain",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "200mm · f/6.3 · 1/640s · ISO 32000"
+      }
+    },
+    {
+      "src": "images/sports/flyers-04.jpg",
+      "title": "Driving With the Puck",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "200mm · f/6.3 · 1/640s · ISO 10000"
+      }
+    },
+    {
+      "src": "images/sports/flyers-05.jpg",
+      "title": "Battle on the Boards",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "162mm · f/6.3 · 1/640s · ISO 12800"
+      }
+    },
+    {
+      "src": "images/sports/flyers-06.jpg",
+      "title": "Scramble at the Net",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "103mm · f/6.3 · 1/640s · ISO 12800"
+      }
+    },
+    {
+      "src": "images/sports/flyers-07.jpg",
+      "title": "East Coast Blue",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "169mm · f/6.3 · 1/640s · ISO 12800"
+      }
+    },
+    {
+      "src": "images/sports/flyers-08.jpg",
+      "title": "Gathered at the Net",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "200mm · f/6.3 · 1/640s · ISO 10000"
+      }
+    },
+    {
+      "src": "images/sports/skyhawks-01.jpg",
+      "title": "Redhawks Goalie, Square to the Shooter",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "147mm · f/4 · 1/3200s · ISO 16000"
+      }
+    },
+    {
+      "src": "images/sports/skyhawks-02.jpg",
+      "title": "Number 90",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/4 · 1/1600s · ISO 16000"
+      }
+    },
+    {
+      "src": "images/sports/skyhawks-03.jpg",
+      "title": "Redhawks Line Up",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/4 · 1/1600s · ISO 16000"
+      }
+    },
+    {
+      "src": "images/sports/skyhawks-04.jpg",
+      "title": "Red Against Teal",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "133mm · f/4 · 1/1600s · ISO 16000"
+      }
+    },
+    {
+      "src": "images/sports/skyhawks-05.jpg",
+      "title": "Chasing It Down",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "133mm · f/4 · 1/750s · ISO 2500"
+      }
+    },
+    {
+      "src": "images/sports/skyhawks-06.jpg",
+      "title": "Scramble in Front",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/4 · 1/750s · ISO 4000"
+      }
+    },
+    {
+      "src": "images/sports/skyhawks-07.jpg",
+      "title": "Pinned at Cockburn",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/4 · 1/750s · ISO 6400"
+      }
+    },
+    {
+      "src": "images/sports/skyhawks-08.jpg",
+      "title": "Puck Drop, Skyhawks",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "IHWA Winter Season",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "Cockburn Ice Arena",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "175mm · f/4 · 1/750s · ISO 6400"
+      }
+    },
+    {
+      "src": "images/sports/panthers-01.jpg",
+      "title": "Bravehearts Goalie, Glove Ready",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "Perth Summer League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "250mm · f/6.3 · 1/500s · ISO 16000"
+      }
+    },
+    {
+      "src": "images/sports/panthers-02.jpg",
+      "title": "Square in the Blue Paint",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "Perth Summer League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/6.7 · 1/500s · ISO 10000"
+      }
+    },
+    {
+      "src": "images/sports/panthers-03.jpg",
+      "title": "Everyone In",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "Perth Summer League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "218mm · f/6.3 · 1/500s · ISO 16000"
+      }
+    },
+    {
+      "src": "images/sports/panthers-04.jpg",
+      "title": "Down and Covering",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "Perth Summer League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "146mm · f/6.7 · 1/500s · ISO 8000"
+      }
+    },
+    {
+      "src": "images/sports/panthers-05.jpg",
+      "title": "Race for the Puck",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "Perth Summer League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "89mm · f/6.7 · 1/500s · ISO 5000"
+      }
+    },
+    {
+      "src": "images/sports/panthers-06.jpg",
+      "title": "Panthers Pink",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "Perth Summer League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "600mm · f/6.3 · 1/500s · ISO 12800"
+      }
+    },
+    {
+      "src": "images/sports/panthers-07.jpg",
+      "title": "Carrying Out of Defence",
+      "cats": [
+        "sports"
+      ],
+      "tag": "Ice Hockey",
+      "series": "",
+      "comp": "Perth Summer League",
+      "team": "",
+      "driver": "",
+      "track": "",
+      "session": "",
+      "loc": "",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "200mm · f/7.1 · 1/500s · ISO 12800"
+      }
     }
   ]
 }

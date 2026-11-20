@@ -49,7 +49,8 @@ const TABS = [
           "Perth Inferno",
           "Perth Womens Ice Hockey League",
           "IHWA Winter Season",
-          "Monday Night Scratch Games"
+          "Monday Night Scratch Games",
+          "Perth Summer League"
         ]
       },
       {
@@ -102,6 +103,7 @@ const TABS = [
           "Haas",
           "Sauber",
           "Racing Bulls",
+          "Cadillac",
           "Medical Car"
         ]
       },
