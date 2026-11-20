@@ -753,11 +753,15 @@ body.has-team::after{
 /* ---------- 16. EMBERS ----------
    Opt-in per team (embers: true in FILTER_THEMES) — it earns its place
    on Inferno because of the name and would be arbitrary anywhere else.
-   Specks drift up the viewport in the team's two colours. The layer is
-   fixed and sits at the same depth as the ambient glow, so the cards
-   and the photographs cover it rather than it floating over them.
-   Each speck gets its own size, lane, drift, speed and delay from JS,
-   so nothing visibly loops in step. */
+   Flakes drift up the viewport in the team's two colours, tumbling as
+   they go, like ash off a fire. The layer is fixed and sits at the same
+   depth as the ambient glow, so the cards and the photographs cover it
+   rather than it floating over them.
+
+   Two elements per flake on purpose: the wrapper rises and drifts, the
+   inner one spins. Separating them lets the spin run at its own speed
+   instead of being locked to the climb, which is what stops eighty
+   flakes looking like one animation playing eighty times. */
 .embers{
   position:fixed; inset:0; z-index:0; pointer-events:none;
   overflow:hidden; contain:strict;
@@ -767,20 +771,26 @@ body.has-team::after{
 
 .ember{
   position:absolute; bottom:-8vh; left:var(--x);
-  width:var(--s); height:var(--s); border-radius:50%;
-  background:radial-gradient(circle,
-      hsl(var(--c) / .98) 0%, hsl(var(--c) / .5) 42%, transparent 72%);
-  /* the halo is what makes a dot read as a light rather than dust */
-  box-shadow:0 0 calc(var(--s) * 3) hsl(var(--c) / .55);
-  opacity:0;
-  will-change:transform, opacity;
+  opacity:0; will-change:transform, opacity;
   animation:ember-rise var(--d) linear var(--delay) infinite;
 }
+.ember i{
+  display:block; width:var(--w); height:var(--h);
+  border-radius:1px;
+  background:hsl(var(--c));
+  /* the halo is what makes a flake read as an ember rather than litter */
+  box-shadow:0 0 calc(var(--w) * 3.5) hsl(var(--c) / .6);
+  will-change:transform;
+  animation:ember-tumble var(--spin) linear infinite;
+}
 @keyframes ember-rise{
-  0%   { transform:translate3d(0, 0, 0) scale(.55);           opacity:0; }
-  10%  {                                                      opacity:var(--o); }
-  70%  {                                                      opacity:var(--o); }
-  100% { transform:translate3d(var(--drift), -116vh, 0) scale(1.15); opacity:0; }
+  0%   { transform:translate3d(0, 0, 0);              opacity:0; }
+  10%  {                                              opacity:var(--o); }
+  72%  {                                              opacity:var(--o); }
+  100% { transform:translate3d(var(--drift), -116vh, 0); opacity:0; }
+}
+@keyframes ember-tumble{
+  to{ transform:rotate(1turn); }
 }
 
 /* Embers are decoration and they move: anyone who has asked for less

@@ -48,7 +48,10 @@
   /* Embers. Built once per theme change and torn down the moment the
      chip clears, so nothing animates when no team is selected. Anyone
      who has asked for reduced motion gets none at all. */
-  const EMBER_COUNT = 40;
+  /* A narrow screen gets fewer: eighty flakes is two animations each,
+     and phones are where that bites. */
+  const emberCount = () => (window.innerWidth < 720 ? 34 : 80);
+
   function setEmbers(theme) {
     let layer = $(".embers");
     if (!theme || !theme.embers || reduceMotion) {
@@ -59,20 +62,33 @@
     layer = document.createElement("div");
     layer.className = "embers";
     layer.setAttribute("aria-hidden", "true");
+
     const rnd = (lo, hi) => lo + Math.random() * (hi - lo);
-    for (let i = 0; i < EMBER_COUNT; i++) {
+    const frag = document.createDocumentFragment();
+    for (let i = 0; i < emberCount(); i++) {
       const e = document.createElement("span");
       e.className = "ember";
+      const w = rnd(1.6, 4);
+      e.style.setProperty("--x",     rnd(-2, 100).toFixed(2) + "vw");
+      e.style.setProperty("--w",     w.toFixed(1) + "px");
+      e.style.setProperty("--h",     (w * rnd(1.2, 3.2)).toFixed(1) + "px");
+      e.style.setProperty("--o",     rnd(0.45, 1).toFixed(2));
+      e.style.setProperty("--drift", rnd(-11, 11).toFixed(1) + "vw");
+      e.style.setProperty("--d",     rnd(12, 32).toFixed(1) + "s");
+      e.style.setProperty("--delay", (-rnd(0, 32)).toFixed(1) + "s");
+
+      const flake = document.createElement("i");
       // two thirds in the warmer colour: it reads as fire, not confetti
-      e.style.setProperty("--c", Math.random() < 0.66 ? theme.b : theme.a);
-      e.style.setProperty("--x", rnd(-2, 100).toFixed(2) + "vw");
-      e.style.setProperty("--s", rnd(2.5, 7).toFixed(1) + "px");
-      e.style.setProperty("--o", rnd(0.5, 1).toFixed(2));
-      e.style.setProperty("--drift", rnd(-9, 9).toFixed(1) + "vw");
-      e.style.setProperty("--d", rnd(13, 30).toFixed(1) + "s");
-      e.style.setProperty("--delay", (-rnd(0, 30)).toFixed(1) + "s");
-      layer.appendChild(e);
+      flake.style.setProperty("--c", Math.random() < 0.66 ? theme.b : theme.a);
+      flake.style.setProperty("--spin", rnd(2.4, 8).toFixed(1) + "s");
+      // half tumble the other way, so they do not all turn together
+      if (Math.random() < 0.5) flake.style.animationDirection = "reverse";
+      flake.style.animationDelay = (-rnd(0, 8)).toFixed(1) + "s";
+
+      e.appendChild(flake);
+      frag.appendChild(e);
     }
+    layer.appendChild(frag);
     document.body.appendChild(layer);
   }
 
