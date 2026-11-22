@@ -1,17 +1,21 @@
 {
   "src": "images/sports/inferno-07.jpg",
-  "title": "Celebration at the Bench",
+  "title": "Post-Goal Celebration",
   "cats": [
     "sports"
   ],
   "ord": 83,
   "hockey": {
-    "comp": "Perth Inferno"
+    "comp": "Perth Inferno",
+    "team": ""
   },
+  "f1": null,
   "extra": {
     "tag": "Ice Hockey",
     "loc": "Cockburn Ice Arena",
     "year": "2026",
+    "alt": "",
+    "feat": false,
     "wm": true,
     "exif": {
       "cam": "Sony A7R IVA",
