@@ -5,9 +5,11 @@
     "f1"
   ],
   "ord": 247,
+  "hockey": null,
   "f1": {
     "series": "F1",
     "team": "Alpine",
+    "driver": "Colapinto",
     "track": "Silverstone",
     "session": "Qualifying"
   },
@@ -15,6 +17,8 @@
     "tag": "F1",
     "loc": "Silverstone, UK",
     "year": "2025",
+    "alt": "",
+    "feat": false,
     "wm": true,
     "exif": {
       "cam": "Sony A7R IVA",
