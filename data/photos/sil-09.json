@@ -5,9 +5,11 @@
     "f1"
   ],
   "ord": 253,
+  "hockey": null,
   "f1": {
     "series": "F1",
-    "team": "Haas",
+    "team": "Red Bull",
+    "driver": "Tsunoda",
     "track": "Silverstone",
     "session": "FP2"
   },
@@ -15,6 +17,8 @@
     "tag": "F1",
     "loc": "Silverstone, UK",
     "year": "2025",
+    "alt": "",
+    "feat": false,
     "wm": true,
     "exif": {
       "cam": "Sony A7R IVA",
