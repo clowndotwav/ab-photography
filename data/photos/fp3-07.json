@@ -1,0 +1,25 @@
+{
+  "src": "images/f1/fp3-07.jpg",
+  "title": "Alpine in Pink and Blue",
+  "cats": [
+    "f1"
+  ],
+  "ord": 263,
+  "f1": {
+    "series": "F1",
+    "track": "Silverstone",
+    "session": "FP3",
+    "team": "Alpine"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "489mm · f/6.3 · 1/1500s · ISO 1000"
+    }
+  }
+}

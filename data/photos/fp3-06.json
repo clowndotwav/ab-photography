@@ -1,0 +1,25 @@
+{
+  "src": "images/f1/fp3-06.jpg",
+  "title": "Racing Bulls Under Power",
+  "cats": [
+    "f1"
+  ],
+  "ord": 262,
+  "f1": {
+    "series": "F1",
+    "track": "Silverstone",
+    "session": "FP3",
+    "team": "Racing Bulls"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "463mm · f/6.3 · 1/1500s · ISO 640"
+    }
+  }
+}

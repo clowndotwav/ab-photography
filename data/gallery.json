@@ -4407,6 +4407,265 @@
         "lens": "FE 200-600mm F5.6-6.3 G OSS",
         "set": "419mm · f/5.6 · 1/1000s · ISO 50"
       }
+    },
+    {
+      "src": "images/f1/fp3-01.jpg",
+      "title": "Hamilton’s Ferrari, Car 44",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "team": "Ferrari",
+      "driver": "Hamilton",
+      "track": "Silverstone",
+      "session": "FP3",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "350mm · f/5.6 · 1/1500s · ISO 500"
+      }
+    },
+    {
+      "src": "images/f1/fp3-02.jpg",
+      "title": "Ferrari Turns In",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "team": "Ferrari",
+      "track": "Silverstone",
+      "session": "FP3",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "535mm · f/6.3 · 1/1500s · ISO 100"
+      }
+    },
+    {
+      "src": "images/f1/fp3-03.jpg",
+      "title": "Red Bull Along the Pit Wall",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "team": "Red Bull",
+      "track": "Silverstone",
+      "session": "FP3",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "368mm · f/5.6 · 1/1500s · ISO 640"
+      }
+    },
+    {
+      "src": "images/f1/fp3-04.jpg",
+      "title": "Mercedes on the Limit",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "team": "Mercedes",
+      "track": "Silverstone",
+      "session": "FP3",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "444mm · f/5.6 · 1/1500s · ISO 1000"
+      }
+    },
+    {
+      "src": "images/f1/fp3-05.jpg",
+      "title": "Aston Martin, British Racing Green",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "team": "Aston Martin",
+      "track": "Silverstone",
+      "session": "FP3",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "459mm · f/6.3 · 1/1500s · ISO 800"
+      }
+    },
+    {
+      "src": "images/f1/fp3-06.jpg",
+      "title": "Racing Bulls Under Power",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "team": "Racing Bulls",
+      "track": "Silverstone",
+      "session": "FP3",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "463mm · f/6.3 · 1/1500s · ISO 640"
+      }
+    },
+    {
+      "src": "images/f1/fp3-07.jpg",
+      "title": "Alpine in Pink and Blue",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "team": "Alpine",
+      "track": "Silverstone",
+      "session": "FP3",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "489mm · f/6.3 · 1/1500s · ISO 1000"
+      }
+    },
+    {
+      "src": "images/f1/fp3-08.jpg",
+      "title": "Williams Hugs the Line",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "team": "Williams",
+      "track": "Silverstone",
+      "session": "FP3",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "441mm · f/5.6 · 1/1500s · ISO 800"
+      }
+    },
+    {
+      "src": "images/f1/fp3-09.jpg",
+      "title": "Haas Through the Kerbs",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "team": "Haas",
+      "track": "Silverstone",
+      "session": "FP3",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "600mm · f/6.3 · 1/1500s · ISO 800"
+      }
+    },
+    {
+      "src": "images/f1/fp3-10.jpg",
+      "title": "Stake Sauber Past the Grandstand",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "team": "Sauber",
+      "track": "Silverstone",
+      "session": "FP3",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "478mm · f/6.3 · 1/1500s · ISO 320"
+      }
+    },
+    {
+      "src": "images/f1/fp3-11.jpg",
+      "title": "McLaren in Papaya",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "team": "McLaren",
+      "track": "Silverstone",
+      "session": "FP3",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "496mm · f/6.3 · 1/1500s · ISO 500"
+      }
+    },
+    {
+      "src": "images/f1/fp3-12.jpg",
+      "title": "Ferrari and Red Bull, Nose to Tail",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "track": "Silverstone",
+      "session": "FP3",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "600mm · f/6.3 · 1/1500s · ISO 500"
+      }
+    },
+    {
+      "src": "images/f1/fp3-13.jpg",
+      "title": "Side by Side on the Straight",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "track": "Silverstone",
+      "session": "FP3",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "600mm · f/6.3 · 1/1500s · ISO 500"
+      }
     }
   ]
 }

@@ -111,6 +111,7 @@ const TABS = [
       {
         "key": "driver",
         "label": "Driver",
+        "always": true,
         "order": [
           "Leclerc",
           "Hamilton",
@@ -131,7 +132,9 @@ const TABS = [
           "Hulkenberg",
           "Bortoleto",
           "Hadjar",
-          "Lawson"
+          "Lawson",
+          "Perez",
+          "Bottas"
         ]
       },
       {

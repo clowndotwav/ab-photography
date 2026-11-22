@@ -161,8 +161,38 @@ collections:
               - Cadillac
               - Medical Car
 
-          - { name: driver, label: Driver, widget: string, required: false,
-              hint: Surname only. Leave blank if you can't read the car number — the photo still shows under its team. }
+          - name: driver
+            label: Driver
+            widget: select
+            required: false
+            options:
+              - Leclerc
+              - Hamilton
+              - Norris
+              - Piastri
+              - Russell
+              - Antonelli
+              - Verstappen
+              - Tsunoda
+              - Alonso
+              - Stroll
+              - Gasly
+              - Colapinto
+              - Albon
+              - Sainz
+              - Ocon
+              - Bearman
+              - Hulkenberg
+              - Bortoleto
+              - Hadjar
+              - Lawson
+              - Perez
+              - Bottas
+            hint: >-
+              Read the number off the car. Leave it blank if you can't — the photo
+              still shows under its team, it just won't come up under a driver chip.
+              A wrong driver is worse than a blank one. A list rather than a text box
+              so a typo can't quietly create a second chip for the same person.
           - { name: track, label: Track, widget: string, required: false }
           - { name: session, label: Session, widget: string, required: false,
               hint: "FP1, FP2, FP3, Sprint, Qualifying, Race. Not a filter — shown in the viewer." }

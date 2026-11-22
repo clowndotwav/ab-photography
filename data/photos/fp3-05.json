@@ -1,0 +1,25 @@
+{
+  "src": "images/f1/fp3-05.jpg",
+  "title": "Aston Martin, British Racing Green",
+  "cats": [
+    "f1"
+  ],
+  "ord": 261,
+  "f1": {
+    "series": "F1",
+    "track": "Silverstone",
+    "session": "FP3",
+    "team": "Aston Martin"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "459mm · f/6.3 · 1/1500s · ISO 800"
+    }
+  }
+}

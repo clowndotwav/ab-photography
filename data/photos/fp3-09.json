@@ -1,0 +1,25 @@
+{
+  "src": "images/f1/fp3-09.jpg",
+  "title": "Haas Through the Kerbs",
+  "cats": [
+    "f1"
+  ],
+  "ord": 265,
+  "f1": {
+    "series": "F1",
+    "track": "Silverstone",
+    "session": "FP3",
+    "team": "Haas"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "600mm · f/6.3 · 1/1500s · ISO 800"
+    }
+  }
+}
