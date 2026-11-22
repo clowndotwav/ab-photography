@@ -1,17 +1,21 @@
 {
   "src": "images/sports/flyers-05.jpg",
-  "title": "Battle on the Boards",
+  "title": "Faceoff After Goal",
   "cats": [
     "sports"
   ],
   "ord": 218,
   "hockey": {
-    "comp": "IHWA Winter Season"
+    "comp": "IHWA Winter Season",
+    "team": ""
   },
+  "f1": null,
   "extra": {
     "tag": "Ice Hockey",
     "loc": "Cockburn Ice Arena",
     "year": "2026",
+    "alt": "",
+    "feat": false,
     "wm": true,
     "exif": {
       "cam": "Sony A7R IVA",
