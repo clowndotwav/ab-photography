@@ -1,0 +1,24 @@
+{
+  "src": "images/f1/fp2-14.jpg",
+  "title": "Green and Blue Through the Pit Straight",
+  "cats": [
+    "f1"
+  ],
+  "ord": 299,
+  "f1": {
+    "series": "F1",
+    "track": "Silverstone",
+    "session": "FP2"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "286mm · f/5.6 · 1/1000s · ISO 50"
+    }
+  }
+}

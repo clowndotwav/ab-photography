@@ -1,0 +1,24 @@
+{
+  "src": "images/f1/f3t-11.jpg",
+  "title": "Past the DRS Board",
+  "cats": [
+    "f1"
+  ],
+  "ord": 280,
+  "f1": {
+    "series": "F3",
+    "track": "Silverstone",
+    "session": "Race"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "306mm · f/5.6 · 1/1500s · ISO 400"
+    }
+  }
+}

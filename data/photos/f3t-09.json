@@ -1,0 +1,24 @@
+{
+  "src": "images/f1/f3t-09.jpg",
+  "title": "Red Bull Junior Through the Apex",
+  "cats": [
+    "f1"
+  ],
+  "ord": 278,
+  "f1": {
+    "series": "F3",
+    "track": "Silverstone",
+    "session": "Race"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "329mm · f/5.6 · 1/1500s · ISO 640"
+    }
+  }
+}

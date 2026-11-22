@@ -1,0 +1,25 @@
+{
+  "src": "images/f1/fp2-01.jpg",
+  "title": "Ferrari Turns Towards the Apex",
+  "cats": [
+    "f1"
+  ],
+  "ord": 286,
+  "f1": {
+    "series": "F1",
+    "track": "Silverstone",
+    "session": "FP2",
+    "team": "Ferrari"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "481mm · f/6.7 · 1/1000s · ISO 50"
+    }
+  }
+}
