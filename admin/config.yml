@@ -25,11 +25,18 @@ backend:
   repo: clowndotwav/ab-photography
   branch: main
 
-# Where photos dragged into this screen land in the repo, and the URL
-# they're served at. Photos added by hand live in images/<section>/
-# instead — both work, this is just where new uploads go.
-media_folder: /images/uploads
-public_folder: /images/uploads
+# The folder the editor scans for pictures, and the path it writes into a
+# photo's Image field. Sveltia reads assets recursively from media_folder,
+# and it can only draw a thumbnail for a value it can match to a real file
+# under there. The photos live in images/f1, images/sports, images/wildlife
+# and so on, so media_folder has to be images — pointed at images/uploads
+# (a folder that doesn't exist) it found nothing and every thumbnail was blank.
+#
+# No leading slash on public_folder on purpose: the site uses relative paths
+# ("images/f1/sil-01.jpg", not "/images/..."), and this has to produce the
+# same spelling or the match fails again. New uploads land in images/ itself.
+media_folder: images
+public_folder: images
 
 collections:
   # ------------------------------------------------------------------
