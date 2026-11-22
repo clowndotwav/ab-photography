@@ -6,12 +6,16 @@
   ],
   "ord": 140,
   "hockey": {
-    "comp": "Perth Womens Ice Hockey League"
+    "comp": "Perth Womens Ice Hockey League",
+    "team": "Hellcats"
   },
+  "f1": null,
   "extra": {
     "tag": "Ice Hockey",
     "loc": "Cockburn Ice Arena",
     "year": "2026",
+    "alt": "",
+    "feat": false,
     "wm": true,
     "exif": {
       "cam": "Sony A7R IVA",

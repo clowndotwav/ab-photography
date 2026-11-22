@@ -5,15 +5,20 @@
     "f1"
   ],
   "ord": 30,
+  "hockey": null,
   "f1": {
     "series": "F1",
     "team": "Sauber",
+    "driver": "Hulkenberg",
     "track": "Silverstone",
     "session": "Race"
   },
   "extra": {
     "tag": "F1",
+    "loc": "",
     "year": "2025",
+    "alt": "",
+    "feat": false,
     "wm": true,
     "exif": {
       "cam": "Sony A7R IV",

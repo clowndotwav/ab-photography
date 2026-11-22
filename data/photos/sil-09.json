@@ -1,13 +1,15 @@
 {
   "src": "images/f1/sil-09.jpg",
-  "title": "Haas, Practice Two",
+  "title": "Yuki, Practice Two",
   "cats": [
     "f1"
   ],
   "ord": 253,
+  "hockey": null,
   "f1": {
     "series": "F1",
-    "team": "Haas",
+    "team": "Red Bull",
+    "driver": "Tsunoda",
     "track": "Silverstone",
     "session": "FP2"
   },
@@ -15,6 +17,8 @@
     "tag": "F1",
     "loc": "Silverstone, UK",
     "year": "2025",
+    "alt": "",
+    "feat": false,
     "wm": true,
     "exif": {
       "cam": "Sony A7R IVA",

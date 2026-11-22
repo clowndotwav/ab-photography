@@ -5,16 +5,20 @@
     "f1"
   ],
   "ord": 260,
+  "hockey": null,
   "f1": {
     "series": "F1",
+    "team": "Mercedes",
+    "driver": "Russell",
     "track": "Silverstone",
-    "session": "FP3",
-    "team": "Mercedes"
+    "session": "FP3"
   },
   "extra": {
     "tag": "F1",
     "loc": "Silverstone, UK",
     "year": "2025",
+    "alt": "",
+    "feat": false,
     "wm": true,
     "exif": {
       "cam": "Sony A7R IVA",
