@@ -55,6 +55,7 @@ const TABS = [
       {
         "key": "team",
         "label": "Team",
+        "when": { "comp": "Perth Womens Ice Hockey League" },
         "always": true,
         "order": [
           "Wolves",
@@ -212,9 +213,9 @@ const FILTER_THEMES = {
   "Perth Inferno": { a: "274 42% 46%", b: "16 95% 55%", accent: "276 70% 68%",
                      embers: true, shape: "ember" },
 
-  // PWIHL — colours as Jas described them. Teams appear as chips only
-  // once photos are tagged with them, so this list can run ahead of
-  // the gallery without putting a dead chip on the page.
+  // PWIHL — colours as Jas described them. The club row only appears
+  // once you pick Perth Womens Ice Hockey League, and then shows all
+  // seven whether or not photos are tagged yet (see "when" above).
   "Wolves":   { a: "220 48% 30%", b: "48 95% 55%",  accent: "48 88% 62%",
                 embers: true, shape: "ember" },
   "Scouts":   { a: "186 68% 38%", b: "199 88% 62%", accent: "192 82% 66%",
@@ -223,7 +224,7 @@ const FILTER_THEMES = {
                 embers: true, shape: "ember" },
   "Moose":    { a: "330 82% 46%", b: "320 95% 64%", accent: "328 90% 70%",
                 embers: true, shape: "ember" },
-  "Pandas":   { a: "0 88% 44%",   b: "26 95% 52%",  accent: "0 88% 64%",
+  "Pandas":   { a: "0 85% 40%",   b: "354 96% 57%", accent: "0 92% 66%",
                 embers: true, shape: "ember" },
   "Bears":    { a: "268 55% 40%", b: "286 72% 58%", accent: "278 72% 68%",
                 embers: true, shape: "ember" },

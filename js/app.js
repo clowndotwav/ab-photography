@@ -232,6 +232,16 @@
     return seen;
   }
 
+  /* `when` on a filter definition holds the row back until the rows above
+     are on a particular value. The PWIHL club row uses it: the clubs mean
+     nothing under Perth Inferno or a Winter Season game, so the row stays
+     off the page until you pick Perth Womens Ice Hockey League, and any
+     club left selected is cleared on the way out. */
+  function rowApplies(def) {
+    if (!def.when) return true;
+    return Object.keys(def.when).every(k => activeFilters[k] === def.when[k]);
+  }
+
   /* The filter rows cascade: a row offers values drawn from the photos
      left by the rows ABOVE it, never by the rows below. Pick F2 and the
      Team row stops offering Ferrari, because Team sits under Series.
@@ -261,6 +271,10 @@
        picking F2 would leave Team on Ferrari and the grid empty. Top
        down in one pass, since each row only depends on the ones above. */
     defs.forEach((def, i) => {
+      if (!rowApplies(def)) {                   // row is off the page — drop its pick
+        activeFilters[def.key] = "All";
+        return;
+      }
       if (def.always) return;                   // every declared value stays pickable
       const v = activeFilters[def.key];
       if (v && v !== "All" &&
@@ -270,6 +284,8 @@
     });
 
     defs.forEach((def, i) => {
+      if (!rowApplies(def)) return;             // waiting on a row above
+
       /* `always` rows show every value they declare, whether or not a photo
          carries it yet. The PWIHL clubs use it: each one has its own colours,
          so the chip is worth having before the photos are tagged — picking a
