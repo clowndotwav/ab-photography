@@ -1,0 +1,19 @@
+{
+  "src": "images/wildlife/wildlife-04.jpg",
+  "title": "Grey Squirrel",
+  "cats": [
+    "wildlife"
+  ],
+  "ord": 95,
+  "extra": {
+    "tag": "Mammals",
+    "loc": "Woburn Safari Park",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm f/4 G",
+      "set": "174mm · f/4 · 1/320s · ISO 400"
+    }
+  }
+}

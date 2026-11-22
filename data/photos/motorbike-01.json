@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/motorbike-01.jpg",
+  "title": "Honda #79, Full Lean",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 1,
+  "extra": {
+    "tag": "Motorbikes",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "359mm · f/11 · 1/250s · ISO 125"
+    }
+  }
+}

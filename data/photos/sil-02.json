@@ -1,0 +1,25 @@
+{
+  "src": "images/f1/sil-02.jpg",
+  "title": "Williams Through the Kink",
+  "cats": [
+    "f1"
+  ],
+  "ord": 246,
+  "f1": {
+    "series": "F1",
+    "team": "Williams",
+    "track": "Silverstone",
+    "session": "Qualifying"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "571mm · f/6.3 · 1/1500s · ISO 500"
+    }
+  }
+}

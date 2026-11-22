@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/superute-09.jpg",
+  "title": "Premier Property #22",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 158,
+  "extra": {
+    "tag": "Super Utes",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "200mm · f/11 · 1/125s · ISO 100"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "src": "images/f1/f1-13.jpg",
+  "title": "McLaren, Friday Running",
+  "cats": [
+    "f1"
+  ],
+  "ord": 32,
+  "f1": {
+    "series": "F1",
+    "team": "McLaren",
+    "track": "Silverstone",
+    "session": "FP2"
+  },
+  "extra": {
+    "tag": "F1",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "394mm · f/5.6 · 1/1000s · ISO 50"
+    }
+  }
+}

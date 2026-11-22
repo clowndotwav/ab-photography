@@ -1,0 +1,24 @@
+{
+  "src": "images/f1/f1-11.jpg",
+  "title": "Stake Sauber, Rooster Tail",
+  "cats": [
+    "f1"
+  ],
+  "ord": 30,
+  "f1": {
+    "series": "F1",
+    "team": "Sauber",
+    "track": "Silverstone",
+    "session": "Race"
+  },
+  "extra": {
+    "tag": "F1",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "456mm · f/6.3 · 1/1000s · ISO 800"
+    }
+  }
+}

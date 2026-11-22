@@ -1,0 +1,25 @@
+{
+  "src": "images/f1/f1-12.jpg",
+  "title": "Haas in the Wet",
+  "cats": [
+    "f1"
+  ],
+  "ord": 31,
+  "f1": {
+    "series": "F1",
+    "team": "Haas",
+    "driver": "Ocon",
+    "track": "Silverstone",
+    "session": "Race"
+  },
+  "extra": {
+    "tag": "F1",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "391mm · f/6.3 · 1/1000s · ISO 400"
+    }
+  }
+}

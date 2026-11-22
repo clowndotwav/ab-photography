@@ -1,0 +1,19 @@
+{
+  "src": "images/wildlife/wildlife-27.jpg",
+  "title": "Ring-Tailed Lemur",
+  "cats": [
+    "wildlife"
+  ],
+  "ord": 163,
+  "extra": {
+    "tag": "Mammals",
+    "loc": "Woburn Safari Park",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm F4 G OSS",
+      "set": "178mm · f/5 · 1/640s · ISO 500"
+    }
+  }
+}

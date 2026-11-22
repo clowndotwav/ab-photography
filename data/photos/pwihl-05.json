@@ -1,0 +1,22 @@
+{
+  "src": "images/sports/pwihl-05.jpg",
+  "title": "Shoulder to Shoulder",
+  "cats": [
+    "sports"
+  ],
+  "ord": 91,
+  "hockey": {
+    "comp": "Perth Womens Ice Hockey League"
+  },
+  "extra": {
+    "tag": "Ice Hockey",
+    "loc": "Cockburn Ice Arena",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm f/4 G",
+      "set": "168mm · f/4 · 1/1000s · ISO 2500"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/superute-08.jpg",
+  "title": "Custom Lithium #18",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 61,
+  "extra": {
+    "tag": "Super Utes",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FFE 200-600mm f/5.6-6.3 G",
+      "set": "335mm · f/11 · 1/100s · ISO 100"
+    }
+  }
+}

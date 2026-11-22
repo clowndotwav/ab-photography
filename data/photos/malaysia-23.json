@@ -1,0 +1,24 @@
+{
+  "src": "images/f1/malaysia-23.jpg",
+  "title": "Across the Painted Kerbs",
+  "cats": [
+    "f1"
+  ],
+  "ord": 244,
+  "f1": {
+    "series": "F1",
+    "track": "Sepang",
+    "session": "FP3"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Sepang, Malaysia",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "400mm · f/11 · 1/200s · ISO 100"
+    }
+  }
+}

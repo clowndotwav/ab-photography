@@ -1,0 +1,23 @@
+{
+  "src": "images/f1/safetycar-06.jpg",
+  "title": "Crane Standing By",
+  "cats": [
+    "f1"
+  ],
+  "ord": 177,
+  "f1": {
+    "series": "Safety Car",
+    "track": "Silverstone"
+  },
+  "extra": {
+    "tag": "Safety Car",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "565mm · f/6.3 · 1/1500s · ISO 400"
+    }
+  }
+}

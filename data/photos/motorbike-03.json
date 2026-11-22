@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/motorbike-03.jpg",
+  "title": "The Number One Plate",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 3,
+  "extra": {
+    "tag": "Motorbikes",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "541mm · f/11 · 1/125s · ISO 100"
+    }
+  }
+}

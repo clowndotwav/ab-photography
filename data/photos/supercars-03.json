@@ -1,0 +1,18 @@
+{
+  "src": "images/motorsport/supercars-03.jpg",
+  "title": "Supra Through the Chicane",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 46,
+  "extra": {
+    "tag": "Supercars",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "344mm · f/11 · 1/125s · ISO 50"
+    }
+  }
+}

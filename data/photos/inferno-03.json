@@ -1,0 +1,22 @@
+{
+  "src": "images/sports/inferno-03.jpg",
+  "title": "Winding Up at the Blue Line",
+  "cats": [
+    "sports"
+  ],
+  "ord": 79,
+  "hockey": {
+    "comp": "Perth Inferno"
+  },
+  "extra": {
+    "tag": "Ice Hockey",
+    "loc": "Cockburn Ice Arena",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm f/4 G",
+      "set": "146mm · f/4.5 · 1/1000s · ISO 4000"
+    }
+  }
+}

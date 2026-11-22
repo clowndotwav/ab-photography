@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/motorbike-10.jpg",
+  "title": "Tucked In, #52",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 10,
+  "extra": {
+    "tag": "Motorbikes",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "506mm · f/11 · 1/200s · ISO 100"
+    }
+  }
+}

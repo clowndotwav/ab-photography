@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/transam-07.jpg",
+  "title": "Auto Openers on the Exit",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 68,
+  "extra": {
+    "tag": "Trans Am",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FFE 200-600mm f/5.6-6.3 G",
+      "set": "541mm · f/11 · 1/320s · ISO 100"
+    }
+  }
+}

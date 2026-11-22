@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/radical-09.jpg",
+  "title": "Fasidu #32 Leading",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 151,
+  "extra": {
+    "tag": "Radicals",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "223mm · f/11 · 1/125s · ISO 100"
+    }
+  }
+}

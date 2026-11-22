@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/v8-05.jpg",
+  "title": "Monster Energy Autobarn",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 73,
+  "extra": {
+    "tag": "Supercars",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FFE 200-600mm f/5.6-6.3 G",
+      "set": "280mm · f/11 · 1/125s · ISO 100"
+    }
+  }
+}

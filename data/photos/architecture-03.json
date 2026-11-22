@@ -1,0 +1,20 @@
+{
+  "src": "images/architecture/architecture-03.jpg",
+  "title": "Steel and Geometry",
+  "cats": [
+    "architecture"
+  ],
+  "ord": 14,
+  "extra": {
+    "tag": "Towers",
+    "loc": "Kuala Lumpur, Malaysia",
+    "year": "2026",
+    "feat": true,
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 70-200mm f/4 G",
+      "set": "89mm · f/4 · 1/500s · ISO 10000"
+    }
+  }
+}

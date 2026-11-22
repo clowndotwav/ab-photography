@@ -1,0 +1,23 @@
+{
+  "src": "images/f1/safetycar-02.jpg",
+  "title": "Safety Car Head On",
+  "cats": [
+    "f1"
+  ],
+  "ord": 173,
+  "f1": {
+    "series": "Safety Car",
+    "track": "Silverstone"
+  },
+  "extra": {
+    "tag": "Safety Car",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "506mm · f/6.3 · 1/1500s · ISO 640"
+    }
+  }
+}

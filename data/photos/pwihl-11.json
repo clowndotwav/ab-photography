@@ -1,0 +1,23 @@
+{
+  "src": "images/sports/pwihl-11.jpg",
+  "title": "Traffic in the Crease",
+  "cats": [
+    "sports"
+  ],
+  "ord": 145,
+  "hockey": {
+    "comp": "Perth Womens Ice Hockey League",
+    "team": "Wolves"
+  },
+  "extra": {
+    "tag": "Ice Hockey",
+    "loc": "Cockburn Ice Arena",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm F4 G OSS",
+      "set": "153mm · f/4 · 1/1000s · ISO 2500"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "src": "images/f1/f2-03.jpg",
+  "title": "Orange Through Standing Water",
+  "cats": [
+    "f1"
+  ],
+  "ord": 180,
+  "f1": {
+    "series": "F2",
+    "track": "Silverstone"
+  },
+  "extra": {
+    "tag": "F2",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "518mm · f/6.3 · 1/1000s · ISO 320"
+    }
+  }
+}

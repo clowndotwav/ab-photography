@@ -1,0 +1,18 @@
+{
+  "src": "images/motorsport/supercars-01.jpg",
+  "title": "Castrol Mustang, Panned",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 44,
+  "extra": {
+    "tag": "Supercars",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "270mm · f/11 · 1/125s · ISO 50"
+    }
+  }
+}

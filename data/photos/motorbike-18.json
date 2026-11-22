@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/motorbike-18.jpg",
+  "title": "Green and Orange, #125",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 124,
+  "extra": {
+    "tag": "Motorbikes",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "293mm · f/11 · 1/350s · ISO 200"
+    }
+  }
+}

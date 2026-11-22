@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/v8-10.jpg",
+  "title": "Sherrin Rentals, Side by Side",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 153,
+  "extra": {
+    "tag": "Supercars",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "239mm · f/11 · 1/125s · ISO 50"
+    }
+  }
+}

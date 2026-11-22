@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/motorbike-06.jpg",
+  "title": "Blue and White, #53",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 6,
+  "extra": {
+    "tag": "Motorbikes",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "512mm · f/11 · 1/125s · ISO 100"
+    }
+  }
+}

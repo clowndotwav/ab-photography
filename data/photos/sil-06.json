@@ -1,0 +1,25 @@
+{
+  "src": "images/f1/sil-06.jpg",
+  "title": "Stake Green",
+  "cats": [
+    "f1"
+  ],
+  "ord": 250,
+  "f1": {
+    "series": "F1",
+    "team": "Sauber",
+    "track": "Silverstone",
+    "session": "Qualifying"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "448mm · f/5.6 · 1/1500s · ISO 500"
+    }
+  }
+}

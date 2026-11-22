@@ -1,0 +1,25 @@
+{
+  "src": "images/f1/f1-02.jpg",
+  "title": "Ferrari on the White Line",
+  "cats": [
+    "f1"
+  ],
+  "ord": 21,
+  "f1": {
+    "series": "F1",
+    "team": "Ferrari",
+    "driver": "Hamilton",
+    "track": "Silverstone",
+    "session": "FP2"
+  },
+  "extra": {
+    "tag": "F1",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "236mm · f/5.6 · 1/1000s · ISO 50"
+    }
+  }
+}

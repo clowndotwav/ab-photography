@@ -1,0 +1,22 @@
+{
+  "src": "images/sports/skyhawks-06.jpg",
+  "title": "Scramble in Front",
+  "cats": [
+    "sports"
+  ],
+  "ord": 227,
+  "hockey": {
+    "comp": "IHWA Winter Season"
+  },
+  "extra": {
+    "tag": "Ice Hockey",
+    "loc": "Cockburn Ice Arena",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm F4 G OSS",
+      "set": "200mm · f/4 · 1/750s · ISO 4000"
+    }
+  }
+}

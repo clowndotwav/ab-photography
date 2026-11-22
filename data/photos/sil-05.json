@@ -1,0 +1,25 @@
+{
+  "src": "images/f1/sil-05.jpg",
+  "title": "Red Bull, Practice Two",
+  "cats": [
+    "f1"
+  ],
+  "ord": 249,
+  "f1": {
+    "series": "F1",
+    "team": "Red Bull",
+    "track": "Silverstone",
+    "session": "FP2"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "485mm · f/6.7 · 1/1000s · ISO 320"
+    }
+  }
+}

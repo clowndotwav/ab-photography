@@ -1,0 +1,19 @@
+{
+  "src": "images/wildlife/caversham-02.jpg",
+  "title": "Wallaby With a Carrot",
+  "cats": [
+    "wildlife"
+  ],
+  "ord": 134,
+  "extra": {
+    "tag": "Mammals",
+    "loc": "Caversham Wildlife Park, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "200mm · f/5.6 · 1/250s · ISO 640"
+    }
+  }
+}

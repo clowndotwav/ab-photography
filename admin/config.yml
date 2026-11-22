@@ -5,190 +5,209 @@
 # This drives the editor at /admin. It commits straight to GitHub, so
 # every save is a normal commit and Netlify redeploys on its own.
 #
-# No base_url here on purpose: Netlify is Sveltia's default OAuth
-# client, and adding base_url would point it somewhere else.
+# Every photo is its own file in data/photos/. That is what lets this
+# screen show a grid of THUMBNAILS instead of a list of titles — an
+# editor can only draw entry thumbnails for a collection that has one
+# file per entry. On deploy, tools/build-gallery.mjs stitches them all
+# back into data/gallery.json, which is what the website actually
+# reads. Nothing here edits gallery.json directly; it is generated.
+#
+# The fields below are GROUPED (Ice hockey / Formula 1 / Everything
+# else) so this form stays short. The website wants them flat, and the
+# build script does that translation — if you move a field between
+# groups here, move it there too.
+#
+# No base_url on purpose: Netlify is Sveltia's default OAuth client,
+# and adding base_url would point it somewhere else.
 
 backend:
   name: github
   repo: clowndotwav/ab-photography
   branch: main
 
-# Where uploaded photos land in the repo, and the URL they're served at.
+# Where photos dragged into this screen land in the repo, and the URL
+# they're served at. Photos added by hand live in images/<section>/
+# instead — both work, this is just where new uploads go.
 media_folder: /images/uploads
 public_folder: /images/uploads
 
 collections:
   # ------------------------------------------------------------------
-  # THE GALLERY — every photo on the site
+  # PHOTOS — one file per photo, shown as a grid of thumbnails
   # ------------------------------------------------------------------
-  - name: gallery
+  - name: photos
     label: Photos
-    files:
-      - name: photos
-        label: All photos
-        file: data/gallery.json
-        description: >-
-          Every frame on the site. "Tabs" decides which page section a photo
-          appears under; the filter chips build themselves from whatever you
-          type in the fields below, so a new track or competition just appears.
+    label_singular: Photo
+    description: >-
+      Every frame on the site. Click a photo to change its details, or use
+      New Photo to add one. Changes go live a minute or so after you save.
+    folder: data/photos
+    extension: json
+    format: json
+    create: true
+    delete: true
+    slug: '{{slug}}'
+
+    # The picture shown on each card in the grid.
+    thumbnail: src
+    summary: '{{fields.title}}'
+
+    sortable_fields: [ord, title, src]
+
+    view_filters:
+      - { label: Wildlife, field: cats, pattern: wildlife }
+      - { label: Ice hockey, field: cats, pattern: sports }
+      - { label: Formula 1, field: cats, pattern: f1 }
+      - { label: Motorsport, field: cats, pattern: motorsport }
+      - { label: Architecture, field: cats, pattern: architecture }
+
+    fields:
+      - name: src
+        label: Photo
+        widget: image
+        hint: Drag a photo in from your desktop, or pick one already uploaded.
+
+      - name: title
+        label: Title
+        widget: string
+        hint: Shown under the tile and in the full-screen viewer.
+
+      - name: cats
+        label: Which tabs it appears on
+        widget: select
+        multiple: true
+        options:
+          - { label: Wildlife, value: wildlife }
+          - { label: Ice Hockey, value: sports }
+          - { label: Formula 1, value: f1 }
+          - { label: Motorsport, value: motorsport }
+          - { label: Architecture, value: architecture }
+        hint: A photo can sit on more than one tab.
+
+      - name: ord
+        label: Position
+        widget: number
+        value_type: int
+        required: false
+        hint: >-
+          Lower numbers come first. Leave it blank and the photo goes to the
+          end of the gallery; put 1 in to send it to the very front. You can
+          sort this screen by Position to see the running order.
+
+      # ----------------------------------------------------------------
+      - name: hockey
+        label: Ice hockey details
+        widget: object
+        required: false
+        collapsed: true
         fields:
-          - name: photos
-            label: Photos
-            label_singular: Photo
-            widget: list
-            allow_add: true
-            allow_reorder: true
-            summary: '{{fields.title}}'
+          - name: comp
+            label: Competition
+            widget: select
+            required: false
+            options:
+              - Perth Inferno
+              - Perth Womens Ice Hockey League
+              - IHWA Winter Season
+              - Monday Night Scratch Games
+
+          - name: team
+            label: Club
+            widget: select
+            required: false
+            options: [Wolves, Scouts, Hellcats, Moose, Pandas, Bears, Rampage]
+            hint: >-
+              PWIHL clubs only. Setting one also colours the whole page in that
+              club's colours when someone filters by it, so it's worth getting
+              right. Most frames have two teams on the ice — pick whichever the
+              photo is really about, or leave it blank.
+
+      # ----------------------------------------------------------------
+      - name: f1
+        label: Formula 1 details
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - name: series
+            label: Series
+            widget: select
+            required: false
+            options: [F1, F2, F3, Historic F1, Safety Car]
+            hint: Drives the Series row of chips on the Formula 1 tab.
+
+          - name: team
+            label: Constructor
+            widget: select
+            required: false
+            options:
+              - Ferrari
+              - McLaren
+              - Mercedes
+              - Red Bull
+              - Aston Martin
+              - Alpine
+              - Williams
+              - Haas
+              - Sauber
+              - Racing Bulls
+              - Cadillac
+              - Medical Car
+
+          - { name: driver, label: Driver, widget: string, required: false,
+              hint: Surname only. Leave blank if you can't read the car number — the photo still shows under its team. }
+          - { name: track, label: Track, widget: string, required: false }
+          - { name: session, label: Session, widget: string, required: false,
+              hint: "FP1, FP2, FP3, Sprint, Qualifying, Race. Not a filter — shown in the viewer." }
+
+      # ----------------------------------------------------------------
+      - name: extra
+        label: Everything else
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - name: tag
+            label: Subject / Class
+            widget: string
+            required: false
+            hint: >-
+              Wildlife — Mammals, Birds, Reptiles. Motorsport — Supercars,
+              Trans Am, Super Utes, Radicals, Motorbikes, Sidecars.
+              Architecture — Towers, Cityscape.
+
+          - { name: loc, label: Where, widget: string, required: false }
+          - { name: year, label: Year, widget: string, required: false }
+          - { name: alt, label: Alt text, widget: string, required: false,
+              hint: Describes the photo for screen readers. }
+
+          - name: feat
+            label: Tall tile
+            widget: boolean
+            required: false
+            default: false
+            hint: Portrait shots only — it crops the sides off a landscape frame.
+
+          - name: wm
+            label: Watermark already on this file
+            widget: boolean
+            required: false
+            default: false
+            hint: >-
+              Leave OFF for anything exported clean — the site draws the AB mark
+              over it automatically. Only turn it ON if you exported this photo
+              from Lightroom with the watermark already burned in, otherwise
+              it'll show twice.
+
+          - name: exif
+            label: Camera details
+            widget: object
+            required: false
+            collapsed: true
             fields:
-              - name: src
-                label: Image
-                widget: image
-                hint: Drag a photo in, or pick one already uploaded.
-
-              - name: title
-                label: Title
-                widget: string
-                hint: Shown under the tile and in the full-screen viewer.
-
-              - name: cats
-                label: Tabs
-                widget: select
-                multiple: true
-                options:
-                  - { label: Wildlife, value: wildlife }
-                  - { label: Ice Hockey, value: sports }
-                  - { label: Formula 1, value: f1 }
-                  - { label: Motorsport, value: motorsport }
-                  - { label: Architecture, value: architecture }
-                hint: A photo can sit in more than one tab.
-
-              - name: tag
-                label: Subject / Class
-                widget: string
-                required: false
-                hint: >-
-                  Wildlife — Mammals, Birds, Reptiles. Motorsport — Supercars,
-                  Trans Am, Super Utes, Radicals, Motorbikes, Sidecars.
-                  Architecture — Towers, Cityscape.
-
-              - name: series
-                label: Series (F1 tab only)
-                widget: select
-                required: false
-                options:
-                  - F1
-                  - F2
-                  - F3
-                  - Historic F1
-                  - Safety Car
-                hint: >-
-                  Which championship the photo is from. This drives the Series
-                  row of chips on the Formula 1 tab. Leave blank for photos on
-                  any other tab.
-
-              - name: comp
-                label: Competition (Ice Hockey only)
-                widget: select
-                required: false
-                options:
-                  - Perth Inferno
-                  - Perth Womens Ice Hockey League
-                  - IHWA Winter Season
-                  - Monday Night Scratch Games
-
-              - name: team
-                label: Team
-                widget: select
-                required: false
-                hint: >-
-                  PWIHL clubs on the Ice Hockey tab, constructors on the
-                  Formula 1 tab. Setting a PWIHL club also colours the page
-                  in that club's colours when someone filters by it, so it is
-                  worth getting right. Most frames have two teams on the ice —
-                  pick whichever the photo is really about, or leave it blank.
-                options:
-                  - Wolves
-                  - Scouts
-                  - Hellcats
-                  - Moose
-                  - Pandas
-                  - Bears
-                  - Rampage
-                  - Ferrari
-                  - McLaren
-                  - Mercedes
-                  - Red Bull
-                  - Aston Martin
-                  - Alpine
-                  - Williams
-                  - Haas
-                  - Sauber
-                  - Racing Bulls
-                  - Cadillac
-                  - Medical Car
-
-              - name: driver
-                label: Driver (F1 only)
-                widget: string
-                required: false
-                hint: >-
-                  Surname only. Leave blank if you can't read the car number —
-                  the photo still shows under its team.
-
-              - name: track
-                label: Track (F1 only)
-                widget: string
-                required: false
-
-              - name: session
-                label: Session (F1 only)
-                widget: string
-                required: false
-                hint: FP1, FP2, FP3, Sprint, Qualifying, Race. Not a filter — shown in the viewer.
-
-              - name: loc
-                label: Where
-                widget: string
-                required: false
-
-              - name: year
-                label: Year
-                widget: string
-                required: false
-
-              - name: feat
-                label: Tall tile
-                widget: boolean
-                required: false
-                default: false
-                hint: Portrait shots only — it crops the sides off a landscape frame.
-
-              - name: alt
-                label: Alt text
-                widget: string
-                required: false
-                hint: Describes the photo for screen readers.
-
-              - name: wm
-                label: Watermark already on this file
-                widget: boolean
-                required: false
-                default: false
-                hint: >-
-                  Leave OFF for anything exported clean — the site draws the AB
-                  mark over it automatically. Only turn it ON if you exported
-                  this photo from Lightroom with the watermark already burned
-                  in, otherwise it'll show twice.
-
-              - name: exif
-                label: Camera details
-                widget: object
-                required: false
-                collapsed: true
-                fields:
-                  - { name: cam, label: Body, widget: string, required: false }
-                  - { name: lens, label: Lens, widget: string, required: false }
-                  - { name: set, label: Settings, widget: string, required: false }
+              - { name: cam, label: Body, widget: string, required: false }
+              - { name: lens, label: Lens, widget: string, required: false }
+              - { name: set, label: Settings, widget: string, required: false }
 
   # ------------------------------------------------------------------
   # ABOUT + SERVICES — the words on the page

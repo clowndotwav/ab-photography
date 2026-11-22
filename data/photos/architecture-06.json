@@ -1,0 +1,19 @@
+{
+  "src": "images/architecture/architecture-06.jpg",
+  "title": "KLCC Fountains",
+  "cats": [
+    "architecture"
+  ],
+  "ord": 17,
+  "extra": {
+    "tag": "Cityscape",
+    "loc": "Kuala Lumpur, Malaysia",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 70-200mm f/4 G",
+      "set": "70mm · f/4 · 1/350s · ISO 10000"
+    }
+  }
+}

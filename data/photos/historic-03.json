@@ -1,0 +1,23 @@
+{
+  "src": "images/f1/historic-03.jpg",
+  "title": "Historic Through the Esses",
+  "cats": [
+    "f1"
+  ],
+  "ord": 194,
+  "f1": {
+    "series": "Historic F1",
+    "track": "Silverstone"
+  },
+  "extra": {
+    "tag": "Historic F1",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "467mm · f/6.3 · 1/1500s · ISO 1000"
+    }
+  }
+}

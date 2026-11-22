@@ -1,0 +1,25 @@
+{
+  "src": "images/f1/sil-03.jpg",
+  "title": "Alpine, BWT Colours",
+  "cats": [
+    "f1"
+  ],
+  "ord": 247,
+  "f1": {
+    "series": "F1",
+    "team": "Alpine",
+    "track": "Silverstone",
+    "session": "Qualifying"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "400mm · f/5.6 · 1/1500s · ISO 400"
+    }
+  }
+}

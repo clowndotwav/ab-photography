@@ -1,0 +1,19 @@
+{
+  "src": "images/wildlife/shenton-03.jpg",
+  "title": "Preening at the Edge",
+  "cats": [
+    "wildlife"
+  ],
+  "ord": 110,
+  "extra": {
+    "tag": "Birds",
+    "loc": "Shenton Park, WA",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FFE 200-600mm f/5.6-6.3 G",
+      "set": "470mm · f/9 · 1/1000s · ISO 4000"
+    }
+  }
+}

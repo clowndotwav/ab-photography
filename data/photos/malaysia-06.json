@@ -1,0 +1,25 @@
+{
+  "src": "images/f1/malaysia-06.jpg",
+  "title": "Racing Bulls at the Barriers",
+  "cats": [
+    "f1"
+  ],
+  "ord": 204,
+  "f1": {
+    "series": "F1",
+    "team": "Racing Bulls",
+    "track": "Sepang",
+    "session": "FP3"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Sepang, Malaysia",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm F4 G OSS",
+      "set": "200mm · f/11 · 1/400s · ISO 100"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/motorbike-08.jpg",
+  "title": "Repsol Colours, #956",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 8,
+  "extra": {
+    "tag": "Motorbikes",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "400mm · f/9.5 · 1/200s · ISO 200"
+    }
+  }
+}

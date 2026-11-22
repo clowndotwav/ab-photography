@@ -1,0 +1,20 @@
+{
+  "src": "images/architecture/architecture-05.jpg",
+  "title": "Under the Skybridge",
+  "cats": [
+    "architecture"
+  ],
+  "ord": 16,
+  "extra": {
+    "tag": "Towers",
+    "loc": "Kuala Lumpur, Malaysia",
+    "year": "2026",
+    "feat": true,
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 70-200mm f/4 G",
+      "set": "70mm · f/4 · 1/125s · ISO 5000"
+    }
+  }
+}

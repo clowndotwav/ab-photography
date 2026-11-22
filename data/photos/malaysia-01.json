@@ -1,0 +1,25 @@
+{
+  "src": "images/f1/malaysia-01.jpg",
+  "title": "Ferrari, Close",
+  "cats": [
+    "f1"
+  ],
+  "ord": 199,
+  "f1": {
+    "series": "F1",
+    "team": "Ferrari",
+    "track": "Sepang",
+    "session": "FP3"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Sepang, Malaysia",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm F4 G OSS",
+      "set": "200mm · f/10 · 1/320s · ISO 100"
+    }
+  }
+}

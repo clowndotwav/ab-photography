@@ -1,0 +1,22 @@
+{
+  "src": "images/sports/flyers-01.jpg",
+  "title": "Goalie in the Crease",
+  "cats": [
+    "sports"
+  ],
+  "ord": 214,
+  "hockey": {
+    "comp": "IHWA Winter Season"
+  },
+  "extra": {
+    "tag": "Ice Hockey",
+    "loc": "Cockburn Ice Arena",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm F4 G OSS",
+      "set": "70mm · f/6.3 · 1/640s · ISO 12800"
+    }
+  }
+}

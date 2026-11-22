@@ -1,0 +1,23 @@
+{
+  "src": "images/f1/safetycar-05.jpg",
+  "title": "Safety Car, Wet Lap",
+  "cats": [
+    "f1"
+  ],
+  "ord": 176,
+  "f1": {
+    "series": "Safety Car",
+    "track": "Silverstone"
+  },
+  "extra": {
+    "tag": "Safety Car",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "365mm · f/6.3 · 1/1000s · ISO 320"
+    }
+  }
+}

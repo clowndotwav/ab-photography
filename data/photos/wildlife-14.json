@@ -1,0 +1,19 @@
+{
+  "src": "images/wildlife/wildlife-14.jpg",
+  "title": "Eland, Heads Down",
+  "cats": [
+    "wildlife"
+  ],
+  "ord": 105,
+  "extra": {
+    "tag": "Mammals",
+    "loc": "Woburn Safari Park",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm f/4 G",
+      "set": "200mm · f/4 · 1/1000s · ISO 250"
+    }
+  }
+}

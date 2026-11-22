@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/motorbike-05.jpg",
+  "title": "Ducati Perth, #19",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 5,
+  "extra": {
+    "tag": "Motorbikes",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "452mm · f/11 · 1/125s · ISO 100"
+    }
+  }
+}

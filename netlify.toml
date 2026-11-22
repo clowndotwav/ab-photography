@@ -4,6 +4,13 @@
 [build]
   publish = "."          # the site is already built; serve this folder as-is
 
+  # Every photo is its own file in data/photos/ so the admin centre at /admin
+  # can show them as a grid of thumbnails. This stitches them back into the
+  # single data/gallery.json the site reads. It has no dependencies and never
+  # exits non-zero: if anything is wrong it leaves the committed gallery.json
+  # alone and logs why, so a bad photo file can't stop the site deploying.
+  command = "node tools/build-gallery.mjs"
+
 # Photos are cached for a day and then revalidated. They were briefly marked
 # "immutable" with a one-year max-age, which was wrong for this site: the
 # filenames are stable (wildlife-01.jpg and so on) but their CONTENTS get

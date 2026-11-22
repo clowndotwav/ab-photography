@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/radical-06.jpg",
+  "title": "Blue #33 Under the Gantry",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 53,
+  "extra": {
+    "tag": "Radicals",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FFE 200-600mm f/5.6-6.3 G",
+      "set": "600mm · f/11 · 1/125s · ISO 50"
+    }
+  }
+}

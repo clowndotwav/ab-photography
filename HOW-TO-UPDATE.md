@@ -49,18 +49,40 @@ computer. Option A is nicer long-term.
 
 ---
 
-## Adding photos
+## Finding a photo
 
-1. Open the admin centre → **Photos** → **All photos**.
-2. Scroll to the bottom of the list and click **Add Photo**.
-3. **Image** — drag the file in. Export it from Lightroom first at something
+Open the admin centre → **Photos**. Every frame on the site is there as a
+thumbnail, so you can see what you're editing rather than guess from a title.
+
+- **Search** the box at the top by title.
+- **Filter** to one tab — Wildlife, Ice hockey, Formula 1, Motorsport,
+  Architecture.
+- **Sort** by Position (the order they appear on the site), by Title, or by
+  filename.
+
+Click a photo to open it. Change what you need, **Save**, done.
+
+## Adding a photo
+
+1. Admin centre → **Photos** → **New Photo**.
+2. **Photo** — drag the file in. Export it from Lightroom first at something
    web-sized: **2000px on the long edge, JPEG quality 80**. A full 45MB export
    will work but will make the page slow to load.
-4. **Title** — what shows under the tile.
-5. **Tabs** — which section it belongs in. You can tick more than one.
-6. Fill in whichever of the rest apply, then **Save**.
+3. **Title** — what shows under the tile.
+4. **Which tabs it appears on** — you can tick more than one.
+5. **Position** — leave it blank to add the photo at the end of the gallery,
+   or put `1` in to send it to the very front.
+6. Open whichever of the three sections applies — **Ice hockey details**,
+   **Formula 1 details**, **Everything else** — and fill in what you know.
+   Everything in them is optional.
+7. **Save**.
 
 That's it. Netlify rebuilds on its own.
+
+## Removing a photo
+
+Open it and use **Delete** at the bottom of the form. The photo file itself
+stays in the repository; only its entry goes, so nothing else breaks.
 
 ### The filter chips build themselves
 
@@ -69,8 +91,13 @@ type a new track, competition or class on a photo and a chip for it appears
 the moment it's saved.
 
 A chip row **hides itself when there's only one value in it** — filtering
-between one option isn't a filter. So the Sports tab shows no Competition row
-until there are photos from at least two competitions.
+between one option isn't a filter. So the Ice Hockey tab shows no Competition
+row until there are photos from at least two competitions.
+
+The one exception is the **Club** row on the Ice Hockey tab. It stays hidden
+until someone picks Perth Womens Ice Hockey League, and then shows all seven
+clubs whether or not any photo is tagged with them — each club has its own
+page colours, and the chip is how you see them.
 
 ### What goes in each field
 
@@ -79,8 +106,10 @@ until there are photos from at least two competitions.
 | **Subject / Class** | Wildlife | Mammals, Birds, Reptiles |
 | | Motorsport | Supercars, Trans Am, Super Utes, Radicals, Motorbikes, Sidecars |
 | | Architecture | Towers, Cityscape |
-| **Competition** | Sports | Perth Inferno, Perth Womens Ice Hockey League, IHWA Winter Season, Monday Night Scratch Games |
-| **Team** | Formula 1 | Ferrari, McLaren … plus Safety Car and Medical Car |
+| **Competition** | Ice hockey | Perth Inferno, Perth Womens Ice Hockey League, IHWA Winter Season, Monday Night Scratch Games |
+| **Club** | Ice hockey | Wolves, Scouts, Hellcats, Moose, Pandas, Bears, Rampage — picking one colours the whole page in that club's colours |
+| **Series** | Formula 1 | F1, F2, F3, Historic F1, Safety Car |
+| **Constructor** | Formula 1 | Ferrari, McLaren … plus Medical Car |
 | **Driver** | Formula 1 | Surname only — Hamilton, Leclerc, Norris |
 | **Track** | Formula 1 | Silverstone, Sepang |
 | **Where** | any | Wanneroo Raceway, Perth Ice Arena |

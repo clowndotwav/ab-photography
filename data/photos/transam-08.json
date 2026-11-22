@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/transam-08.jpg",
+  "title": "Four'N Twenty #1",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 154,
+  "extra": {
+    "tag": "Trans Am",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "200mm · f/11 · 1/160s · ISO 50"
+    }
+  }
+}

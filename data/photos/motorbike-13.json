@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/motorbike-13.jpg",
+  "title": "Suzuki #116, Knee Down",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 119,
+  "extra": {
+    "tag": "Motorbikes",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "353mm · f/9.5 · 1/200s · ISO 200"
+    }
+  }
+}

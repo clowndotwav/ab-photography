@@ -1,0 +1,22 @@
+{
+  "src": "images/sports/panthers-05.jpg",
+  "title": "Race for the Puck",
+  "cats": [
+    "sports"
+  ],
+  "ord": 234,
+  "hockey": {
+    "comp": "IHWA Winter Season"
+  },
+  "extra": {
+    "tag": "Ice Hockey",
+    "loc": "Perth Ice Arena",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm F4 G OSS",
+      "set": "89mm · f/6.7 · 1/500s · ISO 5000"
+    }
+  }
+}

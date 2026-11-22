@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/transam-11.jpg",
+  "title": "The Trans Am Train",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 157,
+  "extra": {
+    "tag": "Trans Am",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "225mm · f/11 · 1/200s · ISO 125"
+    }
+  }
+}

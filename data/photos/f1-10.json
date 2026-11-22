@@ -1,0 +1,23 @@
+{
+  "src": "images/f1/f1-10.jpg",
+  "title": "Safety Car, Malaysia",
+  "cats": [
+    "f1"
+  ],
+  "ord": 29,
+  "f1": {
+    "series": "Safety Car",
+    "track": "Sepang",
+    "session": "Safety Car"
+  },
+  "extra": {
+    "tag": "Safety Car",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 70-200mm f/4 G",
+      "set": "200mm · f/10 · 1/320s · ISO 500"
+    }
+  }
+}

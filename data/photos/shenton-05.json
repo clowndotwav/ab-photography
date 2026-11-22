@@ -1,0 +1,19 @@
+{
+  "src": "images/wildlife/shenton-05.jpg",
+  "title": "Dark Water, Single Coot",
+  "cats": [
+    "wildlife"
+  ],
+  "ord": 112,
+  "extra": {
+    "tag": "Birds",
+    "loc": "Shenton Park, WA",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FFE 200-600mm f/5.6-6.3 G",
+      "set": "600mm · f/6.3 · 1/1000s · ISO 320"
+    }
+  }
+}

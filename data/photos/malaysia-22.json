@@ -1,0 +1,24 @@
+{
+  "src": "images/f1/malaysia-22.jpg",
+  "title": "Down to the Hairpin",
+  "cats": [
+    "f1"
+  ],
+  "ord": 243,
+  "f1": {
+    "series": "F1",
+    "track": "Sepang",
+    "session": "FP3"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Sepang, Malaysia",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "448mm · f/11 · 1/500s · ISO 125"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/superute-03.jpg",
+  "title": "Gear Hat Co #79",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 56,
+  "extra": {
+    "tag": "Super Utes",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FFE 200-600mm f/5.6-6.3 G",
+      "set": "332mm · f/11 · 1/125s · ISO 100"
+    }
+  }
+}

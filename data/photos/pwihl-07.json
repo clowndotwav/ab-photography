@@ -1,0 +1,22 @@
+{
+  "src": "images/sports/pwihl-07.jpg",
+  "title": "Challenge at the Blue Line",
+  "cats": [
+    "sports"
+  ],
+  "ord": 141,
+  "hockey": {
+    "comp": "Perth Womens Ice Hockey League"
+  },
+  "extra": {
+    "tag": "Ice Hockey",
+    "loc": "Cockburn Ice Arena",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm F4 G OSS",
+      "set": "71mm · f/4 · 1/500s · ISO 1250"
+    }
+  }
+}

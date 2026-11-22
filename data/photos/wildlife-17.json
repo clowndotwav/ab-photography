@@ -1,0 +1,19 @@
+{
+  "src": "images/wildlife/wildlife-17.jpg",
+  "title": "Sea Lion, Out of the Water",
+  "cats": [
+    "wildlife"
+  ],
+  "ord": 127,
+  "extra": {
+    "tag": "Mammals",
+    "loc": "Woburn Safari Park",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm F4 G OSS",
+      "set": "200mm · f/4 · 1/640s · ISO 500"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "src": "images/architecture/architecture-07.jpg",
+  "title": "Fountains, Towers Behind",
+  "cats": [
+    "architecture"
+  ],
+  "ord": 18,
+  "extra": {
+    "tag": "Cityscape",
+    "loc": "Kuala Lumpur, Malaysia",
+    "year": "2026",
+    "feat": true,
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 70-200mm f/4 G",
+      "set": "70mm · f/4 · 1/350s · ISO 10000"
+    }
+  }
+}

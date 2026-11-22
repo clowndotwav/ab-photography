@@ -1,0 +1,25 @@
+{
+  "src": "images/f1/sil-01.jpg",
+  "title": "Mercedes, Qualifying",
+  "cats": [
+    "f1"
+  ],
+  "ord": 245,
+  "f1": {
+    "series": "F1",
+    "team": "Mercedes",
+    "track": "Silverstone",
+    "session": "Qualifying"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "452mm · f/6.3 · 1/1500s · ISO 640"
+    }
+  }
+}

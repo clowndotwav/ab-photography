@@ -1,0 +1,23 @@
+{
+  "src": "images/f1/historic-02.jpg",
+  "title": "Classic Lines",
+  "cats": [
+    "f1"
+  ],
+  "ord": 193,
+  "f1": {
+    "series": "Historic F1",
+    "track": "Silverstone"
+  },
+  "extra": {
+    "tag": "Historic F1",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "404mm · f/5.6 · 1/1500s · ISO 800"
+    }
+  }
+}

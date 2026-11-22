@@ -1,0 +1,19 @@
+{
+  "src": "images/architecture/architecture-01.jpg",
+  "title": "Crown of the Tower",
+  "cats": [
+    "architecture"
+  ],
+  "ord": 12,
+  "extra": {
+    "tag": "Towers",
+    "loc": "Kuala Lumpur, Malaysia",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 70-200mm f/4 G",
+      "set": "161mm · f/4 · 1/2000s · ISO 6400"
+    }
+  }
+}

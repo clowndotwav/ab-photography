@@ -1,0 +1,25 @@
+{
+  "src": "images/f1/sil-07.jpg",
+  "title": "Ferrari, Close and Low",
+  "cats": [
+    "f1"
+  ],
+  "ord": 251,
+  "f1": {
+    "series": "F1",
+    "team": "Ferrari",
+    "track": "Silverstone",
+    "session": "FP2"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "223mm · f/5.6 · 1/1000s · ISO 50"
+    }
+  }
+}

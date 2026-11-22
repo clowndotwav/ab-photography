@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/radical-07.jpg",
+  "title": "Yellow and Black #10",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 149,
+  "extra": {
+    "tag": "Radicals",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "309mm · f/11 · 1/125s · ISO 100"
+    }
+  }
+}

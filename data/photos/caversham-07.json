@@ -1,0 +1,19 @@
+{
+  "src": "images/wildlife/caversham-07.jpg",
+  "title": "Spoonbill on Red Earth",
+  "cats": [
+    "wildlife"
+  ],
+  "ord": 139,
+  "extra": {
+    "tag": "Birds",
+    "loc": "Caversham Wildlife Park, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "200mm · f/5.6 · 1/640s · ISO 100"
+    }
+  }
+}

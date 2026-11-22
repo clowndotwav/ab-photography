@@ -1,0 +1,23 @@
+{
+  "src": "images/f1/f3-05.jpg",
+  "title": "Orange on the Kerb",
+  "cats": [
+    "f1"
+  ],
+  "ord": 189,
+  "f1": {
+    "series": "F3",
+    "track": "Silverstone"
+  },
+  "extra": {
+    "tag": "F3",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "600mm · f/6.3 · 1/1000s · ISO 250"
+    }
+  }
+}

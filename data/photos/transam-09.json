@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/transam-09.jpg",
+  "title": "Logitech G, Clean Air",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 155,
+  "extra": {
+    "tag": "Trans Am",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "303mm · f/11 · 1/100s · ISO 50"
+    }
+  }
+}

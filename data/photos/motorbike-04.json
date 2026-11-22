@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/motorbike-04.jpg",
+  "title": "Fluoro and Carbon, #32",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 4,
+  "extra": {
+    "tag": "Motorbikes",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "368mm · f/11 · 1/350s · ISO 200"
+    }
+  }
+}

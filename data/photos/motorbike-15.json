@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/motorbike-15.jpg",
+  "title": "Black and Red, #312",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 121,
+  "extra": {
+    "tag": "Motorbikes",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "518mm · f/11 · 1/250s · ISO 160"
+    }
+  }
+}

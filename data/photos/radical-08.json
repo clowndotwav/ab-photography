@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/radical-08.jpg",
+  "title": "Orange #222 at Speed",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 150,
+  "extra": {
+    "tag": "Radicals",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "236mm · f/11 · 1/160s · ISO 100"
+    }
+  }
+}

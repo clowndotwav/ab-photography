@@ -1,0 +1,24 @@
+{
+  "src": "images/f1/f1-03.jpg",
+  "title": "Stake Sauber, Saturday Morning",
+  "cats": [
+    "f1"
+  ],
+  "ord": 22,
+  "f1": {
+    "series": "F1",
+    "team": "Sauber",
+    "track": "Silverstone",
+    "session": "FP3"
+  },
+  "extra": {
+    "tag": "F1",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "489mm · f/6.3 · 1/1500s · ISO 320"
+    }
+  }
+}

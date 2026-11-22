@@ -1,0 +1,19 @@
+{
+  "src": "images/wildlife/caversham-04.jpg",
+  "title": "White Ibis on Green",
+  "cats": [
+    "wildlife"
+  ],
+  "ord": 136,
+  "extra": {
+    "tag": "Birds",
+    "loc": "Caversham Wildlife Park, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "236mm · f/5.6 · 1/500s · ISO 100"
+    }
+  }
+}

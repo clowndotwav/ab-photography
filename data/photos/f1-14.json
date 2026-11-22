@@ -1,0 +1,25 @@
+{
+  "src": "images/f1/f1-14.jpg",
+  "title": "Ferrari in the Spray",
+  "cats": [
+    "f1"
+  ],
+  "ord": 33,
+  "f1": {
+    "series": "F1",
+    "team": "Ferrari",
+    "driver": "Hamilton",
+    "track": "Silverstone",
+    "session": "Race"
+  },
+  "extra": {
+    "tag": "F1",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "481mm · f/6.3 · 1/1000s · ISO 800"
+    }
+  }
+}

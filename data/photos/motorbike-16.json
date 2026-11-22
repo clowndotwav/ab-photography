@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/motorbike-16.jpg",
+  "title": "Kawasaki #80 in Green",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 122,
+  "extra": {
+    "tag": "Motorbikes",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "368mm · f/11 · 1/250s · ISO 160"
+    }
+  }
+}

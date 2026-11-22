@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/radical-05.jpg",
+  "title": "Radicals Three Abreast",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 52,
+  "extra": {
+    "tag": "Radicals",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FFE 200-600mm f/5.6-6.3 G",
+      "set": "459mm · f/11 · 1/250s · ISO 100"
+    }
+  }
+}

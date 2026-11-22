@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/motorbike-09.jpg",
+  "title": "Ninja #371 Over the Kerb",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 9,
+  "extra": {
+    "tag": "Motorbikes",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "318mm · f/11 · 1/125s · ISO 125"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "src": "images/f1/malaysia-13.jpg",
+  "title": "McLaren, Race Stint",
+  "cats": [
+    "f1"
+  ],
+  "ord": 211,
+  "f1": {
+    "series": "F1",
+    "team": "McLaren",
+    "track": "Sepang",
+    "session": "Race"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Sepang, Malaysia",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm F4 G OSS",
+      "set": "200mm · f/10 · 1/250s · ISO 125"
+    }
+  }
+}

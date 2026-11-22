@@ -1,0 +1,18 @@
+{
+  "src": "images/motorsport/supercars-04.jpg",
+  "title": "Trans Am, Off and Digging",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 47,
+  "extra": {
+    "tag": "Trans Am",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "600mm · f/11 · 1/200s · ISO 125"
+    }
+  }
+}

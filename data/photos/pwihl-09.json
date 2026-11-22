@@ -1,0 +1,22 @@
+{
+  "src": "images/sports/pwihl-09.jpg",
+  "title": "Purple Against Blue",
+  "cats": [
+    "sports"
+  ],
+  "ord": 143,
+  "hockey": {
+    "comp": "Perth Womens Ice Hockey League"
+  },
+  "extra": {
+    "tag": "Ice Hockey",
+    "loc": "Cockburn Ice Arena",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm F4 G OSS",
+      "set": "158mm · f/4 · 1/500s · ISO 1600"
+    }
+  }
+}

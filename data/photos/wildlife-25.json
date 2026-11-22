@@ -1,0 +1,19 @@
+{
+  "src": "images/wildlife/wildlife-25.jpg",
+  "title": "Two Otters, One Calling",
+  "cats": [
+    "wildlife"
+  ],
+  "ord": 161,
+  "extra": {
+    "tag": "Mammals",
+    "loc": "Woburn Safari Park",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm F4 G OSS",
+      "set": "146mm · f/4 · 1/400s · ISO 500"
+    }
+  }
+}

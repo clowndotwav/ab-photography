@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/radical-03.jpg",
+  "title": "Liftoff Racing #18",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 50,
+  "extra": {
+    "tag": "Radicals",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FFE 200-600mm f/5.6-6.3 G",
+      "set": "329mm · f/11 · 1/200s · ISO 100"
+    }
+  }
+}

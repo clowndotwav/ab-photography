@@ -1,0 +1,23 @@
+{
+  "src": "images/f1/f1-09.jpg",
+  "title": "Safety Car on Track",
+  "cats": [
+    "f1"
+  ],
+  "ord": 28,
+  "f1": {
+    "series": "Safety Car",
+    "track": "Silverstone",
+    "session": "Safety Car"
+  },
+  "extra": {
+    "tag": "Safety Car",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "459mm · f/6.3 · 1/1000s · ISO 320"
+    }
+  }
+}

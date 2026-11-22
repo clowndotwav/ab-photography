@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/motorbike-12.jpg",
+  "title": "BMW #84, Hard Over",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 118,
+  "extra": {
+    "tag": "Motorbikes",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "252mm · f/11 · 1/200s · ISO 160"
+    }
+  }
+}

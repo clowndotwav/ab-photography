@@ -1,0 +1,19 @@
+{
+  "src": "images/wildlife/wildlife-26.jpg",
+  "title": "Ruffed Lemur, Reaching",
+  "cats": [
+    "wildlife"
+  ],
+  "ord": 162,
+  "extra": {
+    "tag": "Mammals",
+    "loc": "Woburn Safari Park",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm F4 G OSS",
+      "set": "200mm · f/5 · 1/1000s · ISO 500"
+    }
+  }
+}

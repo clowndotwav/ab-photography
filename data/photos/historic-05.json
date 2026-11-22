@@ -1,0 +1,23 @@
+{
+  "src": "images/f1/historic-05.jpg",
+  "title": "Period Yellow",
+  "cats": [
+    "f1"
+  ],
+  "ord": 196,
+  "f1": {
+    "series": "Historic F1",
+    "track": "Silverstone"
+  },
+  "extra": {
+    "tag": "Historic F1",
+    "loc": "Silverstone, UK",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "257mm · f/5.6 · 1/1500s · ISO 320"
+    }
+  }
+}

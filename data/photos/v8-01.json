@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/v8-01.jpg",
+  "title": "Red Bull Ampol Racing",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 69,
+  "extra": {
+    "tag": "Supercars",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FFE 200-600mm f/5.6-6.3 G",
+      "set": "255mm · f/11 · 1/200s · ISO 125"
+    }
+  }
+}

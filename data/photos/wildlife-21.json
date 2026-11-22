@@ -1,0 +1,19 @@
+{
+  "src": "images/wildlife/wildlife-21.jpg",
+  "title": "Pig in the Mud",
+  "cats": [
+    "wildlife"
+  ],
+  "ord": 131,
+  "extra": {
+    "tag": "Mammals",
+    "loc": "Woburn Safari Park",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm F4 G OSS",
+      "set": "186mm · f/4 · 1/500s · ISO 160"
+    }
+  }
+}

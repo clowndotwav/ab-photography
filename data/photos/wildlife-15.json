@@ -1,0 +1,19 @@
+{
+  "src": "images/wildlife/wildlife-15.jpg",
+  "title": "Zebra Over the Logs",
+  "cats": [
+    "wildlife"
+  ],
+  "ord": 106,
+  "extra": {
+    "tag": "Mammals",
+    "loc": "Woburn Safari Park",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm f/4 G",
+      "set": "200mm · f/4 · 1/2000s · ISO 250"
+    }
+  }
+}

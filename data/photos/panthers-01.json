@@ -1,0 +1,22 @@
+{
+  "src": "images/sports/panthers-01.jpg",
+  "title": "Bravehearts Goalie, Glove Ready",
+  "cats": [
+    "sports"
+  ],
+  "ord": 230,
+  "hockey": {
+    "comp": "IHWA Winter Season"
+  },
+  "extra": {
+    "tag": "Ice Hockey",
+    "loc": "Perth Ice Arena",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "250mm · f/6.3 · 1/500s · ISO 16000"
+    }
+  }
+}

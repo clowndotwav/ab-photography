@@ -1,0 +1,24 @@
+{
+  "src": "images/f1/f1-04.jpg",
+  "title": "McLaren, Qualifying",
+  "cats": [
+    "f1"
+  ],
+  "ord": 23,
+  "f1": {
+    "series": "F1",
+    "team": "McLaren",
+    "track": "Silverstone",
+    "session": "Qualifying"
+  },
+  "extra": {
+    "tag": "F1",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "576mm · f/6.3 · 1/1500s · ISO 400"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "src": "images/f1/malaysia-12.jpg",
+  "title": "Through the Sepang Sweeper",
+  "cats": [
+    "f1"
+  ],
+  "ord": 210,
+  "f1": {
+    "series": "F1",
+    "track": "Sepang",
+    "session": "Race"
+  },
+  "extra": {
+    "tag": "F1",
+    "loc": "Sepang, Malaysia",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm F4 G OSS",
+      "set": "200mm · f/10 · 1/400s · ISO 500"
+    }
+  }
+}

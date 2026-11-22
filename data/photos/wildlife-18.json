@@ -1,0 +1,19 @@
+{
+  "src": "images/wildlife/wildlife-18.jpg",
+  "title": "Sea Lion Cutting Through",
+  "cats": [
+    "wildlife"
+  ],
+  "ord": 128,
+  "extra": {
+    "tag": "Mammals",
+    "loc": "Woburn Safari Park",
+    "year": "2025",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 70-200mm F4 G OSS",
+      "set": "183mm · f/4 · 1/800s · ISO 500"
+    }
+  }
+}

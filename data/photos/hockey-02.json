@@ -1,0 +1,22 @@
+{
+  "src": "images/sports/hockey-02.jpg",
+  "title": "Winding Up",
+  "cats": [
+    "sports"
+  ],
+  "ord": 37,
+  "hockey": {
+    "comp": "IHWA Winter Season"
+  },
+  "extra": {
+    "tag": "Ice Hockey",
+    "loc": "Perth Ice Arena",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "200mm · f/6.3 · 1/640s · ISO 10000"
+    }
+  }
+}

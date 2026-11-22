@@ -1,0 +1,19 @@
+{
+  "src": "images/motorsport/motorbike-07.jpg",
+  "title": "Yellow #597, Clean Line",
+  "cats": [
+    "motorsport"
+  ],
+  "ord": 7,
+  "extra": {
+    "tag": "Motorbikes",
+    "loc": "Wanneroo Raceway, WA",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "295mm · f/9.5 · 1/200s · ISO 200"
+    }
+  }
+}

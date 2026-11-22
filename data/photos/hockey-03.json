@@ -1,0 +1,23 @@
+{
+  "src": "images/sports/hockey-03.jpg",
+  "title": "Driving the Blue Line",
+  "cats": [
+    "sports"
+  ],
+  "ord": 38,
+  "hockey": {
+    "comp": "IHWA Winter Season"
+  },
+  "extra": {
+    "tag": "Ice Hockey",
+    "loc": "Perth Ice Arena",
+    "year": "2026",
+    "feat": true,
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IV",
+      "lens": "FE 200-600mm f/5.6-6.3 G",
+      "set": "218mm · f/6.3 · 1/640s · ISO 10000"
+    }
+  }
+}

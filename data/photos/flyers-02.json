@@ -1,0 +1,22 @@
+{
+  "src": "images/sports/flyers-02.jpg",
+  "title": "Set for the Faceoff",
+  "cats": [
+    "sports"
+  ],
+  "ord": 215,
+  "hockey": {
+    "comp": "IHWA Winter Season"
+  },
+  "extra": {
+    "tag": "Ice Hockey",
+    "loc": "Cockburn Ice Arena",
+    "year": "2026",
+    "wm": true,
+    "exif": {
+      "cam": "Sony A7R IVA",
+      "lens": "FE 200-600mm F5.6-6.3 G OSS",
+      "set": "200mm · f/6.3 · 1/640s · ISO 10000"
+    }
+  }
+}
