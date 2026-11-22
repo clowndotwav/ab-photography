@@ -49,13 +49,13 @@ const TABS = [
           "Perth Inferno",
           "Perth Womens Ice Hockey League",
           "IHWA Winter Season",
-          "Monday Night Scratch Games",
-          "Perth Summer League"
+          "Monday Night Scratch Games"
         ]
       },
       {
         "key": "team",
         "label": "Team",
+        "always": true,
         "order": [
           "Wolves",
           "Scouts",

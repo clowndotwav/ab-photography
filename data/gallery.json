@@ -5504,12 +5504,12 @@
       ],
       "tag": "Ice Hockey",
       "series": "",
-      "comp": "Perth Summer League",
+      "comp": "IHWA Winter Season",
       "team": "",
       "driver": "",
       "track": "",
       "session": "",
-      "loc": "",
+      "loc": "Perth Ice Arena",
       "year": "2026",
       "feat": false,
       "alt": "",
@@ -5528,12 +5528,12 @@
       ],
       "tag": "Ice Hockey",
       "series": "",
-      "comp": "Perth Summer League",
+      "comp": "IHWA Winter Season",
       "team": "",
       "driver": "",
       "track": "",
       "session": "",
-      "loc": "",
+      "loc": "Perth Ice Arena",
       "year": "2026",
       "feat": false,
       "alt": "",
@@ -5552,12 +5552,12 @@
       ],
       "tag": "Ice Hockey",
       "series": "",
-      "comp": "Perth Summer League",
+      "comp": "IHWA Winter Season",
       "team": "",
       "driver": "",
       "track": "",
       "session": "",
-      "loc": "",
+      "loc": "Perth Ice Arena",
       "year": "2026",
       "feat": false,
       "alt": "",
@@ -5576,12 +5576,12 @@
       ],
       "tag": "Ice Hockey",
       "series": "",
-      "comp": "Perth Summer League",
+      "comp": "IHWA Winter Season",
       "team": "",
       "driver": "",
       "track": "",
       "session": "",
-      "loc": "",
+      "loc": "Perth Ice Arena",
       "year": "2026",
       "feat": false,
       "alt": "",
@@ -5600,12 +5600,12 @@
       ],
       "tag": "Ice Hockey",
       "series": "",
-      "comp": "Perth Summer League",
+      "comp": "IHWA Winter Season",
       "team": "",
       "driver": "",
       "track": "",
       "session": "",
-      "loc": "",
+      "loc": "Perth Ice Arena",
       "year": "2026",
       "feat": false,
       "alt": "",
@@ -5624,12 +5624,12 @@
       ],
       "tag": "Ice Hockey",
       "series": "",
-      "comp": "Perth Summer League",
+      "comp": "IHWA Winter Season",
       "team": "",
       "driver": "",
       "track": "",
       "session": "",
-      "loc": "",
+      "loc": "Perth Ice Arena",
       "year": "2026",
       "feat": false,
       "alt": "",
@@ -5648,12 +5648,12 @@
       ],
       "tag": "Ice Hockey",
       "series": "",
-      "comp": "Perth Summer League",
+      "comp": "IHWA Winter Season",
       "team": "",
       "driver": "",
       "track": "",
       "session": "",
-      "loc": "",
+      "loc": "Perth Ice Arena",
       "year": "2026",
       "feat": false,
       "alt": "",
@@ -5662,6 +5662,486 @@
         "cam": "Sony A7R IVA",
         "lens": "FE 200-600mm F5.6-6.3 G OSS",
         "set": "200mm · f/7.1 · 1/500s · ISO 12800"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-16.jpg",
+      "title": "Two Into the Corner",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Sepang",
+      "session": "Race",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/10 · 1/320s · ISO 200"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-17.jpg",
+      "title": "Ferrari 16, Clean Air",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Ferrari",
+      "driver": "",
+      "track": "Sepang",
+      "session": "Race",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/10 · 1/320s · ISO 250"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-18.jpg",
+      "title": "McLaren on the Kerb",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "McLaren",
+      "driver": "",
+      "track": "Sepang",
+      "session": "Race",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/10 · 1/320s · ISO 200"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-19.jpg",
+      "title": "Williams, Race Stint",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Williams",
+      "driver": "",
+      "track": "Sepang",
+      "session": "Race",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "174mm · f/10 · 1/640s · ISO 1250"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-20.jpg",
+      "title": "Ferrari Over the Kerb",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Ferrari",
+      "driver": "",
+      "track": "Sepang",
+      "session": "FP3",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/11 · 1/320s · ISO 125"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-21.jpg",
+      "title": "Aston Martin at Speed",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Aston Martin",
+      "driver": "",
+      "track": "Sepang",
+      "session": "FP3",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 70-200mm F4 G OSS",
+        "set": "200mm · f/11 · 1/320s · ISO 125"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-22.jpg",
+      "title": "Down to the Hairpin",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Sepang",
+      "session": "FP3",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "448mm · f/11 · 1/500s · ISO 125"
+      }
+    },
+    {
+      "src": "images/f1/malaysia-23.jpg",
+      "title": "Across the Painted Kerbs",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "",
+      "driver": "",
+      "track": "Sepang",
+      "session": "FP3",
+      "loc": "Sepang, Malaysia",
+      "year": "2026",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "400mm · f/11 · 1/200s · ISO 100"
+      }
+    },
+    {
+      "src": "images/f1/sil-01.jpg",
+      "title": "Mercedes, Qualifying",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Mercedes",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "Qualifying",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "452mm · f/6.3 · 1/1500s · ISO 640"
+      }
+    },
+    {
+      "src": "images/f1/sil-02.jpg",
+      "title": "Williams Through the Kink",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Williams",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "Qualifying",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "571mm · f/6.3 · 1/1500s · ISO 500"
+      }
+    },
+    {
+      "src": "images/f1/sil-03.jpg",
+      "title": "Alpine, BWT Colours",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Alpine",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "Qualifying",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "400mm · f/5.6 · 1/1500s · ISO 400"
+      }
+    },
+    {
+      "src": "images/f1/sil-04.jpg",
+      "title": "Racing Bulls on the Line",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Racing Bulls",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "Qualifying",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "385mm · f/5.6 · 1/1500s · ISO 500"
+      }
+    },
+    {
+      "src": "images/f1/sil-05.jpg",
+      "title": "Red Bull, Practice Two",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Red Bull",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "FP2",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "485mm · f/6.7 · 1/1000s · ISO 320"
+      }
+    },
+    {
+      "src": "images/f1/sil-06.jpg",
+      "title": "Stake Green",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Sauber",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "Qualifying",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "448mm · f/5.6 · 1/1500s · ISO 500"
+      }
+    },
+    {
+      "src": "images/f1/sil-07.jpg",
+      "title": "Ferrari, Close and Low",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Ferrari",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "FP2",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "223mm · f/5.6 · 1/1000s · ISO 50"
+      }
+    },
+    {
+      "src": "images/f1/sil-08.jpg",
+      "title": "McLaren, Papaya and Black",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "McLaren",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "Qualifying",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "459mm · f/6.3 · 1/1500s · ISO 500"
+      }
+    },
+    {
+      "src": "images/f1/sil-09.jpg",
+      "title": "Haas, Practice Two",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Haas",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "FP2",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "524mm · f/6.3 · 1/1000s · ISO 200"
+      }
+    },
+    {
+      "src": "images/f1/sil-10.jpg",
+      "title": "Ferrari on the White Line",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Ferrari",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "Qualifying",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "535mm · f/6.3 · 1/1500s · ISO 400"
+      }
+    },
+    {
+      "src": "images/f1/sil-11.jpg",
+      "title": "McLaren, Qualifying Run",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "McLaren",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "Qualifying",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "500mm · f/6.3 · 1/1500s · ISO 400"
+      }
+    },
+    {
+      "src": "images/f1/sil-12.jpg",
+      "title": "Alpine at Speed",
+      "cats": [
+        "f1"
+      ],
+      "tag": "F1",
+      "series": "F1",
+      "comp": "",
+      "team": "Alpine",
+      "driver": "",
+      "track": "Silverstone",
+      "session": "FP2",
+      "loc": "Silverstone, UK",
+      "year": "2025",
+      "feat": false,
+      "alt": "",
+      "wm": true,
+      "exif": {
+        "cam": "Sony A7R IVA",
+        "lens": "FE 200-600mm F5.6-6.3 G OSS",
+        "set": "419mm · f/5.6 · 1/1000s · ISO 50"
       }
     }
   ]

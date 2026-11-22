@@ -213,8 +213,13 @@
       : [{ key: "tag", label: "Subject" }];
   }
 
-  function valuesFor(key, photos, order) {
-    const seen = [];
+  /* `always` on a filter definition means every value in its `order`
+     gets a chip whether or not a photo carries it yet. Used for the
+     PWIHL clubs: all seven have a colour theme, and the chips are how
+     you see them, so the row should not wait for the photos to be
+     tagged. A chip with nothing behind it simply shows an empty grid. */
+  function valuesFor(key, photos, order, always) {
+    const seen = always && order ? order.slice() : [];
     photos.forEach(p => { const v = p[key]; if (v && seen.indexOf(v) === -1) seen.push(v); });
     if (order && order.length) {
       seen.sort((a, b) => {
@@ -256,15 +261,21 @@
        picking F2 would leave Team on Ferrari and the grid empty. Top
        down in one pass, since each row only depends on the ones above. */
     defs.forEach((def, i) => {
+      if (def.always) return;                   // every declared value stays pickable
       const v = activeFilters[def.key];
       if (v && v !== "All" &&
-          valuesFor(def.key, photosAbove(meta, defs, i), def.order).indexOf(v) === -1) {
+          valuesFor(def.key, photosAbove(meta, defs, i), def.order, def.always).indexOf(v) === -1) {
         activeFilters[def.key] = "All";
       }
     });
 
     defs.forEach((def, i) => {
-      const values = valuesFor(def.key, photosAbove(meta, defs, i), def.order);
+      /* `always` rows show every value they declare, whether or not a photo
+         carries it yet. The PWIHL clubs use it: each one has its own colours,
+         so the chip is worth having before the photos are tagged — picking a
+         club with nothing behind it recolours the page and says so. */
+      const values = valuesFor(def.key, photosAbove(meta, defs, i),
+                               def.order, def.always);
       if (values.length < 2) return;            // a lone value filters nothing
 
       const row = document.createElement("div");
