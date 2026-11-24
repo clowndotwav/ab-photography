@@ -5,16 +5,20 @@
     "f1"
   ],
   "ord": 210,
+  "hockey": null,
   "f1": {
     "series": "F1",
+    "team": "Ferrari",
+    "driver": "Hamilton",
     "track": "Sepang",
-    "session": "Race",
-    "team": "Ferrari"
+    "session": "Race"
   },
   "extra": {
     "tag": "F1",
     "loc": "Sepang, Malaysia",
     "year": "2026",
+    "alt": "",
+    "feat": false,
     "wm": true,
     "exif": {
       "cam": "Sony A7R IVA",
