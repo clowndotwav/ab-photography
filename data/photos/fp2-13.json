@@ -5,11 +5,8 @@
     "f1"
   ],
   "ord": 298,
-  "hockey": null,
   "f1": {
     "series": "F1",
-    "team": "Williams",
-    "driver": "Albon",
     "track": "Silverstone",
     "session": "FP2",
     "team": "Williams",
@@ -19,8 +16,6 @@
     "tag": "F1",
     "loc": "Silverstone, UK",
     "year": "2025",
-    "alt": "",
-    "feat": false,
     "wm": true,
     "exif": {
       "cam": "Sony A7R IVA",
