@@ -232,27 +232,57 @@
     return seen;
   }
 
-  /* `when` on a filter definition holds the row back until the rows above
-     are on a particular value. The PWIHL club row uses it: the clubs mean
-     nothing under Perth Inferno or a Winter Season game, so the row stays
-     off the page until you pick Perth Womens Ice Hockey League, and any
-     club left selected is cleared on the way out. */
+  /* Two ways to hold a row back, both keyed on what the rows above are set to.
+
+     `when`   shows the row ONLY for those values. The PWIHL club row uses it:
+              the clubs mean nothing under Perth Inferno or a Winter Season
+              game, so the row stays off the page until you pick Perth Womens
+              Ice Hockey League.
+     `unless` hides the row FOR those values and shows it the rest of the time,
+              "All" included. The F1 Team and Driver rows use it: an F2 or F3
+              car has no constructor or driver worth offering, but you still
+              want both rows when no series is picked.
+
+     Either takes one value or a list. A row left with a pick it can no longer
+     show has that pick cleared, so nothing filters the grid invisibly. */
+  function matchesAny(value, allowed) {
+    return (Array.isArray(allowed) ? allowed : [allowed]).indexOf(value) !== -1;
+  }
   function rowApplies(def) {
-    if (!def.when) return true;
-    return Object.keys(def.when).every(k => activeFilters[k] === def.when[k]);
+    if (def.when && !Object.keys(def.when)
+          .every(k => matchesAny(activeFilters[k], def.when[k]))) return false;
+    if (def.unless && Object.keys(def.unless)
+          .some(k => matchesAny(activeFilters[k], def.unless[k]))) return false;
+    return true;
   }
 
-  /* The filter rows cascade: a row offers values drawn from the photos
-     left by the rows ABOVE it, never by the rows below. Pick F2 and the
-     Team row stops offering Ferrari, because Team sits under Series.
+  /* The filter rows cascade: a row offers values drawn from the photos left by
+     the rows ABOVE it, never by the rows below. Pick F2 and the Team row stops
+     offering Ferrari, because Team sits under Series.
 
-     Deliberately one-directional. Narrowing in both directions sounds
-     tidier but traps you: picking Ferrari would leave Series with only
-     "F1" to offer, the row would hide itself for having nothing to
-     choose between, and there would be no way back to F2 without
-     clearing everything. Rows are listed in tabs.js widest first. */
-  function photosAbove(meta, defs, upto) {
-    const keys = defs.slice(0, upto).map(d => d.key);
+     One-directional by default, on purpose. Narrowing every row against every
+     other sounds tidier but traps you: picking Ferrari would leave Series with
+     only "F1" to offer, that row would hide itself for having nothing to choose
+     between, and there would be no way back to F2 without clearing everything.
+     Rows are listed in tabs.js widest first.
+
+     `group` opts a pair of rows into narrowing EACH OTHER as well. Team and
+     Driver share one: pick Ferrari and Driver offers only Ferrari's drivers,
+     pick Hamilton and Team offers only the teams he has been photographed
+     driving. The trap is avoided because neither row can empty the other of
+     the value it is already on — a row holding a pick is always drawn, so
+     there is always a way back out of it. */
+  function constrainingKeys(defs, i) {
+    const me = defs[i];
+    const keys = defs.slice(0, i).map(d => d.key);
+    if (me.group) {
+      defs.forEach((d, j) => { if (j > i && d.group === me.group) keys.push(d.key); });
+    }
+    return keys;
+  }
+
+  function photosConstraining(meta, defs, i) {
+    const keys = constrainingKeys(defs, i);
     return photosFor(meta.id).filter(p =>
       keys.every(k => {
         const want = activeFilters[k];
@@ -261,38 +291,78 @@
     );
   }
 
+  /* True when a row's group partner is holding a pick, so this row is showing
+     the answer to that pick rather than a list to choose from. */
+  function narrowedByGroup(def, defs, i) {
+    if (!def.group) return false;
+    return defs.some((d, j) => {
+      if (j === i || d.group !== def.group) return false;
+      const v = activeFilters[d.key];
+      return v && v !== "All";
+    });
+  }
+
+  /* `always` lists every declared value whether or not a photo carries it —
+     but only while nothing is narrowing the row. All 22 drivers are offered on
+     an untouched F1 tab; the moment a constructor is picked the row drops back
+     to the drivers actually photographed in that car. */
+  function alwaysHere(def, defs, i) {
+    if (!def.always) return false;
+    /* A `when` key is the row's precondition, not a narrowing of it. The PWIHL
+       club row only exists because Competition is set to PWIHL, so that pick
+       must not be read as "narrow the clubs down to the ones photographed" —
+       all seven stay on offer. Anything else actively set does narrow. */
+    const gate = def.when ? Object.keys(def.when) : [];
+    return !constrainingKeys(defs, i).some(k => {
+      if (gate.indexOf(k) !== -1) return false;
+      const v = activeFilters[k];
+      return v && v !== "All";
+    });
+  }
+
   /* ---------- FILTER CHIP ROWS ---------- */
   function buildFilters(meta, focusKey, focusValue) {
     const wrap = $("#chips");
     wrap.innerHTML = "";
     const defs = filtersFor(meta);
 
-    /* Clear any selection the rows above have just made impossible, or
-       picking F2 would leave Team on Ferrari and the grid empty. Top
-       down in one pass, since each row only depends on the ones above. */
-    defs.forEach((def, i) => {
-      if (!rowApplies(def)) {                   // row is off the page — drop its pick
-        activeFilters[def.key] = "All";
-        return;
-      }
-      if (def.always) return;                   // every declared value stays pickable
-      const v = activeFilters[def.key];
-      if (v && v !== "All" &&
-          valuesFor(def.key, photosAbove(meta, defs, i), def.order, def.always).indexOf(v) === -1) {
-        activeFilters[def.key] = "All";
-      }
-    });
+    /* Clear any selection the other rows have just made impossible, or picking
+       F2 would leave Team on Ferrari and the grid empty. Grouped rows narrow
+       each other, so clearing one can free up another — repeat until nothing
+       changes, with a guard so a cycle can never spin. */
+    for (let pass = 0; pass < 4; pass++) {
+      let changed = false;
+      defs.forEach((def, i) => {
+        const v = activeFilters[def.key];
+        const picked = v && v !== "All";
+        if (!rowApplies(def)) {                 // row is off the page — drop its pick
+          if (picked) { activeFilters[def.key] = "All"; changed = true; }
+          return;
+        }
+        if (!picked) return;
+        const open = valuesFor(def.key, photosConstraining(meta, defs, i),
+                               def.order, alwaysHere(def, defs, i));
+        if (open.indexOf(v) === -1) { activeFilters[def.key] = "All"; changed = true; }
+      });
+      if (!changed) break;
+    }
 
     defs.forEach((def, i) => {
-      if (!rowApplies(def)) return;             // waiting on a row above
+      if (!rowApplies(def)) return;             // held back by a row above
 
       /* `always` rows show every value they declare, whether or not a photo
          carries it yet. The PWIHL clubs use it: each one has its own colours,
          so the chip is worth having before the photos are tagged — picking a
          club with nothing behind it recolours the page and says so. */
-      const values = valuesFor(def.key, photosAbove(meta, defs, i),
-                               def.order, def.always);
-      if (values.length < 2) return;            // a lone value filters nothing
+      const values = valuesFor(def.key, photosConstraining(meta, defs, i),
+                               def.order, alwaysHere(def, defs, i));
+      const picked = activeFilters[def.key] && activeFilters[def.key] !== "All";
+      /* A lone value filters nothing, so a row offering one is normally hidden.
+         Two exceptions. A row holding a pick is always drawn, or there would be
+         no way to clear it. And a row narrowed by its group partner is drawn
+         even down to one value, because that one value is the answer: pick
+         Ferrari and "Hamilton" is worth showing, not hiding. */
+      if (values.length < 2 && !picked && !narrowedByGroup(def, defs, i)) return;
 
       const row = document.createElement("div");
       row.className = "chip-row";

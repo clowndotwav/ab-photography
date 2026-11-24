@@ -93,6 +93,8 @@ const TABS = [
       {
         "key": "team",
         "label": "Team",
+        "unless": { "series": ["F2", "F3"] },
+        "group": "car",
         "order": [
           "Ferrari",
           "McLaren",
@@ -111,6 +113,8 @@ const TABS = [
       {
         "key": "driver",
         "label": "Driver",
+        "unless": { "series": ["F2", "F3"] },
+        "group": "car",
         "always": true,
         "order": [
           "Leclerc",
