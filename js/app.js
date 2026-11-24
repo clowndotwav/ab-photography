@@ -392,6 +392,15 @@
       label.textContent = def.label || def.key;
       row.appendChild(label);
 
+      /* The chips live in their own box rather than sitting directly in the
+         row. Without it they are flex siblings of the label, so a line that
+         wraps restarts at the row's left edge — underneath the label — and
+         the second line of drivers sits further left than the first. Giving
+         them a container means every line wraps against the container's edge,
+         which lines up with the first chip whatever the label happens to say. */
+      const set = document.createElement("div");
+      set.className = "chip-set";
+
       (def.noAll ? values : ["All"].concat(values)).forEach(v => {
         const b = document.createElement("button");
         b.type = "button";
@@ -405,9 +414,10 @@
           buildFilters(meta, def.key, v);
           renderGrid();
         });
-        row.appendChild(b);
+        set.appendChild(b);
       });
 
+      row.appendChild(set);
       wrap.appendChild(row);
     });
 

@@ -580,7 +580,7 @@ h1,h2,h3,h4{ font-family:var(--font-display); font-weight:700; line-height:1.08;
 /* ---------- MULTI-ROW FILTERS ---------- */
 .chips{ display:block; margin:1.4rem 0 2.2rem; }
 .chip-row{
-  display:flex; flex-wrap:wrap; align-items:center; gap:.5rem;
+  display:flex; align-items:center; gap:.5rem;
   padding:.45rem 0;
 }
 .chip-row + .chip-row{ border-top:1px dashed var(--line-soft); }
@@ -588,6 +588,13 @@ h1,h2,h3,h4{ font-family:var(--font-display); font-weight:700; line-height:1.08;
   font-family:var(--font-mono); font-size:.6rem; letter-spacing:.22em;
   text-transform:uppercase; color:var(--muted-2);
   min-width:5.5rem; flex:none;
+}
+/* The wrapping happens in here, not in the row, so a long list breaks onto
+   a second line that starts level with the first chip instead of sliding
+   back under the label. */
+.chip-set{
+  flex:1 1 auto; min-width:0;
+  display:flex; flex-wrap:wrap; gap:.5rem;
 }
 .chip-reset{
   display:none; margin-top:.9rem;
@@ -602,7 +609,11 @@ h1,h2,h3,h4{ font-family:var(--font-display); font-weight:700; line-height:1.08;
 }
 
 @media (max-width:620px){
+  /* Too narrow to keep a label gutter — the label goes on its own line and
+     the chips take the full width underneath it. */
+  .chip-row{ flex-wrap:wrap; }
   .chip-label{ min-width:100%; margin-bottom:.1rem; }
+  .chip-set{ flex-basis:100%; }
 }
 
 /* ============================================================
