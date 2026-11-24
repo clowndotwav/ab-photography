@@ -2,18 +2,17 @@
   "src": "images/f1/malaysia-10.jpg",
   "title": "Sepang, Race Morning",
   "cats": [
-    "f1"
+    "architecture"
   ],
   "ord": 208,
-  "f1": {
-    "series": "F1",
-    "track": "Sepang",
-    "session": "Race"
-  },
+  "hockey": null,
+  "f1": null,
   "extra": {
-    "tag": "F1",
+    "tag": "",
     "loc": "Sepang, Malaysia",
     "year": "2026",
+    "alt": "",
+    "feat": false,
     "wm": true,
     "exif": {
       "cam": "Sony A7R IVA",
