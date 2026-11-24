@@ -5,9 +5,11 @@
     "f1"
   ],
   "ord": 206,
+  "hockey": null,
   "f1": {
     "series": "F1",
     "team": "Williams",
+    "driver": "Albon",
     "track": "Sepang",
     "session": "FP3"
   },
@@ -15,6 +17,8 @@
     "tag": "F1",
     "loc": "Sepang, Malaysia",
     "year": "2026",
+    "alt": "",
+    "feat": false,
     "wm": true,
     "exif": {
       "cam": "Sony A7R IVA",
