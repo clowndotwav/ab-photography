@@ -187,7 +187,7 @@
     activeTab = id;
     const meta = TABS.find(t => t.id === id);
     activeFilters = {};
-    filtersFor(meta).forEach(f => { activeFilters[f.key] = "All"; });
+    filtersFor(meta).forEach(f => { activeFilters[f.key] = restingValue(f); });
 
     $$(".tab").forEach(b => {
       const on = b.dataset.tab === id;
@@ -291,6 +291,19 @@
     );
   }
 
+  /* A row's resting value — the one that means "not narrowed by this row".
+     Normally "All". A `noAll` row has no All chip, so one of its own values is
+     always in force and its `default` is the resting one: the Series row always
+     stands on something, because an F1 car and an F3 car are different subjects
+     rather than two filters on one pile. */
+  function restingValue(def) {
+    return def.noAll ? (def.default || (def.order && def.order[0])) : "All";
+  }
+  function isResting(def) {
+    const v = activeFilters[def.key];
+    return !v || v === restingValue(def);
+  }
+
   /* True when a row's group partner is holding a pick, so this row is showing
      the answer to that pick rather than a list to choose from. */
   function narrowedByGroup(def, defs, i) {
@@ -315,8 +328,13 @@
     const gate = def.when ? Object.keys(def.when) : [];
     return !constrainingKeys(defs, i).some(k => {
       if (gate.indexOf(k) !== -1) return false;
-      const v = activeFilters[k];
-      return v && v !== "All";
+      /* A row resting on its own default is not narrowing anything. The Series
+         row has no All chip and so always holds a value — sitting on F1, the
+         tab's normal state, it must not switch off the full driver list. Move
+         it to Historic F1 and it does narrow, and the Driver row falls back to
+         the drivers actually photographed there, which is none. */
+      const other = defs.filter(d => d.key === k)[0];
+      return other ? !isResting(other) : false;
     });
   }
 
@@ -334,15 +352,16 @@
       let changed = false;
       defs.forEach((def, i) => {
         const v = activeFilters[def.key];
-        const picked = v && v !== "All";
+        const rest = restingValue(def);
+        const picked = v && v !== rest;
         if (!rowApplies(def)) {                 // row is off the page — drop its pick
-          if (picked) { activeFilters[def.key] = "All"; changed = true; }
+          if (picked) { activeFilters[def.key] = rest; changed = true; }
           return;
         }
         if (!picked) return;
         const open = valuesFor(def.key, photosConstraining(meta, defs, i),
                                def.order, alwaysHere(def, defs, i));
-        if (open.indexOf(v) === -1) { activeFilters[def.key] = "All"; changed = true; }
+        if (open.indexOf(v) === -1) { activeFilters[def.key] = rest; changed = true; }
       });
       if (!changed) break;
     }
@@ -356,7 +375,7 @@
          club with nothing behind it recolours the page and says so. */
       const values = valuesFor(def.key, photosConstraining(meta, defs, i),
                                def.order, alwaysHere(def, defs, i));
-      const picked = activeFilters[def.key] && activeFilters[def.key] !== "All";
+      const picked = !isResting(def) || def.noAll;
       /* A lone value filters nothing, so a row offering one is normally hidden.
          Two exceptions. A row holding a pick is always drawn, or there would be
          no way to clear it. And a row narrowed by its group partner is drawn
@@ -373,7 +392,7 @@
       label.textContent = def.label || def.key;
       row.appendChild(label);
 
-      ["All"].concat(values).forEach(v => {
+      (def.noAll ? values : ["All"].concat(values)).forEach(v => {
         const b = document.createElement("button");
         b.type = "button";
         b.className = "chip" + (v === "All" ? " chip-all" : "")
@@ -414,7 +433,8 @@
   }
 
   function activeCount() {
-    return Object.keys(activeFilters).filter(k => activeFilters[k] && activeFilters[k] !== "All").length;
+    const defs = filtersFor(TABS.find(t => t.id === activeTab));
+    return defs.filter(d => !isResting(d)).length;
   }
 
   function syncReset() {

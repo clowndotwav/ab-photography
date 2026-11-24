@@ -82,12 +82,16 @@ const TABS = [
       {
         "key": "series",
         "label": "Series",
+        "noAll": true,
+        "default": "F1",
+        "always": true,
         "order": [
           "F1",
           "F2",
           "F3",
           "Historic F1",
-          "Safety Car"
+          "Safety Car",
+          "Medical Car"
         ]
       },
       {
@@ -106,8 +110,7 @@ const TABS = [
           "Haas",
           "Sauber",
           "Racing Bulls",
-          "Cadillac",
-          "Medical Car"
+          "Cadillac"
         ]
       },
       {
