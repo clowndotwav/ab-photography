@@ -9,7 +9,8 @@
     "series": "F1",
     "team": "Sauber",
     "track": "Silverstone",
-    "session": "Qualifying"
+    "session": "Qualifying",
+    "driver": "Bortoleto"
   },
   "extra": {
     "tag": "F1",

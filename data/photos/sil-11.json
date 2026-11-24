@@ -9,7 +9,8 @@
     "series": "F1",
     "team": "McLaren",
     "track": "Silverstone",
-    "session": "Qualifying"
+    "session": "Qualifying",
+    "driver": "Piastri"
   },
   "extra": {
     "tag": "F1",

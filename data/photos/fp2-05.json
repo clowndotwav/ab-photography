@@ -9,7 +9,8 @@
     "series": "F1",
     "track": "Silverstone",
     "session": "FP2",
-    "team": "Racing Bulls"
+    "team": "Racing Bulls",
+    "driver": "Lawson"
   },
   "extra": {
     "tag": "F1",

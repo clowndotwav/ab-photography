@@ -8,7 +8,9 @@
   "f1": {
     "series": "F1",
     "track": "Silverstone",
-    "session": "FP3"
+    "session": "FP3",
+    "team": "Ferrari",
+    "driver": "Hamilton"
   },
   "extra": {
     "tag": "F1",

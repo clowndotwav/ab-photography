@@ -9,7 +9,8 @@
     "series": "F1",
     "track": "Silverstone",
     "session": "FP3",
-    "team": "Ferrari"
+    "team": "Ferrari",
+    "driver": "Leclerc"
   },
   "extra": {
     "tag": "F1",

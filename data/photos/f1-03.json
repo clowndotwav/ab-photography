@@ -5,20 +5,16 @@
     "f1"
   ],
   "ord": 22,
-  "hockey": null,
   "f1": {
     "series": "F1",
     "team": "Sauber",
-    "driver": "Bortoleto",
     "track": "Silverstone",
-    "session": "FP3"
+    "session": "FP3",
+    "driver": "Bortoleto"
   },
   "extra": {
     "tag": "F1",
-    "loc": "",
     "year": "2025",
-    "alt": "",
-    "feat": false,
     "wm": true,
     "exif": {
       "cam": "Sony A7R IV",

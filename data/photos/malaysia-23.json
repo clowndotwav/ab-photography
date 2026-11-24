@@ -8,7 +8,8 @@
   "f1": {
     "series": "F1",
     "track": "Sepang",
-    "session": "FP3"
+    "session": "FP3",
+    "team": "Haas"
   },
   "extra": {
     "tag": "F1",

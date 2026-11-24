@@ -9,7 +9,8 @@
     "series": "F1",
     "track": "Silverstone",
     "session": "FP3",
-    "team": "McLaren"
+    "team": "McLaren",
+    "driver": "Norris"
   },
   "extra": {
     "tag": "F1",

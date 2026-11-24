@@ -9,7 +9,8 @@
     "series": "F1",
     "team": "Williams",
     "track": "Silverstone",
-    "session": "Qualifying"
+    "session": "Qualifying",
+    "driver": "Albon"
   },
   "extra": {
     "tag": "F1",

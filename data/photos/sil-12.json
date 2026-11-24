@@ -1,15 +1,16 @@
 {
   "src": "images/f1/sil-12.jpg",
-  "title": "Alpine at Speed",
+  "title": "Haas at Speed",
   "cats": [
     "f1"
   ],
   "ord": 256,
   "f1": {
     "series": "F1",
-    "team": "Alpine",
+    "team": "Haas",
     "track": "Silverstone",
-    "session": "FP2"
+    "session": "FP2",
+    "driver": "Ocon"
   },
   "extra": {
     "tag": "F1",

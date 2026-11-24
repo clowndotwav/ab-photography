@@ -9,7 +9,8 @@
     "series": "F1",
     "track": "Silverstone",
     "session": "FP3",
-    "team": "Sauber"
+    "team": "Sauber",
+    "driver": "Hulkenberg"
   },
   "extra": {
     "tag": "F1",

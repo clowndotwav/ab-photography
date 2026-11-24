@@ -5,20 +5,17 @@
     "f1"
   ],
   "ord": 205,
-  "hockey": null,
   "f1": {
     "series": "F1",
     "team": "Aston Martin",
-    "driver": "Alonso",
     "track": "Sepang",
-    "session": "FP3"
+    "session": "FP3",
+    "driver": "Alonso"
   },
   "extra": {
     "tag": "F1",
     "loc": "Sepang, Malaysia",
     "year": "2026",
-    "alt": "",
-    "feat": false,
     "wm": true,
     "exif": {
       "cam": "Sony A7R IVA",

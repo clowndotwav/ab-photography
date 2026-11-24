@@ -5,20 +5,17 @@
     "f1"
   ],
   "ord": 269,
-  "hockey": null,
   "f1": {
     "series": "F1",
-    "team": "Red Bull",
-    "driver": "Verstappen",
     "track": "Silverstone",
-    "session": "FP3"
+    "session": "FP3",
+    "team": "Red Bull",
+    "driver": "Verstappen"
   },
   "extra": {
     "tag": "F1",
     "loc": "Silverstone, UK",
     "year": "2025",
-    "alt": "",
-    "feat": false,
     "wm": true,
     "exif": {
       "cam": "Sony A7R IVA",

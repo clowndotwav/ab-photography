@@ -9,7 +9,8 @@
     "series": "F1",
     "track": "Silverstone",
     "session": "FP2",
-    "team": "Haas"
+    "team": "Haas",
+    "driver": "Bearman"
   },
   "extra": {
     "tag": "F1",
