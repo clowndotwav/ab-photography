@@ -119,6 +119,29 @@ page colours, and the chip is how you see them.
 the photo still appears under its team, it just won't show up when someone
 picks a driver chip. A wrong driver is worse than a blank one.
 
+**The T-cam shortcut.** When the number isn't readable, the camera pod on top
+of the airbox usually settles it. Each team runs one car with a fluorescent
+yellow pod and one with a black pod, and the pairing is fixed for the whole
+season — so once you know which is which for a team, every other photo of that
+team is a one-second call. Silverstone 2025:
+
+| Team | Yellow pod | Black pod |
+| --- | --- | --- |
+| Ferrari | Hamilton (44) | Leclerc (16) |
+| McLaren | Norris (4) | Piastri (81) |
+| Red Bull | Tsunoda (22) | Verstappen (1) |
+| Mercedes | Antonelli (12) | Russell (63) |
+| Williams | Sainz (55) | Albon (23) |
+| Racing Bulls | Lawson (30) | Hadjar (6) |
+| Sauber | Bortoleto (5) | Hulkenberg (27) |
+
+This table is only good for 2025. Line-ups and pod assignments change each
+season, so for a new year work out one car per team from a readable number
+first, then use the pod for the rest.
+
+Black-and-white conversions are the one case where this doesn't help — both
+pods read as grey. Leave the driver blank on those unless the number shows.
+
 ---
 
 ## Changing the bio, gear list or services
